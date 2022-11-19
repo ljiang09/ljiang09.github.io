@@ -33,6 +33,7 @@ ul {
   font-family: Verdana, Geneva, sans-serif;
   margin-right: 15px;
   margin-left: 15px;
+  cursor: pointer;
 }
 
 /* button styling for square project buttons */
@@ -43,6 +44,7 @@ ul {
   margin-left: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 
 .textLeft {
