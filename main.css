@@ -3,7 +3,7 @@
 
 /* constants */
 :root {
-  --green: #00FF00;
+  --buttonGreen: #6F907D;
   --white: #FFFFFF;
   --black: #000000;
 }
@@ -12,33 +12,69 @@
 body {
     font-family: monospace;
 	color: var(--fontColor);
-	font-family: helvetica;
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 ul {
-    font-family: helvetica;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
-/* you can also apply styling based on ID */
-#msg {
-  font-family: monospace;
-}
-
-.btn {
-  position: absolute;
-  top: 20px;
-  left: 500px;
+/* styling for button to external url */
+.linkButton {
   height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  border: none;
-  color: var(--btnFontColor);
-  background-color: var(--btnBg);
+  width: 150px;
+  border-radius: 15px;
+  color: var(--white);
+  background-color: var(--buttonGreen);
+  border-color: var(--buttonGreen);
+  border-style: solid;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, sans-serif;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+/* button styling for square project buttons */
+.projectButton {
+  height: 250px;
+  width: 250px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.textLeft {
+  width: 250px;
+  position: absolute;
+  left: 440px;
+}
+
+.textRight {
+  width: 250px;
+  position: absolute;
+  right: 440px;
 }
 
 .center {
   text-align: center;
 }
+
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 
 
