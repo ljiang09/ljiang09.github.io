@@ -4,6 +4,7 @@
 /* constants */
 :root {
   --buttonGreen: #6F907D;
+  --lightGreen: #8FA89A;
   --white: #FFFFFF;
   --black: #000000;
 }
@@ -19,16 +20,40 @@ ul {
     font-family: Verdana, Geneva, sans-serif;
 }
 
+.page {
+	margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+
+.header {
+  color: var(--black);
+  font-size: 50px;
+  font-family: Georgia, Times, "Times New Roman";
+  margin-bottom: 50px;
+  color: var(--black);
+  text-align: center;
+  padding: 70px;
+  background: var(--lightGreen);
+}
+
+.description {
+  color: var(--black);
+  font-size: 20px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+
 /* styling for button to external url */
 .linkButton {
   height: 50px;
-  width: 150px;
-  border-radius: 15px;
+  width: 170px;
+  border-radius: 18px;
   color: var(--white);
   background-color: var(--buttonGreen);
   border-color: var(--buttonGreen);
   border-style: solid;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: bold;
   font-family: Verdana, Geneva, sans-serif;
   margin-right: 15px;
@@ -47,6 +72,8 @@ ul {
   cursor: pointer;
 }
 
+
+
 .textLeft {
   width: 250px;
   position: absolute;
@@ -63,8 +90,6 @@ ul {
   text-align: center;
 }
 
-
-
 .column {
   float: left;
   width: 50%;
@@ -79,6 +104,26 @@ ul {
 
 
 
+/* Stuff relevant to subpages */
+.title {
+  color: var(--black);
+  font-size: 35px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: var(--black);
+  text-align: center;
+}
 
+.headerDate {
+  color: var(--black);
+  font-size: 22px;
+  font-family: Verdana, Geneva, sans-serif;
+  color: var(--black);
+}
+
+.italic {
+	font-style: italic;
+}
 
 

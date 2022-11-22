@@ -1,0 +1,89 @@
+<!-- holds the html content for the sebela subpage -->
+
+<html lang="en">
+
+<!-- Metadata -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lily Jiang's Portfolio - Makeup Assist</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+  <h1 class="header">
+  	Hi! I'm Lily Jiang.
+  </h1>
+
+  	<div class="page">
+		<h2 class="title">Makeup Assist App</h2>
+
+		<p class="center description">iOS app focused on assisting makeup users with blindness/visual impairments.</p>
+		<br>
+
+		<p class="center description">Compares before and after images of the user's face to check where makeup is applied (where the color discrepancies lie).</p>
+		<br>
+
+
+		<h2>Contributions</h2>
+		<p class="headerDate italic">(June 2022 - present)</p>
+		<ul class="description">
+			- Solo project with mentorship from Paul Ruvolo
+			<br> <br>
+			- Met with 12 co-designers for 2 months to test and improve assistive UX
+			<br> <br>
+			- Awarded the Clare Booth Luce award
+		</ul>
+
+		<br> <br> <br>
+
+		<h2>Main concepts:</h2>
+		<ul class="description">
+			- Transform matrices (for recognizing face position/orientation)
+			<br> <br>
+			- Converting coordinate systems (world to phone camera)
+			<br> <br>
+			- UV image unwrapping
+			<br> <br>
+			- Image processing
+			<br> <br>
+			- Blind user experience
+		</ul>
+
+		<br> <br> <br>
+
+
+		<h2>Current state:</h2>
+		<ul class="description">
+			- Guides user to center face in the phone screen (based on calculated face transform data)
+			<br> <br>
+			- Takes two sets of 4 UV images to represent before/after makeup application
+			<br> <br>
+			- Not very accurate images - working on bettering the image-capturing algorithm to reduce the need for post-processing
+			<br> <br>
+			- Lighting discrepancies - working on calibrating the lighting across the two sets of images
+		</ul>
+
+		<br> <br> <br>
+
+
+		<h2 class="title center">UX design</h2>
+
+		<!-- Image of the UX design flow -->
+
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	</div>
+
+	<script src="app.js"></script>
+	<noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+
+</html>
