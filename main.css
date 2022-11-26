@@ -77,12 +77,16 @@ ul {
   width: 300px;
   margin-right: 15px;
   margin-left: 15px;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   margin-bottom: 15px;
+}
+
+.projectLink {
+  text-decoration: none;
+  color: black;
 }
 
 .center {
   text-align: center;
 }
-
 
