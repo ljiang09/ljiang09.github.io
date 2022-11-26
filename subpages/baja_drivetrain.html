@@ -17,8 +17,89 @@
         Hi! I'm Lily Jiang.
     </h1>
 
-    <div>
-        Baja Drivetrain
+    <div class="page">
+        <h2 class="title">Baja Drivetrain</h2>
+
+        <p class="center description">Baja SAE is an off-road vehicle racing competition. My collegiate team designs, fabricates, and assembles the car.</p>
+
+        <br>
+
+        <h2 class="subtitle">Prop Shaft Sizing</h2>
+
+        <div class="center"><a class="greenLink" href="https://github.com/ljiang09/Propshaft-Modeling">
+            https://github.com/ljiang09/Propshaft-Modeling
+        </a></div>
+
+        <h2>Goal:</h2>
+
+        <ul class="description">
+            Find a prop shaft size that isn’t too heavy and can sustain torsional shear stresses with a safety factor of 2. This prop shaft will be used to connect the front and rear differentials to support 4WD.
+        </ul>
+
+        <br> <br>
+
+        <h2>Assumptions:</h2>
+        <ul class="description">
+            - The prop shaft is a 36 inch long hollow cylinder
+            <br> <br>
+            - 333.1014 N*m of torque is coming from the gearbox (100% efficiency)
+        </ul>
+
+        <br> <br>
+
+        <h2>Process:</h2>
+        <ul class="description">
+            1. Calculate and sweep the torsional shear stresses for possible inner/outer diameters of the prop shaft
+            <br> <br>
+            2. Plot tensile strength of various materials
+            <br> <br>
+            3. Choose a prop shaft that is at least halfway below the tensile strength line
+            <br> <br>
+            4. Verify that the weight of the shaft isn’t too much
+            <br> <br>
+            5. Perform FEA on the chosen shaft size to check how much stress it experiences after many accelerations
+        </ul>
+
+        <br> <br>
+
+        <img src="images/BajaPropshaftResults.png" alt="A MATLAB plot with results of the propshaft analysis" class="projectImage1">
+        
+        <br> <br>
+
+        <div class="description">Each line represents one outer diameter (ranging from 0.5 - 2 inches), and it sweeps across the possible inner diameters (starting from 0.25 inches).</div>
+
+        <br> <br>
+
+        <div class="description">The two horizontal lines represent the tensile strengths of Steel 4130 and Aluminum. All points below a line shouldn't fail if made with that material. Because the desired factor of safety is 2, whatever point we choose should fall at least halfway below the material's tensile strength line.</div>
+
+        <br> <br>
+
+        <h2>Decision:</h2>
+        <ul class="description">
+            Material: Steel 4130 (Chromoly)
+            <br>
+            - Strong, and is suitable for welding if needed
+            <br>
+            - Tensile strength: 460,000,000 N/m^2
+            <br> <br>
+            Size: 1 inch diameter with 0.5 inch hole
+            <br> <br>
+            Weight: 6.014 lbs (not too heavy, which is good)
+        </ul>
+
+        <br> <br>
+
+        <h2>FEA:</h2>
+        <ul class="description">
+            The modeling focused on just one event of torque being applied. In reality, many torques will be applied to the prop shaft over time. Fatigue analysis helped determine if the shaft would fail.
+
+            <br> <br>
+
+            The analysis, which applied constant amplitude, cyclical forces, showed that the prop shaft was still under minimal stress after 1 million cycles. This verified that the chosen prop shaft size and material was a safe selection.
+        </ul>
+
+
+        <br> <br> <br> <br> <br>
     </div>
 
 	<script src="subpage.js"></script>
