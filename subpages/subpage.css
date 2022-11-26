@@ -1,0 +1,138 @@
+/* manages styling */
+
+
+/* constants */
+:root {
+    --buttonGreen: #6F907D;
+    --lightGreen: #8FA89A;
+    --white: #FFFFFF;
+    --black: #000000;
+  }
+  
+  
+  body {
+      font-family: monospace;
+      color: var(--fontColor);
+      font-family: Verdana, Geneva, sans-serif;
+  }
+  
+  ul {
+      font-family: Verdana, Geneva, sans-serif;
+  }
+  
+  .page {
+      margin-left: 15vw;
+      margin-right: 15vw;
+  }
+  
+  
+  .header {
+    color: var(--black);
+    font-size: 50px;
+    font-family: Georgia, Times, "Times New Roman";
+    margin-bottom: 50px;
+    color: var(--black);
+    text-align: center;
+    padding: 70px;
+    background: var(--lightGreen);
+  }
+  
+  .description {
+    color: var(--black);
+    font-size: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+  }
+  
+  
+  /* styling for button to external url */
+  .linkButton {
+    height: 50px;
+    width: 170px;
+    border-radius: 18px;
+    color: var(--white);
+    background-color: var(--buttonGreen);
+    border-color: var(--buttonGreen);
+    border-style: solid;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, sans-serif;
+    margin-right: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  /* button styling for square project buttons */
+  .projectButton {
+    height: 300px;
+    width: 300px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  
+  .projectText {
+    all: unset;
+    width: 300px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  
+  
+  /* Stuff relevant to subpages */
+  .title {
+    color: var(--black);
+    font-size: 35px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: var(--black);
+    text-align: center;
+  }
+  
+  .headerDate {
+    color: var(--black);
+    font-size: 22px;
+    font-family: Verdana, Geneva, sans-serif;
+    color: var(--black);
+  }
+  
+  .italic {
+      font-style: italic;
+  }
+  
+  
+  .projectImage1 {
+    max-width: 50vw;
+    max-height: 50vw;
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .projectImage2 {
+    max-width: 30vw;
+    max-height: 30vw;
+    width: auto;
+    height: auto;
+  }
+  
+  .projectImageBox {
+      display: inline-block;
+      width: 30vw;
+      height: 30vw;
+  }
+  
+  
+  
+  
