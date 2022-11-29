@@ -3,20 +3,18 @@
 'use strict';
 
 // create reference to button in page
-const switcher = document.querySelector('.btn');
+// const switcher = document.querySelector('.btn');
+
+
+// TODO: make hovering over stuff change stuff
 
 
 // handle event for button click
-switcher.addEventListener('click', function() {
-    document.body.classList.toggle('light-theme');
-    document.body.classList.toggle('dark-theme');
+// let btn = document.querySelector(".projectButton"),
 
-    const className = document.body.className;
-    if (className == "light-theme") {
-        this.textContent = "Dark";
-    } else {
-        this.textContent = "Light";
-    }
-
-    console.log('current class name: ' + className);
-});
+// btn.addEventListener("mouseenter", function( event ) {   
+//   event.target.style.color = "purple";
+// }, false);
+// btn.addEventListener("mouseleave", function( event ) {   
+//   event.target.style.color = "";
+// }, false);
