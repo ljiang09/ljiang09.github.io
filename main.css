@@ -21,17 +21,33 @@ ul {
 }
 
 .page {
-	margin-left: 5vw;
+  margin-left: 5vw;
   margin-right: 5vw;
+}
+
+
+.pageHeader {
+  margin: 0;
+  text-align: center;
+  padding: 40vh 0;
+  background: var(--lightGreen);
+}
+
+.pageHeaderTitle {
+  margin: 0;
+  color: var(--black);
+  font-size: 6.5vw;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 
 .header {
   color: var(--black);
   font-size: 50px;
-  font-family: Georgia, Times, "Times New Roman";
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   margin-bottom: 50px;
-  color: var(--black);
   text-align: center;
   padding: 70px;
   background: var(--lightGreen);
@@ -70,7 +86,12 @@ ul {
 
 
 /* button styling for square project buttons */
+.buttonRow {
+  display: inline-block;
+}
+
 .projectButton {
+  display: block;
   height: 250px;
   width: 250px;
   margin-right: 30px;
@@ -83,16 +104,11 @@ ul {
 
 .projectButton:hover {opacity: 0.7}
 
-.projectText {
-  all: unset;
-  width: 250px;
-  margin-right: 30px;
-  margin-left: 30px;
-  margin-bottom: 15px;
-}
-
-/* for styling the url (secondary button) under each project button image */
-.projectLink {
+/* styles the words underneath the button image */
+.projectLink:link,
+.projectLink:visited,
+.projectLink:hover,
+.projectLink:active, {
   text-decoration: none;
   color: black;
 }
