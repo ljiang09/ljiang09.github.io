@@ -4,16 +4,19 @@
 /* constants */
 :root {
   --buttonGreen: #6F907D;
-  --lightGreen: #8FA89A;
+  --lightGreen: #96ab8c;
   --white: #FFFFFF;
   --black: #000000;
+  --cream: #f2eadc;
+  --gray: #929a94;
 }
 
 
 body {
-    font-family: monospace;
-    color: var(--fontColor);
-    font-family: Verdana, Geneva, sans-serif;
+  font-family: monospace;
+  color: var(--fontColor);
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: var(--cream);
 }
 
 ul {
@@ -21,15 +24,15 @@ ul {
 }
 
 .page {
-    margin-left: 15vw;
-    margin-right: 15vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 
 
 .header {
   color: var(--black);
-  font-size: 50px;
-  font-family: Georgia, Times, "Times New Roman";
+  font-size: 6.5vw;
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 50px;
   color: var(--black);
   text-align: center;

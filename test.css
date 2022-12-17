@@ -1,13 +1,13 @@
-/* manages styling */
-
 
 /* constants */
 :root {
-  --buttonGreen: #6F907D;
-  --lightGreen: #8FA89A;
-  --darkGreen: #668473;
-  --white: #FFFFFF;
-  --black: #000000;
+--lightGreen: #96ab8c;
+--buttonGreen: #6F907D;
+--darkGreen: #475c50;
+--white: #FFFFFF;
+--black: #000000;
+--cream: #f2eadc;
+--gray: #929a94;
 }
 
 
@@ -133,5 +133,31 @@ ul {
   margin-right: 30px;
   margin-left: 30px;
   margin-bottom: 15px;
+}
+
+h1 {
+    color: var(--primary-color);
+    letter-spacing: 0.2em;
+}
+
+
+
+.center {
+    text-align: center;
+}
+
+
+
+.pageTitle {
+    font-size: 6vw;
+    text-align: center;
+    margin-top: 30vh;
+}
+
+.pageSubtitle {
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 3vh;
+    text-align: center;
 }
 
