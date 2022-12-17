@@ -11,6 +11,7 @@
 
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="main.css">
 </head>
 
@@ -22,29 +23,43 @@
     	<h1 class="pageHeaderTitle">
         	Hi! I'm Lily Jiang.
     	</h1>
+
+		<br>
+
     	<p class="center description">I am an Engineering with Computing student at Olin College, graduating in May 2025.
 	      	<br>
 	      	<br>
 	    	I have experience with Swift (ARKit, SwiftUI, UIKit), Python, Java, Go, and MATLAB.
 	    </p>
+
+		<br>
+
+		<div style="display: inline-block">
+			<a class="imageLink" href="mailto: ljiang@olin.edu" target="_blank">
+				<button class="linkButton">
+					<i class="fa fa-envelope"></i>
+				</button>
+			</a>
+
+			<div style="display: inline-block; width: 20px"></div>
+
+			<a class="imageLink" href="https://www.linkedin.com/in/lilyajiang/" target="_blank">
+				<button class="linkButton">
+					<i class="fa fa-linkedin-square"></i>
+				</button>
+			</a>
+
+			<div style="display: inline-block; width: 20px"></div>
+
+	      	<a class="imageLink" href="https://github.com/ljiang09" target="_blank">
+				<button class="linkButton">
+					<i class="fa fa-github"></i>
+				</button>
+			</a>
+		</div>
     </div>
 
     <div class="page">
-	    <br>
-	    <br>
-	    <br>
-
-	    <!-- Contact buttons -->
-	    <div class = "buttons center">
-	      	<h1> Contact Me </h1>
-
-	      	<a href="mailto: ljiang@olin.edu" target="_blank"><button class="linkButton">Email</button></a>
-
-	      	<a href="https://www.linkedin.com/in/lilyajiang/" target="_blank"><button class="linkButton">LinkedIn</button></a>
-
-	      	<a href="https://github.com/ljiang09" target="_blank"><button class="linkButton">GitHub</button></a>
-	    </div>
-
 	    <br>
 	    <br>
 	    <br>
@@ -54,83 +69,76 @@
 	    <div class = "center">
 	  	    <h1> Projects </h1>
 
-		    <div>
-		    	<div class="buttonRow">
-			        <a href="./subpages/sebela.html">
-			        	<img src="images/SebelaIcon.png" alt="The app logo for Sebela" class="projectButton">
+			<br>
 
-			        	<p class="projectLink">Sebela</p>
-				    </a>
-				</div>
+			<div>
+				<!-- holds one project image and the descriptor words -->
+				<a href="./subpages/sebela.html" class="projectButton">
+					<img src="images/SebelaIcon.png" alt="The app logo for Sebela" class="projectImage">
+					<p class="projectText">Sebela</p>
+				</a>
 
-				<div class="buttonRow">
-			        <a href="./subpages/baja_drivetrain.html">
-			        	<img src="images/BajaUJoint.png" alt="A CAD rendering of a Universal Joint" class="projectButton">
+				<div style="display: inline-block; width: 2vw;"></div>
 
-			        	<p class="projectLink">Baja Drivetrain</p>
-			        </a>
-			    </div>
+				<a href="./subpages/baja_drivetrain.html" class="projectButton">
+					<img src="images/BajaUJoint.png" alt="A CAD rendering of a Universal Joint" class="projectImage">
+					<p class="projectText">Baja Drivetrain</p>
+				</a>
 
-			    <div class="buttonRow">
-			        <a href="./subpages/makeup_assist.html">
-						<img src="images/MakeupGuideIcon.png" alt="The app logo for Makeup Assist" class="projectButton">
+				<div style="display: inline-block; width: 2vw;"></div>
 
-						<p class="projectLink">Makeup Guide</p>
-					</a>
-				</div>
-		    </div>
+				<a href="./subpages/makeup_assist.html" class="projectButton">
+					<img src="images/MakeupGuideIcon.png" alt="The app logo for Makeup Assist" class="projectImage">
+					<p class="projectText">Makeup Assist</p>
+				</a>
+			</div>
+
 		    <br>
 		    <br>
 
 
-		    <!-- ROW 2 -->
-		    <div>
-		    	<div class="buttonRow">
-		    		<a href="./subpages/autonomous_vacuuming_robot.html">
-						<img src="images/AutonomousRobot.png" alt="An image of an autonomous, omnidirectional robot" class="projectButton">
+			<div>
+				<!-- holds one project image and the descriptor words -->
+				<a href="./subpages/autonomous_vacuuming_robot.html" class="projectButton">
+					<img src="images/AutonomousRobot.png" alt="An image of an autonomous, omnidirectional robot" class="projectImage">
+					<p class="projectText">Autonomous Robot</p>
+				</a>
 
-			        	<p class="projectLink">Autonomous Robot</p>
-				    </a>
-				</div>
+				<div style="display: inline-block; width: 2vw;"></div>
 
-				<div class="buttonRow">
-					<a href="./subpages/pan_tilt_scanner.html">
-						<img src="images/3DScannerIcon.png" alt="A CAD rendering of a Pan-Tilt Scanner" class="projectButton">
+				<a href="./subpages/pan_tilt_scanner.html" class="projectButton">
+					<img src="images/3DScannerIcon.png" alt="A CAD rendering of a Pan-Tilt Scanner" class="projectImage">
+					<p class="projectText">Pan-Tilt Scanner</p>
+				</a>
 
-			        	<p class="projectLink">3D Pan-Tilt Scanner</p>
-			        </a>
-			    </div>
+				<div style="display: inline-block; width: 2vw;"></div>
 
-			    <div class="buttonRow">
-			    	<a href="./subpages/tow_lab.html">
-						<img src="images/TowLabWaterTank.png" alt="A CAD rendering of a water tank" class="projectButton">
+				<a href="./subpages/tow_lab.html" class="projectButton">
+					<img src="images/TowLabWaterTank.png" alt="A CAD rendering of a water tank" class="projectImage">
+					<p class="projectText">Tow Lab</p>
+				</a>
+			</div>
 
-						<p class="projectLink">Tow Lab - Reverse Osmosis</p>
-					</a>
-				</div>
-		    </div>
 
 			<br>
 			<br>
 
 			<!-- ROW 3 -->
 			<div>
-		    	<div class="buttonRow">
-		    		<a href="./subpages/line_follower.html">
-						<!-- TODO: change this -->
-						<img src="images/3DScannerIcon.png" alt="A Line Following robot" class="projectButton">
+				<a href="./subpages/line_follower.html" class="projectButton">
+					<img src="images/3DScannerIcon.png" alt="A Line Following robot" class="projectImage">
+					<p class="projectText">Line Following Robot</p>
+				</a>
 
-						<p class="projectLink">Line Following Robot</p>
-					</a>
-				</div>
+				<div style="display: inline-block; width: 2vw;"></div>
 
-				<div class="buttonRow">
-					<div class="fillerProjectImg"></div>
-			    </div>
+				<div style="display: inline-block; width: 20vw;"></div>
+				
+				<!-- add discrete final project? -->
 
-			    <div class="buttonRow">
-			    	<div class="fillerProjectImg"></div>
-				</div>
+				<div style="display: inline-block; width: 2vw;"></div>
+
+				<div style="display: inline-block; width: 20vw;"></div>
 
 				<!-- <a href="./subpages/steve_run.html">
 					<img src="images/SteveRunIcon.png" alt="A sample image of the Steve Run game in action" class="projectButton">

@@ -1,0 +1,51 @@
+:root {
+--lightGreen: #96ab8c;
+--buttonGreen: #6F907D;
+--darkGreen: #475c50;
+--white: #FFFFFF;
+--black: #000000;
+--cream: #f2eadc;
+--gray: #929a94;
+
+--color-1: #EAE7DC;
+--color-2: #D8C3A5;
+--text-color: #8E8D8A;
+--primary-color: #E85A4F;
+--secondary-color: #E98074;
+}
+
+
+body {
+    color: var(--text-color);
+    font-size: 2vw;
+    font-family: 'Ubuntu Condensed';
+    background: var(--color-1);
+}
+
+h1 {
+    color: var(--primary-color);
+    letter-spacing: 0.2em;
+}
+
+
+
+.center {
+    text-align: center;
+}
+
+
+
+.pageTitle {
+    font-size: 6vw;
+    text-align: center;
+    margin-top: 30vh;
+}
+
+.pageSubtitle {
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+
