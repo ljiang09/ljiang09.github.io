@@ -14,15 +14,24 @@
 body {
   color: var(--text-color);
   font-size: 1.5vw;
-  font-family: "Ubuntu";
+  font-family: "Ubuntu", sans-serif;
   background-color: var(--background-1);
 }
 
+h2 {
+  color: var(--primary-1);
+}
+
 .pageTitle {
+  margin-top: 0;
   color: var(--primary-1);
   font-size: 5vw;
   text-align: center;
-  border-top: 20vh solid transparent;
+/*  border-top: 20vh solid transparent;*/
+}
+
+.pageTitleSpacer {
+  height: 25vh;
 }
 
 .pageSubtitle {
@@ -39,6 +48,7 @@ body {
   text-decoration: none;
   border: 3px solid var(--primary-2);
   border-radius: 50%;
+  overflow: hidden;
 }
 
 .emailImg {
@@ -67,3 +77,66 @@ body {
   cursor: pointer;
   transition: 0.6s;
 }
+
+.center {
+  text-align: center;
+}
+
+
+/* for each of the sections listed on the main page */
+.header {
+  text-align: center;
+  color: var(--primary-1);
+/*  background-color: var(--background-2);*/
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  font-size: 4vw;
+}
+
+
+/* for the project cards section */
+.projects {
+  text-align: center;
+  background-color: var(--background-2);
+  margin-left: -5vw;
+  margin-right: -5vw;
+}
+
+a.projectCard {
+  display: inline-block;
+  background-color: var(--background-1);
+  width: 25vw;
+  height: 30vw;
+  border-radius: 1.5vw;
+  margin: 1.5vw;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.projectImg {
+  display: inline-block;
+  width: 20vw;
+  height: 20vw;
+/*  border-radius: 4vw;*/
+  margin: 2.5vw;
+}
+
+.projectText {
+  margin-top: 0;
+  color: var(--text-color);
+  font-size: 2vw;
+}
+
+.fillerProjectCard {
+  display: inline-block;
+  width: 25vw;
+  height: 30vw;
+  margin: 1.5vw;
+  overflow: hidden;
+}
+
+
+
+
+
+
