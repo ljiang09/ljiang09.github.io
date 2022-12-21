@@ -51,6 +51,10 @@ h2 {
   overflow: hidden;
 }
 
+.contactButton:hover {
+  opacity: 0.7;
+}
+
 .emailImg {
   display: inline-block;
   color: var(--primary-2);
@@ -73,7 +77,7 @@ h2 {
   display: inline-block;
   color: var(--primary-2);
   font-size: 3vw;
-  margin-top: 0.6vw;
+  margin-top: 0.7vw;
   cursor: pointer;
   transition: 0.6s;
 }
@@ -111,6 +115,11 @@ a.projectCard {
   margin: 1.5vw;
   overflow: hidden;
   text-decoration: none;
+  box-shadow: 5px 5px 5px 2px var(--text-color);
+}
+
+a.projectCard:hover {
+  opacity: 0.7;
 }
 
 .projectImg {
