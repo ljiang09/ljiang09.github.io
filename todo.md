@@ -6,4 +6,4 @@ add discrete project?
 
 fix line following robot image in main page
 
-make each project button be a card-style button?
+download ubuntu font to use even w/out wifi?

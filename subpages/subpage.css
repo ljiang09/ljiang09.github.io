@@ -3,24 +3,25 @@
 
 /* constants */
 :root {
-  --buttonGreen: #6F907D;
-  --lightGreen: #96ab8c;
   --white: #FFFFFF;
   --black: #000000;
-  --cream: #f2eadc;
-  --gray: #929a94;
+  --background-1: #EAE7DC;
+  --background-2: #D8C3A5;
+  --text-color: #8E8D8A;
+  --primary-1: #E85A4F;
+  --primary-2: #E98074;
 }
 
 
 body {
-  font-family: monospace;
-  color: var(--fontColor);
-  font-family: Verdana, Geneva, sans-serif;
-  background-color: var(--cream);
+  color: var(--text-color);
+  font-size: 1.5vw;
+  font-family: "Ubuntu", sans-serif;
+  background-color: var(--background-1);
 }
 
-ul {
-    font-family: Verdana, Geneva, sans-serif;
+h2 {
+  color: var(--black);
 }
 
 .page {
@@ -30,20 +31,21 @@ ul {
 
 
 .header {
-  color: var(--black);
-  font-size: 6.5vw;
-  font-family: 'Montserrat', sans-serif;
-  margin-bottom: 50px;
-  color: var(--black);
+  all: unset;
+  color: var(--primary-1);
+  background-color: var(--background-2);
+  font-size: 5vw;
   text-align: center;
-  padding: 70px;
-  background: var(--lightGreen);
+  width: 101vw;
+  height: 12vw;
+  margin: -1vw;
+  margin-bottom: 50px;
+  cursor:pointer
 }
 
 .description {
   color: var(--black);
   font-size: 20px;
-  font-family: Verdana, Geneva, sans-serif;
 }
 
 
@@ -55,12 +57,11 @@ ul {
   width: 170px;
   border-radius: 18px;
   color: var(--white);
-  background-color: var(--buttonGreen);
-  border-color: var(--buttonGreen);
+  background-color: var(--primary-1);
+  border-color: var(--primary-1);
   border-style: solid;
   font-size: 20px;
   font-weight: bold;
-  font-family: Verdana, Geneva, sans-serif;
   margin-right: 15px;
   margin-left: 15px;
   cursor: pointer;
@@ -95,7 +96,6 @@ ul {
 .title {
   color: var(--black);
   font-size: 35px;
-  font-family: Verdana, Geneva, sans-serif;
   font-weight: bold;
   margin-bottom: 50px;
   text-align: center;
@@ -124,7 +124,7 @@ ul {
 
 a.greenLink:link, a.greenLink:active {
   all: unset;
-  color: var(--buttonGreen);
+  color: var(--primary-1);
   font-size: 20px;
   font-family: Verdana, Geneva, sans-serif;
   text-decoration: underline;
@@ -132,7 +132,7 @@ a.greenLink:link, a.greenLink:active {
 
 a.greenLink:hover, a.greenLink:visited {
   all: unset;
-  color: var(--lightGreen);
+  color: var(--primary-2);
   font-size: 20px;
   font-family: Verdana, Geneva, sans-serif;
   text-decoration: underline;
@@ -166,7 +166,7 @@ a.greenLink:hover, a.greenLink:visited {
 .caption2 {
   all: unset;
   display: inline-block;
-  color: black;
+  color: var(--black);
   max-width: 30vw;
   width: auto;
   margin-left: auto;
