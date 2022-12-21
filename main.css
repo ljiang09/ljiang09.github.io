@@ -92,10 +92,54 @@ h2 {
   text-align: center;
   color: var(--primary-1);
 /*  background-color: var(--background-2);*/
-  padding-top: 5vw;
-  padding-bottom: 5vw;
+  padding-top: 3vw;
+  padding-bottom: 0vw;
   font-size: 4vw;
 }
+
+.headerLine {
+  margin-bottom: 3vw;
+}
+
+
+
+/* technical skills section */
+.skillsSection {
+  background-color: var(--white);
+  border-radius: 3vw;
+  width: 85vw;
+  height: 23vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.5vw;
+}
+
+.skillsHeader {
+  display: inline-block;
+  font-size: 2vw;
+  color: var(--black);
+  width: 35%;
+  margin-right: 5%;
+}
+
+.skillsBody {
+  display: inline-block;
+  font-size: 1.5vw;
+  color: var(--text-color);
+  width: 58%;
+}
+
+.skill {
+  display: inline-block;
+  color: var(--white);
+  background-color: var(--primary-1);
+  font-size: 1.2vw;
+  padding: 0.75vw 1vw;
+  border-radius: 1vw;
+  margin-right: 0.75vw;
+  margin-bottom: 1vw;
+}
+
 
 
 /* for the project cards section */
