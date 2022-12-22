@@ -10,7 +10,7 @@ download ubuntu font to use even w/out wifi?
 
 top navigation bar
 
-figure out how to make the contact button icons scale properly with safari's zoom
+develop an icon to add to the top navigation bar for myself
 
 figure out how to make the entire website function properly on other browsers
 

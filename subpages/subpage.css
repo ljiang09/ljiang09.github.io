@@ -31,15 +31,19 @@ h2 {
 
 
 .header {
-  all: unset;
-  color: var(--primary-1);
-  background-color: var(--background-2);
-  font-size: 5vw;
-  text-align: center;
+  color: var(--background-1);
+  background-color: var(--primary-1);
   width: 101vw;
-  height: 12vw;
+  height: 7vw;
   margin: -1vw;
   margin-bottom: 50px;
+}
+
+.homeButton {
+  display: inline-block;
+  all: unset;
+  font-size: 3vw;
+  padding: 1.75vw 4vw;
   cursor:pointer
 }
 
