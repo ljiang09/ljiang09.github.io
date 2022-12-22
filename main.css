@@ -31,7 +31,7 @@ h2 {
 }
 
 .pageTitleSpacer {
-  height: 25vh;
+  height: 26vh;
 }
 
 .pageSubtitle {
@@ -93,12 +93,38 @@ h2 {
   color: var(--primary-1);
 /*  background-color: var(--background-2);*/
   padding-top: 3vw;
-  padding-bottom: 0vw;
+  margin-bottom: 1.5vw;
   font-size: 4vw;
 }
 
 .headerLine {
+  margin-top: 0;
   margin-bottom: 3vw;
+}
+
+
+.aboutMe {
+  text-align: center;
+  background-color: var(--primary-1);
+  color: var(--white);
+  line-height: 3vw;
+  margin-left: -0.6vw;
+  margin-right: -0.6vw;
+  padding: 5vw 25vw 22vw; /* top, right/left, bottom */
+  margin-bottom: -16vw;
+}
+
+.readMore {
+  color: var(--black);
+  background-color: var(--white);
+  padding: 1.5vw;
+  border-radius: 5vw;
+  text-decoration: none;
+  box-shadow: 2px 2px 2px 1px var(--black);
+}
+
+a.readMore:hover {
+  opacity: 0.9;
 }
 
 
@@ -107,6 +133,8 @@ h2 {
 .skillsSection {
   background-color: var(--white);
   border-radius: 3vw;
+  border-style: solid;
+  border-color: var(--text-color);
   width: 85vw;
   height: 28vw;
   margin-left: auto;
@@ -138,7 +166,7 @@ h2 {
   display: inline-block;
   font-size: 2vw;
   color: var(--black);
-  width: 30%;
+  width: 25%;
   margin-right: 5%;
   margin-left: 2%;
   vertical-align: top;
@@ -148,7 +176,7 @@ h2 {
   display: inline-block;
   font-size: 1.5vw;
   color: var(--text-color);
-  width: 40%;
+  width: 45%;
 }
 
 .skill {
@@ -167,14 +195,14 @@ h2 {
 /* for the project cards section */
 .projects {
   text-align: center;
-  background-color: var(--background-2);
-  margin-left: -5vw;
-  margin-right: -5vw;
+/*  background-color: var(--background-2);*/
+  /*margin-left: -2vw;
+  margin-right: -2vw;*/
 }
 
 a.projectCard {
   display: inline-block;
-  background-color: var(--background-1);
+  background-color: var(--white);
   width: 25vw;
   height: 30vw;
   border-radius: 1.5vw;
