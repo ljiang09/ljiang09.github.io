@@ -39,6 +39,25 @@ h2 {
   margin-bottom: 50px;
 }
 
+.logoBackground {
+  display: inline-block;
+  text-decoration: none;
+  width: 5vw;
+  height: 5vw;
+  margin: 1.25vw 3vw;
+  border-radius: 3vw;
+  background-color: var(--background-1);
+  overflow: hidden;
+}
+
+.logo {
+  display: inline-block;
+  width: 3.5vw;
+  height: 3.5vw;
+  margin: 0.75vw;
+  overflow: hidden;
+}
+
 .homeButton {
   display: inline-block;
   all: unset;

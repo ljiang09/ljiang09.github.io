@@ -8,6 +8,8 @@ fix line following robot image in main page
 
 download ubuntu font to use even w/out wifi?
 
+change contact me button color
+
 top navigation bar
 
 develop an icon to add to the top navigation bar for myself

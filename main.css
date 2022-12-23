@@ -40,7 +40,7 @@ h2 {
 
 .contactButton {
   display: inline-block;
-  background-color: var(--primary-2);
+  background-color: var(--primary-1);
   width: 5vw;
   height: 5vw;
   margin-left: 1vw;
