@@ -32,6 +32,8 @@ add dates to everything
 
 add button animations onclick so shadow disappears
 
+add "skills used" to each project's subpage
+
 
 inspo:
 https://mattfarley.ca
