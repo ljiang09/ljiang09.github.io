@@ -218,13 +218,21 @@ a.projectCard:hover {
   width: 20vw;
   height: 20vw;
 /*  border-radius: 4vw;*/
-  margin: 2.5vw;
+  margin-top: 2.5vw;
+  margin-bottom: 1vw;
 }
 
 .projectText {
   margin-top: 0;
+  margin-bottom: 0.5vw;
   color: var(--text-color);
   font-size: 2vw;
+}
+
+.projectDate {
+  margin-top: 0;
+  color: var(--text-color);
+  font-size: 1.4vw;
 }
 
 .fillerProjectCard {
