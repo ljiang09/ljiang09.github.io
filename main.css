@@ -115,7 +115,7 @@ h2 {
   color: var(--black);
   background-color: var(--white);
   padding: 1.5vw;
-  border-radius: 5vw;
+  border-radius: 1.5vw;
   text-decoration: none;
   box-shadow: 2px 2px 2px 1px var(--black);
 }
