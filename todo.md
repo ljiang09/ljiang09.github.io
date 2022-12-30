@@ -22,6 +22,16 @@ make home page top have moving component
 
 change rush hour picture to be 6x6 board, not the simply 4x4
 
+at the bottom of each subpage, put cards linking to other subpages to preview
+
+embed steve run video into subpage, similar to https://devansh.design/microgiant
+
+break down subpage content like so: https://www.sissiwu.com/induction
+
+add dates to everything
+
+add button animations onclick so shadow disappears
+
 
 inspo:
 https://mattfarley.ca
