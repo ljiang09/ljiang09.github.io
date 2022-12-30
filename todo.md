@@ -28,8 +28,6 @@ embed steve run video into subpage, similar to https://devansh.design/microgiant
 
 break down subpage content like so: https://www.sissiwu.com/induction
 
-add dates to everything
-
 add button animations onclick so shadow disappears
 
 add "skills used" to each project's subpage
