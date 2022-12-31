@@ -1,10 +1,6 @@
-#TODO
+# TODO
 
 Fix the image captions for Sebela's page
-
-add discrete project?
-
-download ubuntu font to use even w/out wifi?
 
 top navigation bar
 
@@ -26,7 +22,7 @@ at the bottom of each subpage, put cards linking to other subpages to preview
 
 embed steve run video into subpage, similar to https://devansh.design/microgiant
 
-break down subpage content like so: https://www.sissiwu.com/induction
+change subtitle format to be left side, like so: https://www.sissiwu.com/induction
 
 add button animations onclick so shadow disappears
 
