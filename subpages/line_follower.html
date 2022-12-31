@@ -19,7 +19,7 @@
         <!-- <a class="logoBackground" href="https://www.flaticon.com/free-icons/flowers" title="flowers icons"><img class="logo" src="images/lily.png" alt="Lily Flower Flat Icon by Freepik"></a> -->
 
         <button class="homeButton" onclick="window.location='../index.html';">
-            <p style="margin-top: 0;">Lily Jiang</p>
+            <p>Lily Jiang</p>
         </button>
     </div>
 
@@ -29,7 +29,84 @@
         <p class="center subtitle">Nov 2022</p>
 
         <br>
-    </div>
+
+        <div class="center">
+            <a class="repoButton" href="https://github.com/ljiang09/DC-Motor-Control" target="_blank">View the GitHub Repo</a>
+
+            <a class="repoButton" href="https://docs.google.com/document/d/1pJhgMPwu0XLtFwo2t5CXvwPsCiKE0fZTYBySQONxzTM/edit?usp=sharing" target="_blank">View the Project Report</a>
+        </div>
+
+        <br>
+
+        <!-- <h2>Skills Used</h2> -->
+
+        <h2>Goal</h2>
+        <div class="description">
+            - Integrate sensing and control with a two-wheeled, mechanical robotic platform
+            <br> <br>
+            - Write a closed-loop controller so the robot can follow an electrical tape track on the floor
+        </div>
+
+        <br>
+
+        <h2>Contributions</h2>
+        <div class="description">
+            - Assembled final chassis
+            <br> <br>
+            - Calibrated sensor for the mounting distance from the ground
+            <br> <br>
+            - Created circuit with DC motors, IR sensors, an Arduino Uno, a Motor Shield
+            <br> <br>
+            - Programmed DC motors to change speeds/directions based on parsed sensor data
+            <br> <br>
+            - Tested and adjusted wheel speeds to prevent overshooting turns
+            <br> <br>
+            - Wrote programs to store and plot sensor values and wheel velocities
+        </div>
+
+        <br>
+
+        <h2>Project Deliverable</h2>
+
+        <p>The chassis was easily assembled from a kit. From there, I created a circuit to connect the Arduino, IR sensors, and DC motors together. The motors were connected to a motor shield, which connected to the Arduino. The IR sensors were wired to the Arduino's analog pins for reading, then mounted ~1.5 cm apart to be slightly larger than the width of the electrical tape.</p>
+
+        <br>
+
+        <img src="images/LineFollowerCircuit.png" alt="The circuit diagram for the entire system" class="projectImage1">
+
+        <br>
+
+        <p>The IR sensors' ideal measuring distance changed based on the supplied resistor value. With the sensors already mounted onto the bottom of the car and the working circuit assembled, some trial and error revealed the right value to be 5000 Ohms. This resistance yielded a noticable difference between sensing the electrical tape vs. the linoleum tile.</p>
+
+        <br>
+
+        <div class="center">
+            <img src="images/LineFollowerSensors.png" alt="The circuit diagram for the entire system" class="projectImage2">
+        </div>
+
+        <br>
+
+        <p>Both sensors sensing the floor implied the robot was on the track, since the line was supposed to be between the two sensors. Here, the robot would need to go straight to continue along the line. But if the left sensor saw electrical tape, the robot would need to turn left to realign with the track and vice versa for the right sensor. Overall, the robot only required 3 controls: go straight, turn right, and turn left.</p>
+
+        <br>
+
+        <div class="center">
+            <a class="repoButton" href="https://drive.google.com/file/d/1Bcd0IA7TQeP3gKgUf4BZ-E7A18ipy4Yv/view?usp=sharing" target="_blank">Watch the robot run a full track!</a>
+            <!-- <iframe src="https://drive.google.com/file/d/1Bcd0IA7TQeP3gKgUf4BZ-E7A18ipy4Yv/preview" width="640" height="480" allow="autoplay"></iframe> -->
+        </div>
+
+        <!-- <img src="images/LineFollowerTrack.png" alt="An image of the robot running a loop around the track successfully" class="projectImage1"> -->
+
+        <br>
+
+        <p>While the robot ran a loop through the track, I programmed the Arduino to gather sensor values and wheel velocities every loop, and store them into a local text file. I used Python (numpy and matplotlib) to read this local file and plot the 4 values.</p>
+
+        <br>
+
+        <img src="images/LineFollowerPlot.png" alt="The circuit diagram for the entire system" class="projectImage1">
+
+        <br> <br> <br> <br> <br>
+    </div>  
 
 	<script src="subpage.js"></script>
 	<noscript>You need to enable JavaScript to view the full site.</noscript>

@@ -32,6 +32,10 @@ add button animations onclick so shadow disappears
 
 add "skills used" to each project's subpage
 
+embed line follower robot video into html
+
+change line follower robot video in drive to be horizontal
+
 
 inspo:
 https://mattfarley.ca
