@@ -110,6 +110,7 @@ h2 {
   all: unset;
   padding: 1vw 1.75vw;
   margin: 0.5vw;
+  border-radius: 0.5vw;
   cursor: pointer;
 }
 
