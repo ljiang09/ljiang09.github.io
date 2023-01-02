@@ -36,7 +36,9 @@ function sortBy(filter) {
 		document.getElementById('sortFirmware').style.display = 'none';
 		document.getElementById('sortMechanical').style.display = 'none';
 
+		// show correct items, fade in
 		filteredItems.style.display = 'block';
+		fadeIn(filteredItems)
 
 		// get clicked button item
 		var btn = document.getElementById(arguments[0].toString().concat('Btn'));
@@ -51,6 +53,21 @@ function sortBy(filter) {
 	}
 
 	// move underline to pressed button. add slide transition if possible
+}
+
+
+
+function fadeIn(element) {
+    var op = 0.1;  // initial opacity
+    element.style.display = 'block';
+    var timer = setInterval(function () {
+        if (op >= 1){
+            clearInterval(timer);
+        }
+        element.style.opacity = op;
+        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+        op += op * 0.2;
+    }, 10);
 }
 
 
