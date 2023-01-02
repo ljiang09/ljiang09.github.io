@@ -32,6 +32,8 @@ embed line follower robot video into html
 
 change line follower robot video in drive to be horizontal
 
+fill out sebela page more
+
 
 inspo:
 https://mattfarley.ca
