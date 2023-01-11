@@ -229,6 +229,7 @@ a.readMore:hover {
 
 a.projectCard {
   display: inline-block;
+  color: var(--black);
   background-color: var(--white);
   width: 25vw;
   height: 30vw;

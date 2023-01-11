@@ -6,15 +6,15 @@ top navigation bar
 
 develop an icon to add to the top navigation bar for myself
 
-add a project navigation bar in main page to sort by field (ios development, software, mechanical, robotics)
-
 figure out how to make the entire website function properly on other browsers
 
 light/dark mode
 
 make home page top have cool moving component
 
-at the bottom of each subpage, put cards linking to other subpages to preview
+**finish: at the bottom of each subpage, put cards linking to other subpages to preview**
+
+add more to drivetrain project page
 
 embed steve run video into subpage, similar to https://devansh.design/microgiant
 
@@ -27,6 +27,8 @@ embed line follower robot video into html
 change line follower robot video in google drive to be horizontal
 
 fill out sebela page more
+
+refactor projects organization page - not hard coded
 
 
 inspo:
