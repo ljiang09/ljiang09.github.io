@@ -65,6 +65,20 @@ body {
 /*  font-size: 20px;*/
 }
 
+a.jumpTo {
+  color: var(--primary-1);
+  text-decoration: none;
+  margin-left: 0.5em;
+}
+
+a.jumpTo:hover {
+  color: var(--primary-2);
+}
+
+.jumpToSpacer {
+  height: 10vh;
+}
+
 
 /* for the project cards section */
 .projects {
