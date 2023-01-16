@@ -18,7 +18,13 @@
 
 
 <body>
-	<div class="pageTitleSpacer"></div>    <!-- spacer -->
+	<div>
+		<input type="checkbox" id="switch" class="checkbox">
+		<label for="switch" id="switchLabel" class="toggle"></label>
+			<!-- sun_icon.png -->
+	</div>
+
+	<div style="height: 26vh;"></div>    <!-- spacer -->
 
     <h1 class="pageTitle">Hi. I'm Lily Jiang.</h1>
 
@@ -44,7 +50,7 @@
 	    </a>
 	</div>
 
-	<div class="pageTitleSpacer"></div>    <!-- spacer -->
+	<div style="height: 26vh;"></div>    <!-- spacer -->
 
 
 
@@ -68,10 +74,10 @@
 		</div>
 
 		<!-- middle 1/3 of section -->
-		<div class="skillsHeader">
+		<!-- <div class="skillsHeader">
 			<p style="font-size: 2.5vw; margin-top: 1.2vw;">Front End iOS developer</p>
 			<p style="font-size: 1.75vw;">I have developed full-stack iOS apps, and I have a lot of passion for front end design and engineering.</p>
-		</div>
+		</div> -->
 
 		<!-- right 1/3 of section -->
 		<div class="skillsBody">
@@ -107,7 +113,7 @@
 		<!-- <hr class="headerLine" color="#E85A4F" style="padding-top: 0.1em; margin-left: -0.6vw; margin-right: -0.6vw; margin-bottom: 0vw;" noshade> -->
 
 		<div class="sortBy">
-			<button style="background-color: #E98074;" id="sortAllBtn" onclick="sortBy('sortAll')">All</button>
+			<button style="background-color: var(--primary-2);" id="sortAllBtn" onclick="sortBy('sortAll')">All</button>
 			<button id="sortSoftwareBtn" onclick="sortBy('sortSoftware')">Software</button>
 			<button id="sortIOSBtn" onclick="sortBy('sortIOS')">iOS</button>
 			<button id="sortFirmwareBtn" onclick="sortBy('sortFirmware')">Firmware</button>
@@ -160,6 +166,11 @@
 					<p class="projectText">Rush Hour</p>
 					<p class="projectDate">2022</p>
 				</a>
+				<!-- <a class="projectCard" href="./subpages/headcount_automation.html">
+					<img src="images/RushHour.png" alt="" class="projectImg">
+					<p class="projectText">Sheet Automation</p>
+					<p class="projectDate">2023</p>
+				</a> -->
 				<a class="projectCard" href="./subpages/steve_run.html">
 					<img src="images/SteveRunIcon.png" alt="Image of Steve Run gameplay" class="projectImg">
 					<p class="projectText">Steve Run</p>
@@ -171,6 +182,16 @@
 					<p class="projectDate">2022</p>
 				</a>
 			</div>
+
+			<!-- <div>
+				<a class="projectCard" href="./subpages/rush_hour.html">
+					<img src="images/RushHour.png" alt="The Unity implementation of Rush Hour" class="projectImg">
+					<p class="projectText">Rush Hour</p>
+					<p class="projectDate">2022</p>
+				</a>
+				<div class="fillerProjectCard"></div>
+				<div class="fillerProjectCard"></div>
+			</div> -->
 		</div>
 
 		<div id="sortSoftware" style="display: none;">
@@ -192,7 +213,12 @@
 				</a>
 			</div>
 
-			<div>
+			<!-- <div>
+				<a class="projectCard" href="./subpages/headcount_automation.html">
+					<img src="images/RushHour.png" alt="" class="projectImg">
+					<p class="projectText">Sheet Automation</p>
+					<p class="projectDate">2023</p>
+				</a>
 				<a class="projectCard" href="./subpages/rush_hour.html">
 					<img src="images/RushHour.png" alt="The Unity implementation of Rush Hour" class="projectImg">
 					<p class="projectText">Rush Hour</p>
@@ -203,8 +229,7 @@
 					<p class="projectText">Steve Run</p>
 					<p class="projectDate">2022</p>
 				</a>
-				<div class="fillerProjectCard"></div>
-			</div>
+			</div> -->
 		</div>
 
 

@@ -6,8 +6,11 @@
   --background-1: #EAE7DC;
   --background-2: #D8C3A5;
   --text-color: #8E8D8A;
+  --text-color-2: #FFFFFF;
   --primary-1: #E85A4F;
   --primary-2: #E98074;
+
+  --bg-1-filter: invert(96%) sepia(9%) saturate(599%) hue-rotate(318deg) brightness(104%) contrast(83%);
 }
 
 
@@ -22,16 +25,59 @@ h2 {
   color: var(--primary-1);
 }
 
+
+/* original toggle styling */
+.toggle {
+    position: fixed;
+    top: 3vw;
+    right: 5vw;
+    display: inline-block;
+    width: 6vw;
+    height: 3.3vw;
+    background-color: var(--primary-2);
+    border-radius: 1vw;
+    background-image: url("images/moon_icon.png");
+    background-size: 2.25vw;
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+       
+/* After slide changes */
+.toggle:after {
+    content: '';
+    background-image: url("images/sun_icon.png");
+    position: absolute;
+    width: 2.7vw;
+    height: 2.7vw;
+    border-radius: 30%;
+    background-color: var(--white);
+    top: 0.3vw;
+    left: 0.3vw;
+    transition: all 0.4s;
+}
+
+.checkbox:checked + .toggle::after {
+    left: 2.9vw;
+}
+       
+/* Checkbox checked toggle label bg color */
+.checkbox:checked + .toggle {
+    background-color: var(--primary-1);
+}
+       
+/* Checkbox vanished */
+.checkbox {
+    display : none;
+}
+
+
+
 .pageTitle {
   margin-top: 0;
   color: var(--primary-1);
   font-size: 5vw;
   text-align: center;
 /*  border-top: 20vh solid transparent;*/
-}
-
-.pageTitleSpacer {
-  height: 26vh;
 }
 
 .pageSubtitle {
@@ -56,7 +102,7 @@ h2 {
 
 .emailImg {
   display: inline-block;
-  filter: invert(96%) sepia(9%) saturate(599%) hue-rotate(318deg) brightness(104%) contrast(83%);
+  filter: var(--bg-1-filter);
   width: 3.5vw;
   height: 3.5vw;
   margin: 0.75vw;
@@ -64,7 +110,7 @@ h2 {
 
 .linkedInImg {
   display: inline-block;
-  filter: invert(96%) sepia(9%) saturate(599%) hue-rotate(318deg) brightness(104%) contrast(83%);
+  filter: var(--bg-1-filter);
   width: 3.5vw;
   height: 3.5vw;
   margin: 0.75vw;
@@ -72,7 +118,7 @@ h2 {
 
 .githubImg {
   display: inline-block;
-  filter: invert(96%) sepia(9%) saturate(599%) hue-rotate(318deg) brightness(104%) contrast(83%);
+  filter: var(--bg-1-filter);
   width: 4vw;
   height: 4vw;
   margin: 0.5vw;
@@ -132,7 +178,7 @@ h2 {
 .aboutMe {
   text-align: center;
   background-color: var(--primary-1);
-  color: var(--white);
+  color: var(--text-color-2);
   font-size: 1.75vw;
   line-height: 3vw;
   margin-left: -0.6vw;
@@ -203,14 +249,18 @@ a.readMore:hover {
   display: inline-block;
   font-size: 1.5vw;
   color: var(--text-color);
-  width: 45%;
+/*  width: 45%;*/
+
+  margin-left: 5%;
+  width: 70%;
 }
 
 .skill {
   display: inline-block;
   color: var(--white);
   background-color: var(--primary-1);
-  font-size: 1.2vw;
+/*  font-size: 1.2vw;*/
+  font-size: 1.5vw;
   padding: 0.75vw 1vw;
   border-radius: 1vw;
   margin-right: 0.75vw;

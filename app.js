@@ -49,7 +49,7 @@ function sortBy(filter) {
 		document.getElementById('sortFirmwareBtn').style.backgroundColor = primary1;
 		document.getElementById('sortMechanicalBtn').style.backgroundColor = primary1;
 
-		btn.style.backgroundColor = 'rgb(233, 128, 116)';   // #E98074
+		btn.style.backgroundColor = 'var(--primary-2)';   // #E98074
 	}
 
 	// move underline to pressed button. add slide transition if possible
@@ -70,6 +70,44 @@ function fadeIn(element) {
     }, 10);
 }
 
+
+
+function changeColor() {
+	// if currently dark, change to light
+}
+
+
+
+const checkbox = document.getElementById('switch');
+const switchLabel = document.getElementById('switchLabel');
+
+checkbox.addEventListener('change', (event) => {
+  if (event.currentTarget.checked) {
+  	// turning dark mode on
+  	switchLabel.style.backgroundImage = "url('images/sun_icon.png')";
+  	switchLabel.style.backgroundPosition = "10%";
+
+    document.documentElement.style.setProperty('--background-1', '#3A3B3C');
+    document.documentElement.style.setProperty('--background-2', '#0c525b');
+    document.documentElement.style.setProperty('--text-color', '#b0afad');
+    document.documentElement.style.setProperty('--text-color-2', '#000000');
+    document.documentElement.style.setProperty('--primary-1', '#73a0a7');
+    document.documentElement.style.setProperty('--primary-2', '#98b9be');
+    document.documentElement.style.setProperty('--bg-1-filter', 'invert(23%) sepia(6%) saturate(147%) hue-rotate(169deg) brightness(93%) contrast(94%)');
+  } else {
+    // turning light mode on
+    switchLabel.style.backgroundImage = "url('images/moon_icon.png')";
+    switchLabel.style.backgroundPosition = "90%";
+
+    document.documentElement.style.setProperty('--background-1', '#EAE7DC');
+    document.documentElement.style.setProperty('--background-2', '#D8C3A5');
+    document.documentElement.style.setProperty('--text-color', '#8E8D8A');
+    document.documentElement.style.setProperty('--text-color-2', 'var(--background-1)');
+    document.documentElement.style.setProperty('--primary-1', '#E85A4F');
+    document.documentElement.style.setProperty('--primary-2', '#E98074');
+    document.documentElement.style.setProperty('--bg-1-filter', 'invert(96%) sepia(9%) saturate(599%) hue-rotate(318deg) brightness(104%) contrast(83%)');
+  }
+})
 
 
 
