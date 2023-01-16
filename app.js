@@ -5,6 +5,7 @@
 var primary1 = document.documentElement.style.getPropertyValue('--primary-1');   // #E85A4F
 var primary2 = document.documentElement.style.getPropertyValue('--primary-2');
 
+
 // create reference to button in page
 // const switcher = document.querySelector('.btn');
 
@@ -72,19 +73,35 @@ function fadeIn(element) {
 
 
 
-function changeColor() {
-	// if currently dark, change to light
-}
 
-
-
+// for changing light/dark mode
 const checkbox = document.getElementById('switch');
 const switchLabel = document.getElementById('switchLabel');
+
+// check whether the user was on dark mode previously
+var colorMode = localStorage['colorMode'] || 'light';
+
+if (colorMode == 'dark') {
+	checkbox.setAttribute("checked", "true");
+	darkMode();
+}
 
 checkbox.addEventListener('change', (event) => {
   if (event.currentTarget.checked) {
   	// turning dark mode on
-  	switchLabel.style.backgroundImage = "url('images/sun_icon.png')";
+  	darkMode();
+
+    localStorage['colorMode'] = 'dark';    // store in cache
+  } else {
+    // turning light mode on
+    lightMode();
+
+    localStorage['colorMode'] = 'light';
+  }
+})
+
+function darkMode() {
+	switchLabel.style.backgroundImage = "url('images/sun_icon.png')";
   	switchLabel.style.backgroundPosition = "10%";
 
     document.documentElement.style.setProperty('--background-1', '#3A3B3C');
@@ -94,9 +111,13 @@ checkbox.addEventListener('change', (event) => {
     document.documentElement.style.setProperty('--primary-1', '#73a0a7');
     document.documentElement.style.setProperty('--primary-2', '#98b9be');
     document.documentElement.style.setProperty('--bg-1-filter', 'invert(23%) sepia(6%) saturate(147%) hue-rotate(169deg) brightness(93%) contrast(94%)');
-  } else {
-    // turning light mode on
-    switchLabel.style.backgroundImage = "url('images/moon_icon.png')";
+    document.documentElement.style.setProperty('--bg-1-filter', 'invert(23%) sepia(6%) saturate(147%) hue-rotate(169deg) brightness(93%) contrast(94%)');
+
+    // fade(document.getElementById("yft"), '#EAE7DC', '#3A3B3C', 750);
+}
+
+function lightMode() {
+	switchLabel.style.backgroundImage = "url('images/moon_icon.png')";
     switchLabel.style.backgroundPosition = "90%";
 
     document.documentElement.style.setProperty('--background-1', '#EAE7DC');
@@ -106,8 +127,44 @@ checkbox.addEventListener('change', (event) => {
     document.documentElement.style.setProperty('--primary-1', '#E85A4F');
     document.documentElement.style.setProperty('--primary-2', '#E98074');
     document.documentElement.style.setProperty('--bg-1-filter', 'invert(96%) sepia(9%) saturate(599%) hue-rotate(318deg) brightness(104%) contrast(83%)');
-  }
-})
 
+    // fade(document.getElementById("yft"), [255,255,60], [0,0,255], 750);
+}
+
+
+
+
+// helper functions
+function fadeColor(element, startcol, endcol, time_elapsed) {
+	// startcol and endcol are of the form `#0033ff`
+
+	// convert colors to rgb
+	var startcolor = hexToRgb(startcol);
+	var endcolor = hexToRgb(endcol);
+
+	var currentcolor = startcolor;
+	var stepcount = 0;
+	var timer = setInterval(function(){
+	    currentcolor[0] = parseInt(currentcolor[0] - red_change);
+	    currentcolor[1] = parseInt(currentcolor[1] - green_change);
+	    currentcolor[2] = parseInt(currentcolor[2] - blue_change);
+	    element.style.backgroundColor = 'rgb(' + currentcolor.toString() + ')';
+	    stepcount += 1;
+	    if (stepcount >= steps) {
+	        element.style.backgroundColor = 'rgb(' + endcolor.toString() + ')';
+	        clearInterval(timer);
+	    }
+	}, 50);
+}
+
+// converts a hex color to rgb, where the hex colors are of the form #0033ff
+function hexToRgb(hex) {
+  var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return result ? {
+    r: parseInt(result[1], 16),
+    g: parseInt(result[2], 16),
+    b: parseInt(result[3], 16)
+  } : null;
+}
 
 

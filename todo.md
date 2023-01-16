@@ -11,6 +11,7 @@ figure out how to make the entire website function properly on other browsers
 light/dark mode
 - store cache for which one was last used
 - fix colors of sun/moon icons
+- fade color between switches
 
 make home page top have cool moving component
 

@@ -11,6 +11,7 @@
   --primary-2: #E98074;
 
   --bg-1-filter: invert(96%) sepia(9%) saturate(599%) hue-rotate(318deg) brightness(104%) contrast(83%);
+  --toggle: var(--background-1);
 }
 
 
@@ -50,7 +51,7 @@ h2 {
     width: 2.7vw;
     height: 2.7vw;
     border-radius: 30%;
-    background-color: var(--white);
+    background-color: var(--background-1);
     top: 0.3vw;
     left: 0.3vw;
     transition: all 0.4s;
