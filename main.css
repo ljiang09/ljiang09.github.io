@@ -50,6 +50,7 @@ h2 {
     background-size: 2.25vw;
     background-repeat: no-repeat;
     background-position: 90%;
+    cursor: pointer;
 }
        
 /* After slide changes */
