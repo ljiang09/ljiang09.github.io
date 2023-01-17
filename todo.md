@@ -8,13 +8,13 @@ develop an icon to add to the top navigation bar for myself
 
 figure out how to make the entire website function properly on other browsers
 
-invert some picture's colors?
+add light/dark mode toggle in subpages too
+
+invert some picture's colors for dark mode?
 
 in nav bar, add a search engine and up arrow to bring user to top of page
 
 make home page top have cool moving component
-
-**finish: at the bottom of each subpage, put cards linking to other subpages to preview**
 
 embed steve run video into subpage, similar to https://devansh.design/microgiant
 
@@ -35,6 +35,8 @@ inspo:
 https://mattfarley.ca
 https://tylertaewook.com
 https://tamalsen.dev
+http://danielfiller.com (top navigation bar)
+
 
 png color filter calculator: https://codepen.io/sosuke/pen/Pjoqqp
 
