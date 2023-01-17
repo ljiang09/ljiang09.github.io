@@ -78,6 +78,8 @@ function fadeIn(element) {
 const checkbox = document.getElementById('switch');
 const switchLabel = document.getElementById('switchLabel');
 
+const transitionTime = 200;
+
 // check whether the user was on dark mode previously
 var colorMode = localStorage['colorMode'] || 'light';
 
@@ -100,71 +102,92 @@ checkbox.addEventListener('change', (event) => {
   }
 })
 
+
 function darkMode() {
 	switchLabel.style.backgroundImage = "url('images/sun_icon.png')";
   	switchLabel.style.backgroundPosition = "10%";
 
-    document.documentElement.style.setProperty('--background-1', '#3A3B3C');
-    document.documentElement.style.setProperty('--background-2', '#0c525b');
-    document.documentElement.style.setProperty('--text-color', '#b0afad');
-    document.documentElement.style.setProperty('--text-color-2', '#000000');
-    document.documentElement.style.setProperty('--primary-1', '#73a0a7');
-    document.documentElement.style.setProperty('--primary-2', '#98b9be');
-    document.documentElement.style.setProperty('--bg-1-filter', 'invert(23%) sepia(6%) saturate(147%) hue-rotate(169deg) brightness(93%) contrast(94%)');
-    document.documentElement.style.setProperty('--bg-1-filter', 'invert(23%) sepia(6%) saturate(147%) hue-rotate(169deg) brightness(93%) contrast(94%)');
+    fadeColor('--background-1', '#EAE7DC', '#3A3B3C', transitionTime);
+    fadeColor('--background-2', '#D8C3A5', '#0C525B', transitionTime);
+    fadeColor('--text-color', '#8E8D8A', '#b0afad', transitionTime);
+    fadeColor('--text-color-2', '#EAE7DC', '#000000', transitionTime);
+    fadeColor('--primary-1', '#E85A4F', '#73a0a7', transitionTime);
+    fadeColor('--primary-2', '#E98074', '#98b9be', transitionTime);
 
-    // fade(document.getElementById("yft"), '#EAE7DC', '#3A3B3C', 750);
+    document.documentElement.style.setProperty('--bg-1-filter', 'invert(23%) sepia(6%) saturate(147%) hue-rotate(169deg) brightness(93%) contrast(94%)');
 }
 
 function lightMode() {
 	switchLabel.style.backgroundImage = "url('images/moon_icon.png')";
     switchLabel.style.backgroundPosition = "90%";
 
-    document.documentElement.style.setProperty('--background-1', '#EAE7DC');
-    document.documentElement.style.setProperty('--background-2', '#D8C3A5');
-    document.documentElement.style.setProperty('--text-color', '#8E8D8A');
-    document.documentElement.style.setProperty('--text-color-2', 'var(--background-1)');
-    document.documentElement.style.setProperty('--primary-1', '#E85A4F');
-    document.documentElement.style.setProperty('--primary-2', '#E98074');
-    document.documentElement.style.setProperty('--bg-1-filter', 'invert(96%) sepia(9%) saturate(599%) hue-rotate(318deg) brightness(104%) contrast(83%)');
 
-    // fade(document.getElementById("yft"), [255,255,60], [0,0,255], 750);
+    // over an interval, change the colors
+    fadeColor('--background-1', '#3A3B3C', '#EAE7DC', transitionTime);
+    fadeColor('--background-2', '#0C525B', '#D8C3A5', transitionTime);
+    fadeColor('--text-color', '#b0afad', '#8E8D8A', transitionTime);
+    fadeColor('--text-color-2', '#000000', '#EAE7DC', transitionTime);
+    fadeColor('--primary-1', '#73a0a7', '#E85A4F', transitionTime);
+    fadeColor('--primary-2', '#98b9be', '#E98074', transitionTime);
+
+    // TODO: find a way to fade this
+    document.documentElement.style.setProperty('--bg-1-filter', 'invert(96%) sepia(9%) saturate(599%) hue-rotate(318deg) brightness(104%) contrast(83%)');
 }
 
 
 
 
-// helper functions
-function fadeColor(element, startcol, endcol, time_elapsed) {
+// helper function to fade the color of a css root variable
+function fadeColor(property, startcol, endcol, total_time) {
+	// property is a string representing the document's property to set
 	// startcol and endcol are of the form `#0033ff`
+	// total_time is the total number of ms this process should occur for
+
+	// set 50 ms between each minor color shift
+	const time_interval = 20;
+	const numSteps = Math.floor(total_time / time_interval);
 
 	// convert colors to rgb
-	var startcolor = hexToRgb(startcol);
-	var endcolor = hexToRgb(endcol);
+	var currcolor = hexToRgb(startcol);
+	const endcolor = hexToRgb(endcol);
 
-	var currentcolor = startcolor;
-	var stepcount = 0;
-	var timer = setInterval(function(){
-	    currentcolor[0] = parseInt(currentcolor[0] - red_change);
-	    currentcolor[1] = parseInt(currentcolor[1] - green_change);
-	    currentcolor[2] = parseInt(currentcolor[2] - blue_change);
-	    element.style.backgroundColor = 'rgb(' + currentcolor.toString() + ')';
-	    stepcount += 1;
-	    if (stepcount >= steps) {
-	        element.style.backgroundColor = 'rgb(' + endcolor.toString() + ')';
+	// for each of the three base colors, find the amt to change each by for each increment
+	var diffs = [(endcolor[0] - currcolor[0]) / numSteps,
+				(endcolor[1] - currcolor[1]) / numSteps,
+				(endcolor[2] - currcolor[2]) / numSteps
+		];
+
+	console.log(diffs);
+
+	var counter = 0;
+
+	var timer = setInterval(function() {
+		currcolor[0] += diffs[0];
+		currcolor[1] += diffs[1];
+		currcolor[2] += diffs[2];
+
+		document.documentElement.style.setProperty(property, "rgb(" + currcolor[0] + "," + currcolor[1] + "," + currcolor[2] + ")");
+
+	    counter += 1;
+	    console.log(currcolor);
+	    if (counter >= numSteps) {
 	        clearInterval(timer);
 	    }
-	}, 50);
+	}, time_interval);
 }
 
 // converts a hex color to rgb, where the hex colors are of the form #0033ff
 function hexToRgb(hex) {
-  var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-  return result ? {
-    r: parseInt(result[1], 16),
-    g: parseInt(result[2], 16),
-    b: parseInt(result[3], 16)
-  } : null;
+	hex = hex;
+	if (hex.charAt(0) == '#') {
+		hex = hex.substring(1);
+	}
+	var aRgbHex = hex.match(/.{1,2}/g);
+	var aRgb = [
+        parseInt(aRgbHex[0], 16),
+        parseInt(aRgbHex[1], 16),
+        parseInt(aRgbHex[2], 16)
+    ];
+    return aRgb;
 }
-
 

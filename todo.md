@@ -9,9 +9,9 @@ develop an icon to add to the top navigation bar for myself
 figure out how to make the entire website function properly on other browsers
 
 light/dark mode
-- store cache for which one was last used
-- fix colors of sun/moon icons
-- fade color between switches
+- fade all variable colors between switches
+
+in nav bar, add a search engine and up arrow to bring user to top of page
 
 make home page top have cool moving component
 
