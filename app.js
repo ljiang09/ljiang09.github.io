@@ -131,7 +131,7 @@ function lightMode() {
     fadeColor('--primary-2', '#98b9be', '#E98074', transitionTime);
 
     // TODO: find a way to fade this
-    document.documentElement.style.setProperty('--bg-1-filter', 'invert(96%) sepia(9%) saturate(599%) hue-rotate(318deg) brightness(104%) contrast(83%)');
+    document.documentElement.style.setProperty('--bg-1-filter', 'invert(98%) sepia(32%) saturate(209%) hue-rotate(325deg) brightness(98%) contrast(86%)');
 }
 
 
