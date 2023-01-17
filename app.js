@@ -6,22 +6,9 @@ var primary1 = document.documentElement.style.getPropertyValue('--primary-1');  
 var primary2 = document.documentElement.style.getPropertyValue('--primary-2');
 
 
-// create reference to button in page
-// const switcher = document.querySelector('.btn');
 
+// TODO: make hovering over buttons change what is displayed in them
 
-// TODO: make hovering over stuff change stuff
-
-
-// handle event for button click
-// let btn = document.querySelector(".projectButton"),
-
-// btn.addEventListener("mouseenter", function( event ) {   
-//   event.target.style.color = "purple";
-// }, false);
-// btn.addEventListener("mouseleave", function( event ) {   
-//   event.target.style.color = "";
-// }, false);
 
 
 // `filter` is a string representing the id to refer to the div to show

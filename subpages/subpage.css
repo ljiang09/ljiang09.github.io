@@ -8,13 +8,14 @@
   --background-1: #EAE7DC;
   --background-2: #D8C3A5;
   --text-color: #8E8D8A;
+  --text-color-2: var(--black);
   --primary-1: #E85A4F;
   --primary-2: #E98074;
 }
 
 
 body {
-  color: var(--black);
+  color: var(--text-color-2);
   font-size: 1.5vw;
   font-family: "Ubuntu", sans-serif;
   background-color: var(--background-1);
@@ -58,6 +59,7 @@ body {
   all: unset;
   font-size: 3vw;
   padding: 0vw 4vw;
+  margin-left: 12vw;
   cursor:pointer
 }
 
@@ -190,7 +192,7 @@ p {
 }
 
 .subtitle {
-  color: var(--black);
+  color: var(--text-color-2);
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 20px;

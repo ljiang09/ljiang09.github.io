@@ -8,8 +8,7 @@ develop an icon to add to the top navigation bar for myself
 
 figure out how to make the entire website function properly on other browsers
 
-light/dark mode
-- fade all variable colors between switches
+invert some picture's colors?
 
 in nav bar, add a search engine and up arrow to bring user to top of page
 
@@ -38,3 +37,9 @@ https://tylertaewook.com
 https://tamalsen.dev
 
 png color filter calculator: https://codepen.io/sosuke/pen/Pjoqqp
+
+
+
+
+
+
