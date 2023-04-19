@@ -32,6 +32,8 @@ fill out sebela page more
 
 refactor projects organization page - positions not as hard coded
 
+add analytics for seeing website traffic
+
 
 inspo:
 https://mattfarley.ca
