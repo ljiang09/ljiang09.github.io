@@ -23,6 +23,7 @@ function sortBy(filter) {
 		document.getElementById('sortIOS').style.display = 'none';
 		document.getElementById('sortFirmware').style.display = 'none';
 		document.getElementById('sortMechanical').style.display = 'none';
+		document.getElementById('sortCoursework').style.display = 'none';
 
 		// show correct items, fade in
 		filteredItems.style.display = 'block';
@@ -36,6 +37,7 @@ function sortBy(filter) {
 		document.getElementById('sortIOSBtn').style.backgroundColor = primary1;
 		document.getElementById('sortFirmwareBtn').style.backgroundColor = primary1;
 		document.getElementById('sortMechanicalBtn').style.backgroundColor = primary1;
+		document.getElementById('sortCourseworkBtn').style.backgroundColor = primary1;
 
 		btn.style.backgroundColor = 'var(--primary-2)';   // #E98074
 	}
