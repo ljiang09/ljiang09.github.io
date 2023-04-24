@@ -4,8 +4,6 @@
 
 ### Lily Jiang, Apr 2023
 
-<br />
-
 Day and Klauder, a firm at the forefront of Collegiate Gothic architecture with their successful designs for Cornell and Princeton, was commissioned in 1916 to design Pendleton Hall for Wellesley College [1]. Implementing their signature Collegiate Gothic style and adhering to a palette of red brick and cream limestone, Day and Klauder created an environment where prestige and tradition define the academic atmosphere.
 
 Pendleton is the final building constructed for the U-shaped plan encircling the top of Norumbega Hill. Composing the northern side of the quad, the building’s shallow V-shape directs students towards the greenery of the lawn, offering prime views of the “natural beauty of Norumbega Hill” and Lake Waban beyond [1].
@@ -28,6 +26,7 @@ The first brick was laid in 1934 [4]. In a very symbolic ritual, one member from
 
 Named after Ellen Fitz Pendleton, Wellesley's beloved college president from 1911-1936 and an alum from the class of 1886, the building honors Pendleton’s energy and resources she poured into creating a beautiful and united campus [1].
 
+<br />
 
 ## Pendleton’s Collegiate Gothic style reinforces the image of a scholarly institution.
 
@@ -82,6 +81,7 @@ Complementing the red brick, cream-colored Indiana limestone was chosen to compl
 
 Overall, much emphasis was placed upon choosing the materials Pendleton was constructed from to ensure the building was durable and long-lasting. Today, many decades after its construction, Pendleton’s facade remains visibly well-maintained, a testament to the forethought and intentionality that went into its design.
 
+<br />
 
 ## In planning the building, it was remembered that “humans are more precious than equipment”.
 
@@ -110,6 +110,7 @@ But beyond the wealth of knowledge and tools available, Pendleton's design is no
 * Dimmable lights for easing eye strain
 * Blackboards and shades were motor-driven
 
+<br />
 
 ## Pendleton today serves vastly different purposes than during its founding 80+ years ago.
 
@@ -118,6 +119,8 @@ Nowadays, Pendleton is not occupied by any science departments. The construction
 Completed in 2017, renovation plans for Pendleton West converted the original lab spaces into art studios and spaces [6]. This renovation included a modern addition to the original wing, with large floor-to-ceiling windows, exposed concrete walls, and wood accents. But most importantly, the addition involved a sky bridge connecting the arts of Pendleton West to the arts of Jewett, effectively unifying the two and pushing for overlaps in curriculum [7].
 
 In Spring 2022, after years of failing HVAC systems that would flood offices and destroy important items, Pendleton East was closed down for "critical repairs" [8]. As of April 2023, this half of Pendleton is still closed, forcing the social sciences/humanities departments to operate out of temporary modular buildings [8]. I haven't been able to find any information about when the projected finish date is.
+
+<br />
 
 
 ## Sources
