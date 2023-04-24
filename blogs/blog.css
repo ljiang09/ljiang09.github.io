@@ -1,0 +1,307 @@
+/* manages styling */
+
+
+/* constants */
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --background-1: #EAE7DC;
+    --background-2: #D8C3A5;
+    --text-color: #8E8D8A;
+    --text-color-2: var(--black);
+    --primary-1: #E85A4F;
+    --primary-2: #E98074;
+  }
+  
+  
+  body {
+    color: var(--text-color-2);
+    font-size: 1.5vw;
+    font-family: "Ubuntu", sans-serif;
+    background-color: var(--background-1);
+  }
+  
+  .page {
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+  
+  
+  .header {
+    color: var(--background-1);
+    background-color: var(--primary-1);
+    width: 100.4vw;
+    margin: -1vw;
+    margin-bottom: 50px;
+  }
+  
+  .logoBackground {
+    display: inline-block;
+    text-decoration: none;
+    width: 5vw;
+    height: 5vw;
+    margin: 1.25vw 3vw;
+    border-radius: 3vw;
+    background-color: var(--background-1);
+    overflow: hidden;
+  }
+  
+  .logo {
+    display: inline-block;
+    width: 3.5vw;
+    height: 3.5vw;
+    margin: 0.75vw;
+    overflow: hidden;
+  }
+  
+  .homeButton {
+    display: inline-block;
+    all: unset;
+    font-size: 3vw;
+    padding: 0vw 4vw;
+    margin-left: 12vw;
+    cursor:pointer
+  }
+  
+  .description {
+  /*  font-size: 20px;*/
+  }
+  
+  a.jumpTo {
+    color: var(--primary-1);
+    text-decoration: none;
+    margin-left: 0.5em;
+  }
+  
+  a.jumpTo:hover {
+    color: var(--primary-2);
+  }
+  
+  .jumpToSpacer {
+    height: 10vh;
+  }
+  
+  
+  /* for the project cards section */
+  .projects {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  a.projectCard {
+    display: inline-block;
+    color: var(--black);
+    background-color: var(--white);
+    width: 20vw;
+    height: 24vw;
+    border-radius: 1.2vw;
+    overflow: hidden;
+    text-decoration: none;
+    box-shadow: 4px 4px 4px 2px var(--text-color);
+  }
+  
+  a.projectCard:hover {
+    opacity: 0.7;
+  }
+  
+  .projectImg {
+    display: inline-block;
+    width: 16vw;
+    height: 16vw;
+  /*  border-radius: 4vw;*/
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+  }
+  
+  .projectText {
+    margin-top: 0;
+    margin-bottom: 0.5vw;
+    color: var(--text-color);
+    font-size: 2vw;
+  }
+  
+  .projectDate {
+    margin-top: 0;
+    color: var(--text-color);
+    font-size: 1.4vw;
+  }
+  
+  .fillerProjectCard {
+    display: inline-block;
+    width: 20vw;
+    height: 24vw;
+    margin: 1.2vw;
+    overflow: hidden;
+  }
+  
+  
+  
+  
+  /* styling for button to external url */
+  .linkButton {
+    height: 50px;
+    width: 170px;
+    border-radius: 18px;
+    color: var(--white);
+    background-color: var(--primary-1);
+    border-color: var(--primary-1);
+    border-style: solid;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  /* button styling for square project buttons */
+  .projectButton {
+    height: 300px;
+    width: 300px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  
+  .projectText {
+    all: unset;
+    width: 250px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  
+  
+  /* Stuff relevant to subpages */
+  p {
+    line-height: 35px;
+  }
+  
+  .title {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .subtitle {
+    color: var(--text-color-2);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .headerDate {
+    color: var(--black);
+    font-size: 22px;
+    font-family: Verdana, Geneva, sans-serif;
+  }
+  
+  .italic {
+      font-style: italic;
+  }
+  
+  .skill {
+    display: inline-block;
+    background-color: var(--text-color);
+    color: var(--background-1);
+    margin: 0vw;
+    margin-right: 1.5vw;
+    padding: 0.75vw 1vw;
+    border-radius: 0.75vw;
+  }
+  
+  .repoButton {
+    display: inline-block;
+    color: var(--background-1);
+    background-color: var(--primary-1);
+    padding: 1vw 1.5vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    text-decoration: none;
+    border-radius: 1vw;
+    box-shadow: 2px 2px 2px 1px var(--text-color);
+  }
+  
+  .repoButton:hover {
+    background-color: var(--primary-2);
+  }
+  
+  
+  a.greenLink:link, a.greenLink:active {
+    all: unset;
+    color: var(--primary-1);
+    font-size: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+    text-decoration: underline;
+  }
+  
+  a.greenLink:hover, a.greenLink:visited {
+    all: unset;
+    color: var(--primary-2);
+    font-size: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+    text-decoration: underline;
+  }
+  
+  
+  
+  .projectImage1 {
+    max-width: 50vw;
+    max-height: 50vw;
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .projectImage2 {
+    max-width: 20em;
+    max-height: 20em;
+    height: 15em;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+  /*  mix-blend-mode: color-burn;*/
+  }
+  
+  
+  .projectImage3 {
+    max-width: 70vw;
+    max-height: 50vw;
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .projectImageBox {
+    display: inline-block;
+    width: 30vw;
+    margin-bottom: 1.5em;
+    text-align: top;
+  }
+  
+  .caption2 {
+    all: unset;
+    display: inline-block;
+    color: var(--black);
+    max-width: 30vw;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+  }
+    
+    
+    
+    
