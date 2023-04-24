@@ -83,6 +83,12 @@ Overall, much emphasis was placed upon choosing the materials Pendleton was cons
 
 <br />
 
+![](images/Pendleton_far.JPG)
+
+_Jiang, Lily. April 2023. Pendleton Hall, as viewed from the southern side of the quad. The red brick is one of the most promiment features of the building._
+
+<br />
+
 ## In planning the building, it was remembered that “humans are more precious than equipment”.
 
 <!-- that quote above is from the publicity office -->
@@ -93,6 +99,7 @@ As one of the pioneers in physics education (Wellesley was one of the first coll
 
 Each of the wings in Pendleton were designed specific to their purposes in the following ways [2]:
 
+<br />
 
 | Pendleton West (Chemistry) | Pendleton East (Physics/Psychology) |
 |----------------------------|------------------------------------|
@@ -101,6 +108,7 @@ Each of the wings in Pendleton were designed specific to their purposes in the f
 | Chemical labs on the top floor for efficient fume removal | Electric system: large distribution board in the basement, used both for the actual infrastructure of the building and for electricity experiments |
 | Stock rooms on every floor are in the same place, serviced by an elevator | Meteorology equipment and labs on the 2nd floor |
 
+<br />
 
 But beyond the wealth of knowledge and tools available, Pendleton's design is notable for prioritizing the human experience of being in the rooms. Some notable accomodations are [2]:
 
@@ -109,6 +117,13 @@ But beyond the wealth of knowledge and tools available, Pendleton's design is no
 * Forced ventilation in lecture halls to prevent drowsiness
 * Dimmable lights for easing eye strain
 * Blackboards and shades were motor-driven
+
+<br />
+
+![A motorized blackboard is utilized at the front of the lecture hall.](images/Pendleton_blackboard.jpg)
+
+_Image taken by Babcock David [12]. A motorized blackboard is utilized at the front of the lecture hall. To the right is the electric panel for the room, connected to the distribution board._
+
 
 <br />
 
@@ -122,12 +137,18 @@ In Spring 2022, after years of failing HVAC systems that would flood offices and
 
 <br />
 
+![The center door of Pendleton displays a sign about the building's closure.](images/Pendleton_entrance.JPG)
+
+_Jiang, Lily. April 2023. Pendleton's central door. A sign informs that the central and eastern portions of Pendleton Hall are closed for renovations. These closures are part of an effort to repair failing HVAC systems._
+
+<br />
+
 
 ## Sources
 <!-- chicago style -->
 
 <!-- manuscript? -->
-1. Schuler, Gretchen. _Pendleton Hall Physics & Chemistry Building_. Inventory Form Continuation Sheet. Boston: Massachusetts Historical Commission, March 1989. From Wellesley College Archives, Buildings, Wellesley College Area A #1-5.
+1. Schuler, Gretchen. _Pendleton Hall Physics & Chemistry Building_. Inventory Form Continuation Sheet. Boston: Massachusetts Historical Commission, March 1989. From Wellesley College Archives, Library and Technology Services, Buildings, Wellesley College Area A #1-5.
 <!-- Last name, First name Middle initial. _Title of Work_. Format. City: Publishing Company, copyright date. Source, Collection. Medium, http://...(accessed date). -->
 
 <!-- journal article -->
@@ -135,13 +156,13 @@ In Spring 2022, after years of failing HVAC systems that would flood offices and
 <!-- Last name, First name. "Title of Article." Title of Journal volume number, no. issue number (year): page numbers. -->
 
 <!-- manuscript? -->
-3. Schuler, Gretchen. _Academic Quadrangle_. Inventory Form Continuation Sheet. Boston: Massachusetts Historical Commission, March 1989. From Wellesley College Archives, Buildings, Wellesley College Area A #1-5.
+3. Schuler, Gretchen. _Academic Quadrangle_. Inventory Form Continuation Sheet. Boston: Massachusetts Historical Commission, March 1989. From Wellesley College Archives, Library and Technology Services, Buildings, Wellesley College Area A #1-5.
 
 <!-- manuscript? -->
-4. _Cornerstone Ceremonies: Pendleton Hall - Monday, December 3, 1934._ Newspaper. Wellesley: Office of Publicity, December 3, 1934. From Wellesley College Archives, President's Office, Pendleton Hall (1934-38).
+4. _Cornerstone Ceremonies: Pendleton Hall - Monday, December 3, 1934._ Newspaper. Wellesley: Office of Publicity, December 3, 1934. From Wellesley College Archives, Library and Technology Services, President's Office, Pendleton Hall (1934-38).
 
 <!-- manuscript -->
-5. Hodges, C.B. _Leaky Buildings, January 23, 1934_. Letter. Wellesley: Office of the Business Manager at Wellesley College, January 23, 1934. From Wellesley College Archives, President's Office, Pendleton Hall (1934-38).
+5. Hodges, C.B. _Re: Leaky Buildings, January 23, 1934_. Letter. Wellesley: Office of the Business Manager at Wellesley College, January 23, 1934. From Wellesley College Archives, Library and Technology Services, President's Office, Pendleton Hall (1934-38).
 
 <!-- website -->
 6. "Pendleton West Reopens as New Collaborative Arts Center." Spotlight on Wellesley. October 19, 2017. Accessed April 24, 2023. https://www.wellesley.edu/news/2017/node/131246.
@@ -162,8 +183,6 @@ In Spring 2022, after years of failing HVAC systems that would flood offices and
 <!-- online image -->
 11. Wellesley College Administration, https://www.wellesley.edu/administration/offices. Accessed April 24, 2023.
 
+<!-- newspaper article -->
+12. Walsh, Elizabeth B. _Pendleton Hall, Wellesley College_. Newspaper article. From Wellesley College Archives, Library and Technology Services, Publicity Office, Buildings: Pendleton (1934-36).
 
-
-
-<!-- TODO: 
-* verify the info in source #3 is correct. i just copied it from source 1 bc i don't have a pic of the first page -->
