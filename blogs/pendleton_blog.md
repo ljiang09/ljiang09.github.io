@@ -2,9 +2,9 @@
 
 # Pendleton Hall, Wellesley College
 
-### Lily Jiang, Apr 2023
+### Lily Jiang, April 2023
 
-Day and Klauder, a firm at the forefront of Collegiate Gothic architecture with their successful designs for Cornell and Princeton, was commissioned in 1916 to design Pendleton Hall for Wellesley College [1]. Implementing their signature Collegiate Gothic style and adhering to a palette of red brick and cream limestone, Day and Klauder created an environment where prestige and tradition define the academic atmosphere.
+Day and Klauder, a firm behind many successful Collegiate Gothic designs for Cornell and Princeton, was commissioned in 1916 to design Pendleton Hall for Wellesley College [1]. Implementing their signature Collegiate Gothic style and adhering to a palette of red brick and cream limestone, Day and Klauder created an environment where prestige and tradition define the academic atmosphere.
 
 Pendleton is the final building constructed for the U-shaped plan encircling the top of Norumbega Hill. Composing the northern side of the quad, the building’s shallow V-shape directs students towards the greenery of the lawn, offering prime views of the “natural beauty of Norumbega Hill” and Lake Waban beyond [1].
 
@@ -34,9 +34,9 @@ To create a cohesive, multi-purpose quad, it was necessary that all the building
 
 Pendleton Hall in particular benefited from this style. The tall windows provided ample natural light for work performed in the lab spaces, while the spacious interiors allowed for placing partitions anywhere [2]. Overall, Pendleton is a fantastic blend of form and function, providing a beautiful, versatile, and practical space for scientific pursuits.
 
-![The backside of Pendleton West.](images/Pendleton_backside.JPG)
+![Pendleton West, as seen from the East side.](images/Pendleton_side.png)
 
-_Jiang, Lily. April 2023. The backside of Pendleton West. The windows are tall and in groups of 2-4, which allow a lot of light to stream through during the daytime._
+_Image from the Wellesley College Archives [11]. Pendleton West, as seen from the East side. The tall rectangular windows, in groups of 2-4, are one of the more prominent features of the building._
 
 <br />
 
@@ -46,7 +46,7 @@ As the last building within the quad to be constructed, not much budget was left
 
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 27%; margin-right: 1%;">
-    <img src="images/Pendleton_front_2.jpeg" alt="Pendleton Hall" style="height: auto;" />
+    <img src="images/Pendleton_front_2.JPG" alt="Pendleton Hall" style="height: auto;" />
   </div>
   <div style="width: 27%;">
     <img src="images/Founders.jpeg" alt="Founders Hall" style="height: auto;" />
@@ -57,13 +57,13 @@ As the last building within the quad to be constructed, not much budget was left
 </div>
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 27%; margin-right: 1%;">
-    <p style="text-align: center">[9]</p>
+    <p style="text-align: center; font-style: italic;">Jiang, Lily. April 2023.</p>
   </div>
   <div style="width: 27%;">
-    <p style="text-align: center">[10]</p>
+    <p style="text-align: center">[9]</p>
   </div>
   <div style="width: 45%; margin-left: 1%;">
-    <p style="text-align: center">[11]</p>
+    <p style="text-align: center">[10]</p>
   </div>
 </div>
 
@@ -122,7 +122,7 @@ But beyond the wealth of knowledge and tools available, Pendleton's design is no
 
 ![A motorized blackboard is utilized at the front of the lecture hall.](images/Pendleton_blackboard.jpg)
 
-_Image taken by Babcock David [12]. A motorized blackboard is utilized at the front of the lecture hall. To the right is the electric panel for the room, connected to the distribution board._
+_Image from the Wellesley College Archives [11]. A motorized blackboard is utilized at the front of the lecture hall. To the right is the electric panel for the room, connected to the distribution board._
 
 
 <br />
@@ -133,7 +133,7 @@ Nowadays, Pendleton is not occupied by any science departments. The construction
 
 Completed in 2017, renovation plans for Pendleton West converted the original lab spaces into art studios and spaces [6]. This renovation included a modern addition to the original wing, with large floor-to-ceiling windows, exposed concrete walls, and wood accents. But most importantly, the addition involved a sky bridge connecting the arts of Pendleton West to the arts of Jewett, effectively unifying the two and pushing for overlaps in curriculum [7].
 
-In Spring 2022, after years of failing HVAC systems that would flood offices and destroy important items, Pendleton East was closed down for "critical repairs" [8]. As of April 2023, this half of Pendleton is still closed, forcing the social sciences/humanities departments to operate out of temporary modular buildings [8]. I haven't been able to find any information about when the projected finish date is.
+In Spring 2022, after years of failing HVAC systems that would flood offices and destroy important items, Pendleton East was closed down for "critical repairs" [8]. As of April 2023, this half of Pendleton is still closed, forcing the social sciences/humanities departments to operate out of temporary modular buildings [8].
 
 <br />
 
@@ -142,6 +142,8 @@ In Spring 2022, after years of failing HVAC systems that would flood offices and
 _Jiang, Lily. April 2023. Pendleton's central door. A sign informs that the central and eastern portions of Pendleton Hall are closed for renovations. These closures are part of an effort to repair failing HVAC systems._
 
 <br />
+
+Overall, Pendleton Hall is a remarkable example of how architecture can affect the academic experience by providing beautiful and functional spaces for learning, studies, and research. Despite originally being constructed with a limited budget, Pendleton remains well-maintained and visually impressive due to the sheer amount of careful planning that went into its design. And as a beautiful example of Collegiate Gothic architecture, Pendleton continues to uphold the distinguished academic environment of Wellesley College today as an arts, social sciences, and humanities academic building.
 
 
 ## Sources
@@ -174,15 +176,12 @@ _Jiang, Lily. April 2023. Pendleton's central door. A sign informs that the cent
 8. Valida Pau. "Pendleton East Closure Displaces Social Science Departments." The Wellesley News. February 8, 2023. Accessed April 24, 2023. https://thewellesleynews.com/2023/02/08/pendleton-east-closure-displaces-social-science-departments/.
 
 <!-- online image -->
-9. Daderot. Pendleton Hall - Wellesley College. July 2, 2011. Wikipedia, https://en.wikipedia.org/wiki/File:Pendleton_Hall_-_Wellesley_College_-_DSC09683.JPG. Accessed April 24, 2023.
+9. Pettit, Betsy & Peter Baker. Wellesley College Founders Hall. Building Science, https://buildingscience.com/project/wellesley-college-founders-hall. Accessed April 24, 2023.
 <!-- Last name, First name of the creator. Title of the Image. Year Created. Medium. Website Name, URL. Accessed Date. -->
 
 <!-- online image -->
-10. Pettit, Betsy & Peter Baker. Wellesley College Founders Hall. Building Science, https://buildingscience.com/project/wellesley-college-founders-hall. Accessed April 24, 2023.
-
-<!-- online image -->
-11. Wellesley College Administration, https://www.wellesley.edu/administration/offices. Accessed April 24, 2023.
+10. Wellesley College Administration, https://www.wellesley.edu/administration/offices. Accessed April 24, 2023.
 
 <!-- newspaper article -->
-12. Walsh, Elizabeth B. _Pendleton Hall, Wellesley College_. Newspaper article. From Wellesley College Archives, Library and Technology Services, Publicity Office, Buildings: Pendleton (1934-36).
+11. Walsh, Elizabeth B. _Pendleton Hall, Wellesley College_. Newspaper article. From Wellesley College Archives, Library and Technology Services, Publicity Office, Buildings: Pendleton (1934-36).
 
