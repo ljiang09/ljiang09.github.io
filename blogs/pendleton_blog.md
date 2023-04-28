@@ -20,84 +20,97 @@ _Jiang, Lily. April 2023. Pendleton at night. The shallow V-shape can be clearly
 
 Since the early 1900s, Wellesley's science departments had expressed a dire need for adequate facilities [1]. After a massive fire in 1914 destroyed College Hall (and most of the physics equipment), the need for these academic buildings increased dramatically, furthering the plan [2]. As part of that plan, Pendleton Hall was intended to house the physics, chemistry, and psychology departments [1].
 
-The Farnsworth Green plan had the goal of creating an administrative and academic center on Norumbega Hill, moving it away from the original College Hall Hill [3]. Many existing structures were demolished for this plan to come to fruition, including the residential Freemam Hall and Wood Cottage, which were destroyed to make room for Pendleton Hall [3].
+The Farnsworth Green plan had the goal of creating an administrative and academic center on Norumbega Hill, moving it away from the original College Hall Hill [3]. As noted in the Inventory Form for the Academic Quad, many existing structures were demolished for this plan to come to fruition. In particular, the residential Freemam Hall and Wood Cottage were destroyed to make room for Pendleton Hall.
 
-The first brick was laid in 1934 [4]. In a very symbolic ritual, one member from each of the chemistry, physics, and psychology departments placed the first trowels of mortar with the same silver trowel utilized in buildings for the past 10-20 years [4]. Equally symbolically, Pendleton's cornerstone was a box filled with many symbolic materials, including publications by professors in each department, a Bible, and a picture of the old Chemistry building [4].
+Documented by Wellesley's Office of Publicity in their "Cornerstone Ceremonies" series, the first brick of Pendleton was laid in 1934 [4]. In a very symbolic ritual, one member from each of the chemistry, physics, and psychology departments placed the first trowels of mortar with the same silver trowel utilized in buildings for the past 10-20 years [4]. Equally symbolically, Pendleton's cornerstone was a box filled with many symbolic materials, including publications by professors in each department, a Bible, and a picture of the old Chemistry building [4].
 
-Named after Ellen Fitz Pendleton, Wellesley's beloved college president from 1911-1936 and an alum from the class of 1886, the building honors Pendleton’s energy and resources she poured into creating a beautiful and united campus [1].
+Pendleton Hall is named after Ellen Fitz Pendleton, Wellesley's beloved college president from 1911-1936 and an alum from the class of 1886. The building honors the sheer amount of energy and resources Pendleton poured into creating a beautiful and united campus [1].
 
 <br />
 
 ## Pendleton’s Collegiate Gothic style reinforces the image of a scholarly institution.
 
-To create a cohesive, multi-purpose quad, it was necessary that all the buildings were designed in a style versatile enough to support their various uses. “Diverse and flexible,” Collegiate Gothic was the perfect style [3]. Collegiate Gothic also conveyed tradition and academia, and was thus chosen to express the cultural idea of a scholarly institute.
+To create a cohesive, multi-purpose quad, it was necessary that all the buildings were designed in a style versatile enough to support their various uses. The Academic Quad Inventory Form deems Collegiate Gothic as "diverse and flexible," rendering it the perfect style for the quad. Collegiate Gothic also conveyed tradition and academia, and was thus chosen to express the cultural idea of a scholarly institute.
 
 Pendleton Hall in particular benefited from this style. The tall windows provided ample natural light for work performed in the lab spaces, while the spacious interiors allowed for placing partitions anywhere [2]. Overall, Pendleton is a fantastic blend of form and function, providing a beautiful, versatile, and practical space for scientific pursuits.
 
 ![Pendleton West, as seen from the East side.](images/Pendleton_side.png)
 
-_Image from the Wellesley College Archives [11]. Pendleton West, as seen from the East side. The tall rectangular windows, in groups of 2-4, are one of the more prominent features of the building._
+_Image from the Wellesley College Archives [8]. Pendleton West, as seen from the East side. The tall rectangular windows, in groups of 2-4, are one of the more prominent features of the building._
 
 <br />
 
-Collegiate Gothic also supported “irregular and spontaneous” topography, a necessity as all the buildings were situated on the brow (rather than the flat plateau) of Norumbega Hill [3]. Carefully fitted to the contour of the hill, the north side of Pendleton is 3-4 floors while the south side is 2-3 floors [1].
+Collegiate Gothic also supported irregular, spontaneous topography. This was a necessity since, as mentioned in the Academic Quad's Inventory Form, all of the buildings were situated on the brow of Norumbega Hill rather than the flat plateau. Carefully fitted to the contour of the hill, the north side of Pendleton is 3-4 floors while the south side is 2-3 floors [1].
 
-As the last building within the quad to be constructed, not much budget was left for Pendleton Hall. To cut costs down by almost half, Pendleton’s exterior was designed with less ornamentation than other buildings within the quad [1]. The windows are entirely rectangular, while other buildings also include arched and lancet-like windows. Pinnacles, tracery, and other decoration were removed from Pendleton’s final design, which is evident particularly when comparing it with Green Hall [1].
+The Inventory Form (for Pendleton Hall specifically) points out that as the last building within the quad to be constructed, Pendleton didn't recieve much budget. To cut costs down by almost half, Pendleton's exterior was designed with less ornamentation than other buildings within the quad. The windows are entirely rectangular, while other buildings also include arched and lancet-like windows. Pinnacles, tracery, and other decoration were removed from the building's final design, which is evident particularly when comparing it with Green Hall.
 
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 27%; margin-right: 1%;">
-    <img src="images/Pendleton_front_2.JPG" alt="Pendleton Hall" style="height: auto;" />
-  </div>
-  <div style="width: 27%;">
     <img src="images/Founders.jpeg" alt="Founders Hall" style="height: auto;" />
   </div>
-  <div style="width: 45%; margin-left: 1%;">
+  <div style="width: 45%;">
     <img src="images/Green.jpeg" alt="Green Hall" style="height: auto;" />
+  </div>
+  <div style="width: 27%; margin-left: 1%;">
+    <img src="images/Pendleton_front_2.JPG" alt="Pendleton Hall" style="height: auto;" />
   </div>
 </div>
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 27%; margin-right: 1%;">
+    <p style="text-align: center">[6]</p>
+  </div>
+  <div style="width: 45%;">
+    <p style="text-align: center">[7]</p>
+  </div>
+  <div style="width: 27%; margin-left: 1%;">
     <p style="text-align: center; font-style: italic;">Jiang, Lily. April 2023.</p>
-  </div>
-  <div style="width: 27%;">
-    <p style="text-align: center">[9]</p>
-  </div>
-  <div style="width: 45%; margin-left: 1%;">
-    <p style="text-align: center">[10]</p>
   </div>
 </div>
 
-_In this side by side comparison, Founders Hall (middle) has arched windows and Green Hall (right) has pointed arched windows, while Pendleton (left) has only rectangular windows._
+<div style="display: block">
+  <p style="text-align: center; font-style: italic;">In this side by side comparison, Founders Hall (middle) has arched windows and Green Hall (right) has pointed arched windows, while Pendleton (left) has only rectangular windows.</p>
+</div>
 
 <br />
 
 ## Materials were rigorously and thoughtfully chosen to ensure a long-lasting building.
 
-Red brick is one of the distinguishing characteristics of Wellesley’s academic quad, visually uniting the buildings as a common element. At the advice of Professor Voss at MIT (an expert in construction methods), Pendleton’s water-struck, body-red brick was chosen through a rigorous process [5]. Over 100 bricks were tested for an ideal absorption of 5% in 48 hours [5].
+Red brick is one of the distinguishing characteristics of Wellesley’s academic quad, visually uniting the buildings as a common element. At the advice of Professor Voss at MIT (an expert in construction methods), Pendleton’s water-struck, body-red brick was chosen through a rigorous process. In a letter to President Pendleton, Voss specifically recommended testing over 100 bricks for an ideal absorption of 5% in 48 hours.
 
-Complementing the red brick, cream-colored Indiana limestone was chosen to complete the facade [1]. Pendleton’s copings, window surrounds, entrance surrounds, and various other trim all consist of this material.
+To complement the red brick, cream-colored Indiana limestone was chosen to complete the facade [1]. Pendleton’s copings, window surrounds, entrance surrounds, and various other trim all consist of this material.
 
 <!-- talk a bit more about this. and can even talk about the shale and metal in the roof -->
 
-Overall, much emphasis was placed upon choosing the materials Pendleton was constructed from to ensure the building was durable and long-lasting. Today, many decades after its construction, Pendleton’s facade remains visibly well-maintained, a testament to the forethought and intentionality that went into its design.
+Overall, much emphasis was placed upon choosing the materials Pendleton was constructed from to ensure the building was durable and long-lasting. Today, many decades after its construction, Pendleton’s facade remains well-maintained, a testament to the forethought and intentionality that went into its design.
 
 <br />
 
-![](images/Pendleton_far.JPG)
-
-_Jiang, Lily. April 2023. Pendleton Hall, as viewed from the southern side of the quad. The red brick is one of the most promiment features of the building._
+<div style="display: flex; justify-content: space-between;">
+  <div style="width: 48%; margin-right: 1%;">
+    <img src="images/Pendleton_far_old.jpg" alt="Pendleton Hall, 1989" style="height: auto;" />
+  </div>
+  <div style="width: 50%;">
+    <img src="images/Pendleton_far.JPG" alt="Pendleton Hall, 2023" style="height: auto;" />
+  </div>
+</div>
+<div style="display: flex; justify-content: space-between;">
+  <div style="width: 48%; margin-right: 1%;">
+    <p style="text-align: center; font-style: italic;">Pendleton Hall, 1989. Image from the Pendleton Hall Inventory Form. Wellesley College Archives.</p>
+  </div>
+  <div style="width: 50%;">
+    <p style="text-align: center; font-style: italic;">Pendleton Hall, 2023. Image from Lily Jiang. The facade is pretty much identical to the 1989 picture.</p>
+  </div>
+</div>
 
 <br />
 
-## In planning the building, it was remembered that “humans are more precious than equipment”.
+## In planning the building, it was remembered that “humans are more precious than equipment” [2].
 
-<!-- that quote above is from the publicity office -->
+Designed as an academic building, Pendleton’s interior was specifically curated to cater to Wellesley’s innovative academic program. The design also prioritized the comfort of the people utilizing the space. According to physics professor Louise McDowell's publication about Pendleton's physics facilities, planning Pendleton involved 3 principles: convenience of arrangement, completeness of equipment, and comfort of the users [2].
 
-Designed as an academic building, Pendleton’s interior was specifically curated to cater to Wellesley’s innovative academic program. The design also prioritized the comfort of the people utilizing the space. Planning Pendleton involved 3 principles: convenience of arrangement, completeness of equipment, and comfort of the users [2].
+As one of the pioneers in physics education (McDowell noted that Wellesley was one of the first colleges to offer a lab-based physics curriculum), much emphasis was placed on the physical equipment available to students. From the apparatus rooms designed with convenience in mind to the impressive electrical distribution system servicing all uses in all rooms, the physics department was well-suited to support innovation.
 
-As one of the pioneers in physics education (Wellesley was one of the first colleges to offer a lab-based physics curriculum), much emphasis was placed on the physical equipment available to students [2]. From the apparatus rooms designed with convenience in mind to the impressive electrical distribution system servicing all uses in all rooms, the physics department was well-suited to support innovation [2].
-
-Each of the wings in Pendleton were designed specific to their purposes in the following ways [2]:
+McDowell's discussion of Pendleton points out the specific features of each wing, designed for their respective purposes:
 
 <br />
 
@@ -110,7 +123,7 @@ Each of the wings in Pendleton were designed specific to their purposes in the f
 
 <br />
 
-But beyond the wealth of knowledge and tools available, Pendleton's design is notable for prioritizing the human experience of being in the rooms. Some notable accomodations are [2]:
+But beyond the wealth of knowledge and tools available, Pendleton's design is notable for prioritizing the human experience of being in the rooms. Some notable accomodations that McDowell notes are:
 
 * Posture chairs, deemed comfortable by 9/10 people and chosen after testing 57 types of chairs
 * Sanacoustic tiles in ceilings throughout
@@ -122,7 +135,7 @@ But beyond the wealth of knowledge and tools available, Pendleton's design is no
 
 ![A motorized blackboard is utilized at the front of the lecture hall.](images/Pendleton_blackboard.jpg)
 
-_Image from the Wellesley College Archives [11]. A motorized blackboard is utilized at the front of the lecture hall. To the right is the electric panel for the room, connected to the distribution board._
+_Image from the Wellesley College Archives [8]. A motorized blackboard is utilized at the front of the lecture hall. To the right is the electric panel for the room, connected to the distribution board._
 
 
 <br />
@@ -131,9 +144,9 @@ _Image from the Wellesley College Archives [11]. A motorized blackboard is utili
 
 Nowadays, Pendleton is not occupied by any science departments. The construction of the Science Center in 1977 resulted in the relocation of the physics and chemistry departments [1]. Replacing these vacancies were social sciences and humanities in Pendleton East, and various arts in Pendleton West. The original benefits of the Collegiate Gothic style for lab spaces applied easily to the new art studios, as the windows provide ample natural light and the ability to partition the space allowed for well-sized studios.
 
-Completed in 2017, renovation plans for Pendleton West converted the original lab spaces into art studios and spaces [6]. This renovation included a modern addition to the original wing, with large floor-to-ceiling windows, exposed concrete walls, and wood accents. But most importantly, the addition involved a sky bridge connecting the arts of Pendleton West to the arts of Jewett, effectively unifying the two and pushing for overlaps in curriculum [7].
+Completed in 2017, renovation plans for Pendleton West converted the original lab spaces into art studios and spaces [9]. This renovation included a modern addition to the original wing, with large floor-to-ceiling windows, exposed concrete walls, and wood accents. But most importantly, the addition involved a sky bridge connecting the arts of Pendleton West to the arts of Jewett, effectively unifying the two and pushing for overlaps in curriculum [10].
 
-In Spring 2022, after years of failing HVAC systems that would flood offices and destroy important items, Pendleton East was closed down for "critical repairs" [8]. As of April 2023, this half of Pendleton is still closed, forcing the social sciences/humanities departments to operate out of temporary modular buildings [8].
+In Spring 2022, after years of failing HVAC systems that would flood offices and destroy important items, Pendleton East was closed down for "critical repairs" [11]. As of April 2023, this half of Pendleton is still closed, forcing the social sciences/humanities departments to operate out of temporary modular buildings [11].
 
 <br />
 
@@ -144,6 +157,8 @@ _Jiang, Lily. April 2023. Pendleton's central door. A sign informs that the cent
 <br />
 
 Overall, Pendleton Hall is a remarkable example of how architecture can affect the academic experience by providing beautiful and functional spaces for learning, studies, and research. Despite originally being constructed with a limited budget, Pendleton remains well-maintained and visually impressive due to the sheer amount of careful planning that went into its design. And as a beautiful example of Collegiate Gothic architecture, Pendleton continues to uphold the distinguished academic environment of Wellesley College today as an arts, social sciences, and humanities academic building.
+
+<br />
 
 
 ## Sources
@@ -166,22 +181,21 @@ Overall, Pendleton Hall is a remarkable example of how architecture can affect t
 <!-- manuscript -->
 5. Hodges, C.B. _Re: Leaky Buildings, January 23, 1934_. Letter. Wellesley: Office of the Business Manager at Wellesley College, January 23, 1934. From Wellesley College Archives, Library and Technology Services, President's Office, Pendleton Hall (1934-38).
 
-<!-- website -->
-6. "Pendleton West Reopens as New Collaborative Arts Center." Spotlight on Wellesley. October 19, 2017. Accessed April 24, 2023. https://www.wellesley.edu/news/2017/node/131246.
-
-<!-- website -->
-7. "Pendleton West Renovation and Addition." Kieran Timberlake. Accessed April 24, 2023. https://kierantimberlake.com/page/pendleton-west.
-
-<!-- website -->
-8. Valida Pau. "Pendleton East Closure Displaces Social Science Departments." The Wellesley News. February 8, 2023. Accessed April 24, 2023. https://thewellesleynews.com/2023/02/08/pendleton-east-closure-displaces-social-science-departments/.
-
 <!-- online image -->
-9. Pettit, Betsy & Peter Baker. Wellesley College Founders Hall. Building Science, https://buildingscience.com/project/wellesley-college-founders-hall. Accessed April 24, 2023.
+6. Pettit, Betsy & Peter Baker. Wellesley College Founders Hall. Building Science, https://buildingscience.com/project/wellesley-college-founders-hall. Accessed April 24, 2023.
 <!-- Last name, First name of the creator. Title of the Image. Year Created. Medium. Website Name, URL. Accessed Date. -->
 
 <!-- online image -->
-10. Wellesley College Administration, https://www.wellesley.edu/administration/offices. Accessed April 24, 2023.
+7. Wellesley College Administration, https://www.wellesley.edu/administration/offices. Accessed April 24, 2023.
 
 <!-- newspaper article -->
-11. Walsh, Elizabeth B. _Pendleton Hall, Wellesley College_. Newspaper article. From Wellesley College Archives, Library and Technology Services, Publicity Office, Buildings: Pendleton (1934-36).
+8. Walsh, Elizabeth B. _Pendleton Hall, Wellesley College_. Newspaper article. From Wellesley College Archives, Library and Technology Services, Publicity Office, Buildings: Pendleton (1934-36).
 
+<!-- website -->
+9. "Pendleton West Reopens as New Collaborative Arts Center." Spotlight on Wellesley. October 19, 2017. Accessed April 24, 2023. https://www.wellesley.edu/news/2017/node/131246.
+
+<!-- website -->
+10. "Pendleton West Renovation and Addition." Kieran Timberlake. Accessed April 24, 2023. https://kierantimberlake.com/page/pendleton-west.
+
+<!-- website -->
+11. Valida Pau. "Pendleton East Closure Displaces Social Science Departments." The Wellesley News. February 8, 2023. Accessed April 24, 2023. https://thewellesleynews.com/2023/02/08/pendleton-east-closure-displaces-social-science-departments/.
