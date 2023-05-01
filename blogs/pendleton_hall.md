@@ -114,12 +114,12 @@ McDowell's discussion of Pendleton points out the specific features of each wing
 
 <br />
 
-| Pendleton West (Chemistry) | Pendleton East (Physics/Psychology) |
-|----------------------------|------------------------------------|
-| 2 large fans in the attic for pumping fumes | Acoustic ceiling tiles in various rooms |
-| Acid-proof finishes on all tables and cabinets | Bottom floor has machine/wood shops, dark rooms, glass blowing shop, and cooler stuff |
-| Chemical labs on the top floor for efficient fume removal | Electric system: large distribution board in the basement, used both for the actual infrastructure of the building and for electricity experiments |
-| Stock rooms on every floor are in the same place, serviced by an elevator | Meteorology equipment and labs on the 2nd floor |
+| Pendleton West (Chemistry)                                                | Pendleton East (Physics/Psychology)                                                                                                                |
+| ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2 large fans in the attic for pumping fumes                               | Acoustic ceiling tiles in various rooms                                                                                                            |
+| Acid-proof finishes on all tables and cabinets                            | Bottom floor has machine/wood shops, dark rooms, glass blowing shop, and cooler stuff                                                              |
+| Chemical labs on the top floor for efficient fume removal                 | Electric system: large distribution board in the basement, used both for the actual infrastructure of the building and for electricity experiments |
+| Stock rooms on every floor are in the same place, serviced by an elevator | Meteorology equipment and labs on the 2nd floor                                                                                                    |
 
 <br />
 
@@ -165,46 +165,69 @@ Overall, Pendleton Hall is a remarkable example of how architecture can affect t
 ## Sources
 <!-- chicago style -->
 
-1. Schuler, Gretchen. _Pendleton Hall Physics & Chemistry Building_. Inventory Form Continuation Sheet, page 1. Boston: Massachusetts Historical Commission, March 1989. From Wellesley College Archives, Library and Technology Services, Buildings, Wellesley College Area A #1-5.
-
-2. Schuler, Gretchen. _Pendleton Hall Physics & Chemistry Building_. Inventory Form Continuation Sheet, page 1. Boston: Massachusetts Historical Commission, March 1989. From Wellesley College Archives, Library and Technology Services, Buildings, Wellesley College Area A #1-5.
-
-3. Schuler, Gretchen. _Pendleton Hall Physics & Chemistry Building_. Inventory Form Continuation Sheet, page 2. Boston: Massachusetts Historical Commission, March 1989. From Wellesley College Archives, Library and Technology Services, Buildings, Wellesley College Area A #1-5.
-
-4. McDowell, Louise S. "Physics at Wellesley." American Journal of Physics 91 No. 4 (May 1, 1936): 57–61. https://doi.org/10.1119/1.1999067.
-
-5. Schuler, Gretchen. _Pendleton Hall Physics & Chemistry Building_. Inventory Form Continuation Sheet, cover page. Boston: Massachusetts Historical Commission, March 1989. From Wellesley College Archives, Library and Technology Services, Buildings, Wellesley College Area A #1-5.
-
-6. Schuler, Gretchen. _Academic Quadrangle_. Inventory Form Continuation Sheet, page 4. Boston: Massachusetts Historical Commission, March 1989. From Wellesley College Archives, Library and Technology Services, Buildings, Wellesley College Area A #1-5.
-
-7. _Cornerstone Ceremonies: Pendleton Hall - Monday, December 3, 1934._ Newspaper. Wellesley: Office of Publicity, December 3, 1934. From Wellesley College Archives, Library and Technology Services, President's Office, Pendleton Hall (1934-38).
-
-8. Schuler, Gretchen. _Pendleton Hall Physics & Chemistry Building_. Inventory Form Continuation Sheet, page 2. Boston: Massachusetts Historical Commission, March 1989. From Wellesley College Archives, Library and Technology Services, Buildings, Wellesley College Area A #1-5.
-
-9. McDowell, Louise S. "Physics at Wellesley." American Journal of Physics 91 No. 4 (May 1, 1936): 57–61. https://doi.org/10.1119/1.1999067.
-
-10. Walsh, Elizabeth B. _Pendleton Hall, Wellesley College_. Newspaper article. From Wellesley College Archives, Library and Technology Services, Publicity Office, Buildings: Pendleton (1934-36).
-
-11. Schuler, Gretchen. _Pendleton Hall Physics & Chemistry Building_. Inventory Form Continuation Sheet. Boston: Massachusetts Historical Commission, March 1989. From Wellesley College Archives, Library and Technology Services, Buildings, Wellesley College Area A #1-5.
-
-12. Pettit, Betsy & Peter Baker. Wellesley College Founders Hall. Building Science, https://buildingscience.com/project/wellesley-college-founders-hall. Accessed April 24, 2023.
-
-13. Wellesley College Administration, https://www.wellesley.edu/administration/offices. Accessed April 24, 2023.
-
-14. McDowell, Louise S. "Physics at Wellesley." American Journal of Physics 91 No. 4 (May 1, 1936): 57–61. https://doi.org/10.1119/1.1999067.
-
-15. Schuler, Gretchen. _Pendleton Hall Physics & Chemistry Building_. Inventory Form Continuation Sheet. Boston: Massachusetts Historical Commission, March 1989. From Wellesley College Archives, Library and Technology Services, Buildings, Wellesley College Area A #1-5.
-
-16. McDowell, Louise S. "Physics at Wellesley." American Journal of Physics 91 No. 4 (May 1, 1936): 57–61. https://doi.org/10.1119/1.1999067.
-
-17. McDowell, Louise S. "Physics at Wellesley." American Journal of Physics 91 No. 4 (May 1, 1936): 57–61. https://doi.org/10.1119/1.1999067.
-
-18. Walsh, Elizabeth B. _Pendleton Hall, Wellesley College_. Newspaper article. From Wellesley College Archives, Library and Technology Services, Publicity Office, Buildings: Pendleton (1934-36).
-
-19. Schuler, Gretchen. _Pendleton Hall Physics & Chemistry Building_. Inventory Form Continuation Sheet. Boston: Massachusetts Historical Commission, March 1989. From Wellesley College Archives, Library and Technology Services, Buildings, Wellesley College Area A #1-5.
-
-20. "Pendleton West Reopens as New Collaborative Arts Center." Spotlight on Wellesley. October 19, 2017. Accessed April 24, 2023. https://www.wellesley.edu/news/2017/node/131246.
-
-21. "Pendleton West Renovation and Addition." Kieran Timberlake. Accessed April 24, 2023. https://kierantimberlake.com/page/pendleton-west.
-
-22. Valida Pau. "Pendleton East Closure Displaces Social Science Departments." The Wellesley News. February 8, 2023. Accessed April 24, 2023. https://thewellesleynews.com/2023/02/08/pendleton-east-closure-displaces-social-science-departments/.
+1. Schuler, Gretchen. _Pendleton Hall Physics & Chemistry Building_. Inventory
+   Form Continuation Sheet, page 1. Boston: Massachusetts Historical
+   Commission, March 1989. From Wellesley College Archives, Library and
+   Technology Services, Buildings, Wellesley College Area A #1-5.
+2. Schuler, Gretchen. _Pendleton Hall Physics & Chemistry Building_. Inventory
+   Form Continuation Sheet, page 1. Boston: Massachusetts Historical
+   Commission, March 1989. From Wellesley College Archives, Library and
+   Technology Services, Buildings, Wellesley College Area A #1-5.
+3. Schuler, Gretchen. _Pendleton Hall Physics & Chemistry Building_. Inventory
+   Form Continuation Sheet, page 2. Boston: Massachusetts Historical
+   Commission, March 1989. From Wellesley College Archives, Library and
+   Technology Services, Buildings, Wellesley College Area A #1-5.
+4. McDowell, Louise S. "Physics at Wellesley." American Journal of Physics 91
+   No. 4 (May 1, 1936): 57–61. https://doi.org/10.1119/1.1999067.
+5. Schuler, Gretchen. _Pendleton Hall Physics & Chemistry Building_. Inventory
+   Form Continuation Sheet, cover page. Boston: Massachusetts Historical
+   Commission, March 1989. From Wellesley College Archives, Library and
+   Technology Services, Buildings, Wellesley College Area A #1-5.
+6. Schuler, Gretchen. _Academic Quadrangle_. Inventory Form Continuation Sheet,
+   page 4. Boston: Massachusetts Historical Commission, March 1989. From
+   Wellesley College Archives, Library and Technology Services, Buildings,
+   Wellesley College Area A #1-5.
+7. _Cornerstone Ceremonies: Pendleton Hall - Monday, December 3, 1934._
+   Newspaper. Wellesley: Office of Publicity, December 3, 1934. From Wellesley
+   College Archives, Library and Technology Services, President's Office,
+   Pendleton Hall (1934-38).
+8. Schuler, Gretchen. _Pendleton Hall Physics & Chemistry Building_. Inventory
+   Form Continuation Sheet, page 2. Boston: Massachusetts Historical
+   Commission, March 1989. From Wellesley College Archives, Library and
+   Technology Services, Buildings, Wellesley College Area A #1-5.
+9. McDowell, Louise S. "Physics at Wellesley." American Journal of Physics 91
+   No. 4 (May 1, 1936): 57–61. https://doi.org/10.1119/1.1999067.
+10. Walsh, Elizabeth B. _Pendleton Hall, Wellesley College_. Newspaper
+   article. From Wellesley College Archives, Library and Technology Services,
+   Publicity Office, Buildings: Pendleton (1934-36).
+11. Schuler, Gretchen. _Pendleton Hall Physics & Chemistry Building_. Inventory
+   Form Continuation Sheet. Boston: Massachusetts Historical Commission, March
+   1989. From Wellesley College Archives, Library and Technology Services,
+   Buildings, Wellesley College Area A #1-5.
+12. Pettit, Betsy & Peter Baker. Wellesley College Founders Hall. Building
+   Science, https://buildingscience.com/project/wellesley-college-founders-hall.
+   Accessed April 24, 2023.
+13. Wellesley College Administration, https://www.wellesley.edu/administration/offices.
+   Accessed April 24, 2023.
+14. McDowell, Louise S. "Physics at Wellesley." American Journal of Physics 91
+   No. 4 (May 1, 1936): 57–61. https://doi.org/10.1119/1.1999067.
+15. Schuler, Gretchen. _Pendleton Hall Physics & Chemistry Building_. Inventory
+  Form Continuation Sheet. Boston: Massachusetts Historical Commission, March
+  1989. From Wellesley College Archives, Library and Technology Services,
+  Buildings, Wellesley College Area A #1-5.
+16. McDowell, Louise S. "Physics at Wellesley." American Journal of Physics 91
+  No. 4 (May 1, 1936): 57–61. https://doi.org/10.1119/1.1999067.
+17. McDowell, Louise S. "Physics at Wellesley." American Journal of Physics 91
+  No. 4 (May 1, 1936): 57–61. https://doi.org/10.1119/1.1999067.
+18. Walsh, Elizabeth B. _Pendleton Hall, Wellesley College_. Newspaper article.
+  From Wellesley College Archives, Library and Technology Services, Publicity
+  Office, Buildings: Pendleton (1934-36).
+19. Schuler, Gretchen. _Pendleton Hall Physics & Chemistry Building_. Inventory
+  Form Continuation Sheet. Boston: Massachusetts Historical Commission, March 1989.
+  From Wellesley College Archives, Library and Technology Services, Buildings,
+  Wellesley College Area A #1-5.
+20. "Pendleton West Reopens as New Collaborative Arts Center." Spotlight on
+   Wellesley. October 19, 2017. Accessed April 24, 2023.
+   https://www.wellesley.edu/news/2017/node/131246.
+21.  "Pendleton West Renovation and Addition." Kieran Timberlake. Accessed April 24, 2023. https://kierantimberlake.com/page/pendleton-west.
+22.  Valida Pau. "Pendleton East Closure Displaces Social Science Departments." The Wellesley News. February 8, 2023. Accessed April 24, 2023. https://thewellesleynews.com/2023/02/08/pendleton-east-closure-displaces-social-science-departments/.
