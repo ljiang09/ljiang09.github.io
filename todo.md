@@ -12,6 +12,8 @@ figure out how to make the entire website function properly on other browsers
 
 add light/dark mode toggle in subpages too
 
+For dark mode in usbpages, convert all mix=blend-mode things to the removeBg class
+
 invert some picture's colors for dark mode?
 
 in nav bar, add a search engine and up arrow to bring user to top of page

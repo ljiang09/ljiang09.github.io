@@ -1,16 +1,16 @@
-/* manages styling */
 
 
-/* constants */
 :root {
   --white: #FFFFFF;
   --black: #000000;
   --background-1: #EAE7DC;
   --background-2: #D8C3A5;
+  --background-3: #FFFFFF;
   --text-color: #8E8D8A;
   --text-color-2: var(--black);
   --primary-1: #E85A4F;
   --primary-2: #E98074;
+  --box-shadow-color: rgba(0, 0, 0, 0.4);
 }
 
 
@@ -91,14 +91,14 @@ a.jumpTo:hover {
 
 a.projectCard {
   display: inline-block;
-  color: var(--black);
-  background-color: var(--white);
+  color: var(--text-color);
+  background-color: var(--background-3);
   width: 20vw;
   height: 24vw;
   border-radius: 1.2vw;
   overflow: hidden;
   text-decoration: none;
-  box-shadow: 4px 4px 4px 2px var(--text-color);
+  box-shadow: 4px 4px 4px 2px var(--box-shadow-color);
 }
 
 a.projectCard:hover {
@@ -117,13 +117,13 @@ a.projectCard:hover {
 .projectText {
   margin-top: 0;
   margin-bottom: 0.5vw;
-  color: var(--text-color);
+  /* color: var(--text-color); */
   font-size: 2vw;
 }
 
 .projectDate {
   margin-top: 0;
-  color: var(--text-color);
+  /* color: var(--text-color); */
   font-size: 1.4vw;
 }
 
@@ -227,7 +227,7 @@ p {
   margin-right: 1.5vw;
   text-decoration: none;
   border-radius: 1vw;
-  box-shadow: 2px 2px 2px 1px var(--text-color);
+  box-shadow: 2px 2px 2px 1px var(--box-shadow-color);
 }
 
 .repoButton:hover {
@@ -281,6 +281,11 @@ a.greenLink:hover, a.greenLink:visited {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.removeBg {
+  opacity: 0.99;
+  /* mix-blend-mode: multiply; */
 }
 
 
