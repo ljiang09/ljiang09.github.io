@@ -5,10 +5,12 @@
   --black: #000000;
   --background-1: #EAE7DC;
   --background-2: #D8C3A5;
+  --background-3: #FFFFFF;
   --text-color: #8E8D8A;
   --text-color-2: #FFFFFF;
   --primary-1: #E85A4F;
   --primary-2: #E98074;
+  --box-shadow-color: rgba(0, 0, 0, 0.4);
 
   --bg-1-filter: invert(98%) sepia(32%) saturate(209%) hue-rotate(325deg) brightness(98%) contrast(86%);
   --toggle: var(--background-1);
@@ -209,7 +211,7 @@ a.readMore:hover {
 
 /* technical skills section */
 .skillsSection {
-  background-color: var(--white);
+  background-color: var(--background-3);
   border-radius: 3vw;
   border-style: solid;
   border-color: var(--text-color);
@@ -285,14 +287,14 @@ a.readMore:hover {
 a.projectCard {
   display: inline-block;
   color: var(--black);
-  background-color: var(--white);
+  background-color: var(--background-3);
   width: 25vw;
   height: 30vw;
   border-radius: 1.5vw;
   margin: 1.5vw;
   overflow: hidden;
   text-decoration: none;
-  box-shadow: 5px 5px 5px 2px var(--text-color);
+  box-shadow: 5px 5px 5px 2px var(--box-shadow-color);
 }
 
 a.projectCard:hover {
