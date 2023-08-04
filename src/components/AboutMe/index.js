@@ -1,6 +1,5 @@
 import useStyles from "./styles.js";
-import { Typography, Button } from "@material-ui/core";
-import { Email, LinkedIn, GitHub } from "@mui/icons-material";
+import { Typography } from "@material-ui/core";
 
 const AboutMe = () => {
   const classes = useStyles();
