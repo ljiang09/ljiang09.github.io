@@ -2,7 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import theme from "../../theme";
 
 const useStyles = makeStyles(() => ({
-  intro: {
+  root: {
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",

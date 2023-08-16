@@ -1,6 +1,9 @@
 import { createTheme } from "@material-ui/core/styles";
 
 const theme = createTheme({
+  typography: {
+    fontFamily: "Ubuntu, sans-serif",
+  },
   palette: {
     primary: {
       main: "#e85a4f",

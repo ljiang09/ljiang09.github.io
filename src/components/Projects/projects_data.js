@@ -1,0 +1,101 @@
+import {
+  AutonomousRobot,
+  BajaUJoint,
+  DesktopPet,
+  Keylogger,
+  LineFollower,
+  MakeupGuide,
+  PanTiltScanner,
+  RushHour,
+  Sebela,
+  SteveRun,
+  TowLabWaterTank,
+} from "../../media/projectIcons/index.js";
+
+export const TAGS = {
+  SOFTWARE: "Software",
+  IOS: "iOS",
+  FIRMWARE: "Firmware",
+  MECHANICAL: "Mechanical",
+  COURSE_PROJECTS: "Course Projects",
+};
+
+export const projects = [
+  {
+    name: "Network Keylogger",
+    date: "2023",
+    imgUrl: Keylogger,
+    pageUrl: "",
+    tags: [TAGS.SOFTWARE, TAGS.COURSE_PROJECTS],
+  },
+  {
+    name: "Desktop Pet",
+    date: "2023",
+    imgUrl: DesktopPet,
+    pageUrl: "",
+    tags: [TAGS.SOFTWARE, TAGS.COURSE_PROJECTS],
+  },
+  {
+    name: "Sebela",
+    date: "2021-2023",
+    imgUrl: Sebela,
+    pageUrl: "",
+    tags: [TAGS.SOFTWARE, TAGS.IOS],
+  },
+  {
+    name: "Autonomous Robot",
+    date: "2022",
+    imgUrl: AutonomousRobot,
+    pageUrl: "autonomousRobot",
+    tags: [TAGS.FIRMWARE, TAGS.COURSE_PROJECTS],
+  },
+  {
+    name: "Baja Drivetrain",
+    date: "2021-2023",
+    imgUrl: BajaUJoint,
+    pageUrl: "",
+    tags: [TAGS.MECHANICAL],
+  },
+  {
+    name: "Line Following Robot",
+    date: "2022",
+    imgUrl: LineFollower,
+    pageUrl: "",
+    tags: [TAGS.FIRMWARE, TAGS.COURSE_PROJECTS],
+  },
+  {
+    name: "Makeup Guide",
+    date: "2022",
+    imgUrl: MakeupGuide,
+    pageUrl: "",
+    tags: [TAGS.SOFTWARE, TAGS.IOS],
+  },
+  {
+    name: "3D Pan-Tilt Scanner",
+    date: "2022",
+    imgUrl: PanTiltScanner,
+    pageUrl: "",
+    tags: [TAGS.FIRMWARE, TAGS.COURSE_PROJECTS],
+  },
+  {
+    name: "Rush Hour Analysis",
+    date: "2022",
+    imgUrl: RushHour,
+    pageUrl: "",
+    tags: [TAGS.SOFTWARE, TAGS.COURSE_PROJECTS],
+  },
+  {
+    name: "Steve Run",
+    date: "2022",
+    imgUrl: SteveRun,
+    pageUrl: "",
+    tags: [TAGS.SOFTWARE, TAGS.COURSE_PROJECTS],
+  },
+  {
+    name: "Reverse Osmosis",
+    date: "2022",
+    imgUrl: TowLabWaterTank,
+    pageUrl: "",
+    tags: [TAGS.MECHANICAL],
+  },
+];

@@ -6,7 +6,7 @@ const Intro = () => {
   const classes = useStyles();
 
   return (
-    <div className={classes.intro}>
+    <div className={classes.root}>
       <Typography className={classes.title}>Hi! I'm Lily Jiang.</Typography>
       <Typography className={classes.subtitle}>
         Engineering with Computing student at Olin College.
