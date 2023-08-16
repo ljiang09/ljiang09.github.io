@@ -22,8 +22,6 @@ const useStyles = makeStyles(() => ({
     // TODO: change this into a responsive sizing. breakpoints
     "& .MuiGrid-item": {
       borderRadius: "20px",
-      background: "white",
-      boxShadow: "0 0 20px " + theme.palette.text.primary,
       marginBottom: "50px",
       "& a": {
         textDecoration: "none",
@@ -36,6 +34,15 @@ const useStyles = makeStyles(() => ({
     display: "flex",
     flexDirection: "column",
     gap: "20px",
+    background: "white",
+    borderRadius: "20px",
+    boxShadow: "0 0 20px " + theme.palette.text.primary,
+    "&:hover": {
+      background: theme.palette.background.gray,
+    },
+    "&:active": {
+      boxShadow: "0 0 10px " + theme.palette.text.primary,
+    },
   },
   projectImage: {
     width: "275px",
