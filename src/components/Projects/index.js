@@ -32,7 +32,14 @@ const Projects = () => {
   return (
     <div className={classes.root}>
       <Typography className={classes.header}>Projects</Typography>
-      <Tabs value={tabIndex} onChange={handleTabChange}>
+      <Tabs
+        value={tabIndex}
+        onChange={handleTabChange}
+        className={classes.tabs}
+        TabIndicatorProps={{
+          className: classes.tabIndicator,
+        }}
+      >
         {tabOrder.map((tab) => (
           <Tab label={tab} />
         ))}

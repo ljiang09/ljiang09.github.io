@@ -11,8 +11,30 @@ const useStyles = makeStyles(() => ({
     paddingTop: "100px",
   },
   header: {
-    fontSize: 50,
+    fontSize: 60,
     color: theme.palette.primary.main,
+    marginBottom: "10px",
+  },
+  tabs: {
+    background: theme.palette.primary.main,
+    color: "white",
+    width: "100%",
+    "& button": {
+      fontSize: "30px",
+      padding: "10px 15px",
+      margin: "5px",
+      textTransform: "none",
+    },
+    "& .MuiTabs-flexContainer": {
+      display: "flex",
+      justifyContent: "center",
+    },
+  },
+  tabIndicator: {
+    background: "white",
+    height: "3px",
+    borderRadius: "1px",
+    marginBottom: "5px",
   },
   projects: {
     width: "80vw !important",
