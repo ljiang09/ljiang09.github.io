@@ -16,13 +16,13 @@ const useStyles = makeStyles(() => ({
   },
   projects: {
     width: "80vw !important",
-    margin: "50px auto",
     display: "flex",
-    justifyContent: "space-between !important",
+    justifyContent: "start",
+    gap: "50px",
+    marginTop: "50px",
     // TODO: change this into a responsive sizing. breakpoints
     "& .MuiGrid-item": {
       borderRadius: "20px",
-      marginBottom: "50px",
       "& a": {
         textDecoration: "none",
       },
