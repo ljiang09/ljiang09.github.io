@@ -9,7 +9,7 @@ import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills/index.js";
 import Projects from "./components/Projects/index.js";
 
-import AutonomousRobot from "./projectPages/AutonomousRobot/index.js";
+import ProjectPages from "./projectPages/index.js";
 
 function App() {
   const classes = useStyles();
@@ -17,24 +17,26 @@ function App() {
   return (
     <BrowserRouter>
       <ThemeProvider theme={theme}>
-        <div className={classes.root}>
-          <Intro />
-          <AboutMe />
-          <div className={classes.skillsBackground}>
-            <Skills
-              style={{
-                margin: "auto",
-              }}
-            />
-          </div>
-          <Projects />
-        </div>
         <Routes>
           <Route
             exact
-            path="/subpages/autonomousRobot"
-            element={<AutonomousRobot />}
+            path=""
+            element={
+              <div className={classes.root}>
+                <Intro />
+                <AboutMe />
+                <div className={classes.skillsBackground}>
+                  <Skills
+                    style={{
+                      margin: "auto",
+                    }}
+                  />
+                </div>
+                <Projects />
+              </div>
+            }
           />
+          <Route path="/subpages/:subpage" element={<ProjectPages />} />
         </Routes>
       </ThemeProvider>
     </BrowserRouter>
