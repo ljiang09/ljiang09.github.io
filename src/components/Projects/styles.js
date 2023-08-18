@@ -31,8 +31,8 @@ const useStyles = makeStyles(() => ({
     },
   },
   tabIndicator: {
-    background: "white",
-    height: "3px",
+    background: "white !important",
+    height: "3px !important",
     borderRadius: "1px",
     marginBottom: "5px",
   },

@@ -26,6 +26,8 @@ const useStyles = makeStyles(() => ({
   icon: {
     marginLeft: "5px",
     fontSize: "30px",
+    transition: "transform 0.3s ease",
+    transform: ({ open }) => (open ? "rotate(-180deg)" : ""),
   },
   menu: {
     maxHeight: "300px",

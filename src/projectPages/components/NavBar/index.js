@@ -7,11 +7,12 @@ import { projects } from "../../../components/Projects/projects_data.js";
 import useStyles from "./styles.js";
 
 const NavBar = () => {
-  const classes = useStyles();
   const navigate = useNavigate();
 
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
+
+  const classes = useStyles({ open });
 
   const handleHomeClick = () => {
     navigate("/");
@@ -36,7 +37,6 @@ const NavBar = () => {
       </Button>
       <Button onClick={handleProjectsOpen} className={classes.projectsBtn}>
         Projects
-        {/* TODO: this should change to up icon when menu is open */}
         <KeyboardArrowDownIcon className={classes.icon} />
       </Button>
       <Menu
