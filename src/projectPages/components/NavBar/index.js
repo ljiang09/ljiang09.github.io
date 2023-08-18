@@ -27,7 +27,11 @@ const NavBar = () => {
   };
 
   const handleProjectsClick = (pageUrl) => {
-    navigate(`/subpages/${pageUrl}`);
+    if (pageUrl.includes("http")) {
+      window.open(pageUrl, "_blank");
+    } else {
+      navigate(`/subpages/${pageUrl}`);
+    }
   };
 
   return (
