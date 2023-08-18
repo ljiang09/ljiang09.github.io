@@ -9,7 +9,7 @@ const ViewMoreProjects = ({ type }) => {
     case TAGS.SOFTWARE:
     case TAGS.IOS:
       break;
-    case TAGS.FIRMWARE:
+    case TAGS.ROBOTICS:
       break;
     case TAGS.MECHANICAL:
       break;

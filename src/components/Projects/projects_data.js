@@ -11,16 +11,18 @@ import {
   SteveRunIcon,
   TowLabWaterTankIcon,
 } from "../../media/projectIcons/index.js";
-import ProjectPages from "../../projectPages/index.js";
 import {
   NetworkKeyloggerData,
   DesktopPetData,
+  SebelaData,
+  BajaData,
+  LineFollowerData,
 } from "../../projectPages/data/index.js";
 
 export const TAGS = {
   SOFTWARE: "Software",
   IOS: "iOS",
-  FIRMWARE: "Firmware",
+  ROBOTICS: "Robotics",
   MECHANICAL: "Mechanical",
   COURSE_PROJECTS: "Course Projects",
 };
@@ -47,7 +49,7 @@ export const projects = [
     date: "2021-2023",
     imgUrl: SebelaIcon,
     pageUrl: "sebelaApp",
-    content: <>Sebela</>,
+    content: SebelaData,
     tags: [TAGS.SOFTWARE, TAGS.IOS],
   },
   {
@@ -55,23 +57,23 @@ export const projects = [
     date: "2022",
     imgUrl: AutonomousRobotIcon,
     pageUrl: "https://supah32.github.io/pie-2022-03/",
-    tags: [TAGS.FIRMWARE, TAGS.COURSE_PROJECTS],
+    tags: [TAGS.ROBOTICS, TAGS.COURSE_PROJECTS],
   },
-  {
-    name: "Baja Drivetrain",
-    date: "2021-2023",
-    imgUrl: BajaUJointIcon,
-    pageUrl: "bajaDrivetrain",
-    content: <>Baja Drivetrain</>,
-    tags: [TAGS.MECHANICAL],
-  },
+  // {
+  //   name: "Baja Drivetrain",
+  //   date: "2021-2023",
+  //   imgUrl: BajaUJointIcon,
+  //   pageUrl: "bajaDrivetrain",
+  //   content: BajaData,
+  //   tags: [TAGS.MECHANICAL],
+  // },
   {
     name: "Line Following Robot",
     date: "2022",
     imgUrl: LineFollowerIcon,
     pageUrl: "lineFollowerRobot",
-    content: <>Line Follower Robot</>,
-    tags: [TAGS.FIRMWARE, TAGS.COURSE_PROJECTS],
+    content: LineFollowerData,
+    tags: [TAGS.ROBOTICS, TAGS.COURSE_PROJECTS],
   },
   {
     name: "Makeup Guide",
@@ -87,7 +89,7 @@ export const projects = [
     imgUrl: PanTiltScannerIcon,
     pageUrl: "panTiltScanner",
     content: <>Pan Tilt Scanner</>,
-    tags: [TAGS.FIRMWARE, TAGS.COURSE_PROJECTS],
+    tags: [TAGS.ROBOTICS, TAGS.COURSE_PROJECTS],
   },
   {
     name: "Rush Hour Analysis",

@@ -50,11 +50,31 @@ const ProjectPages = () => {
                 <Button>View the GitHub Repo</Button>
               </a>
             )}
+            {data.additionalLink && (
+              <a
+                href={data.additionalLink}
+                target="_blank"
+                rel="noreferrer"
+                className={classes.repoButton}
+              >
+                <Button>Read More</Button>
+              </a>
+            )}
             {data.goals && (
               <>
                 <Typography className={classes.header2}>Goals</Typography>
                 {data.goals.map((goal) => (
                   <Typography className={classes.text}>{goal}</Typography>
+                ))}
+              </>
+            )}
+            {data.notableFeatures && (
+              <>
+                <Typography className={classes.header2}>
+                  Notable Features
+                </Typography>
+                {data.notableFeatures.map((feature) => (
+                  <Typography className={classes.text}>{feature}</Typography>
                 ))}
               </>
             )}
