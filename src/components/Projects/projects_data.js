@@ -11,7 +11,7 @@ import {
   SteveRunIcon,
   TowLabWaterTankIcon,
 } from "../../media/projectIcons/index.js";
-import AutonomousRobot from "../../projectPages/AutonomousRobot/index.js";
+import NetworkKeylogger from "../../projectPages/NetworkKeylogger/index.js";
 
 export const TAGS = {
   SOFTWARE: "Software",
@@ -27,7 +27,7 @@ export const projects = [
     date: "2023",
     imgUrl: KeyloggerIcon,
     pageUrl: "keylogger",
-    content: <>Keylogger</>,
+    content: <NetworkKeylogger />,
     tags: [TAGS.SOFTWARE, TAGS.COURSE_PROJECTS],
   },
   {
@@ -50,8 +50,7 @@ export const projects = [
     name: "Autonomous Robot",
     date: "2022",
     imgUrl: AutonomousRobotIcon,
-    pageUrl: "autonomousRobot",
-    content: <AutonomousRobot />,
+    pageUrl: "https://supah32.github.io/pie-2022-03/",
     tags: [TAGS.FIRMWARE, TAGS.COURSE_PROJECTS],
   },
   {

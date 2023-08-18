@@ -48,21 +48,39 @@ const Projects = () => {
       <Grid container className={classes.projects}>
         {displayedProjects.map((project) => (
           <Grid item>
-            <NavLink to={`/subpages/${project.pageUrl}`}>
-              <Button className={classes.link}>
-                <div>
-                  <div className={classes.projectImage}>
-                    <img src={project.imgUrl} alt={project.name} />
+            {project.content ? (
+              <NavLink to={`/subpages/${project.pageUrl}`}>
+                <Button className={classes.link}>
+                  <div>
+                    <div className={classes.projectImage}>
+                      <img src={project.imgUrl} alt={project.name} />
+                    </div>
+                    <Typography className={classes.projectName}>
+                      {project.name}
+                    </Typography>
+                    <Typography className={classes.projectDate}>
+                      {project.date}
+                    </Typography>
                   </div>
-                  <Typography className={classes.projectName}>
-                    {project.name}
-                  </Typography>
-                  <Typography className={classes.projectDate}>
-                    {project.date}
-                  </Typography>
-                </div>
-              </Button>
-            </NavLink>
+                </Button>
+              </NavLink>
+            ) : (
+              <a href={project.pageUrl}>
+                <Button className={classes.link}>
+                  <div>
+                    <div className={classes.projectImage}>
+                      <img src={project.imgUrl} alt={project.name} />
+                    </div>
+                    <Typography className={classes.projectName}>
+                      {project.name}
+                    </Typography>
+                    <Typography className={classes.projectDate}>
+                      {project.date}
+                    </Typography>
+                  </div>
+                </Button>
+              </a>
+            )}
           </Grid>
         ))}
       </Grid>
