@@ -11,6 +11,7 @@ const useStyles = makeStyles(() => ({
   },
   header: {
     fontSize: "30px",
+    fontWeight: "bold",
   },
 }));
 

@@ -1,5 +1,5 @@
 import { makeStyles } from "@material-ui/core/styles";
-import theme from "../../theme.js";
+import theme from "../theme.js";
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -14,9 +14,11 @@ const useStyles = makeStyles(() => ({
   },
   title: {
     fontSize: "40px",
+    fontWeight: "bold",
   },
   date: {
     fontSize: "30px",
+    fontWeight: "bold",
   },
   content: {
     display: "flex",
@@ -28,13 +30,16 @@ const useStyles = makeStyles(() => ({
   header2: {
     fontSize: "30px",
     marginTop: "40px",
+    fontWeight: "bold",
   },
   header3: {
     fontSize: "25px",
     marginTop: "40px",
+    fontWeight: "bold",
   },
   text: {
     fontSize: "20px",
+    marginTop: "10px",
   },
   repoButton: {
     textDecoration: "none",

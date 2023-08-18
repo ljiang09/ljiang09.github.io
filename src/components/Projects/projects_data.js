@@ -11,7 +11,11 @@ import {
   SteveRunIcon,
   TowLabWaterTankIcon,
 } from "../../media/projectIcons/index.js";
-import NetworkKeylogger from "../../projectPages/NetworkKeylogger/index.js";
+import ProjectPages from "../../projectPages/index.js";
+import {
+  NetworkKeyloggerData,
+  DesktopPetData,
+} from "../../projectPages/data/index.js";
 
 export const TAGS = {
   SOFTWARE: "Software",
@@ -27,7 +31,7 @@ export const projects = [
     date: "2023",
     imgUrl: KeyloggerIcon,
     pageUrl: "keylogger",
-    content: <NetworkKeylogger />,
+    content: NetworkKeyloggerData,
     tags: [TAGS.SOFTWARE, TAGS.COURSE_PROJECTS],
   },
   {
@@ -35,7 +39,7 @@ export const projects = [
     date: "2023",
     imgUrl: DesktopPetIcon,
     pageUrl: "desktopPet",
-    content: <>Desktop Pet</>,
+    content: DesktopPetData,
     tags: [TAGS.SOFTWARE, TAGS.COURSE_PROJECTS],
   },
   {
