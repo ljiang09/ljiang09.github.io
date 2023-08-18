@@ -41,10 +41,16 @@ const useStyles = makeStyles(() => ({
     fontSize: "20px",
     marginTop: "10px",
   },
+  buttons: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+    width: "100%",
+  },
   repoButton: {
     textDecoration: "none",
     background: theme.palette.primary.main,
-    margin: "40px auto",
+    margin: "40px",
     padding: "10px 20px",
     borderRadius: "15px",
     boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)",

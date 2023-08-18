@@ -1,6 +1,6 @@
 import {
   AutonomousRobotIcon,
-  BajaUJointIcon,
+  // BajaUJointIcon,
   DesktopPetIcon,
   KeyloggerIcon,
   LineFollowerIcon,
@@ -15,8 +15,11 @@ import {
   NetworkKeyloggerData,
   DesktopPetData,
   SebelaData,
-  BajaData,
+  // BajaData,
   LineFollowerData,
+  MakeupAssistData,
+  PanTiltScannerData,
+  RushHourData,
 } from "../../projectPages/data/index.js";
 
 export const TAGS = {
@@ -80,7 +83,7 @@ export const projects = [
     date: "2022",
     imgUrl: MakeupGuideIcon,
     pageUrl: "makeupGuideApp",
-    content: <>Makeup Guide App</>,
+    content: MakeupAssistData,
     tags: [TAGS.SOFTWARE, TAGS.IOS],
   },
   {
@@ -88,7 +91,7 @@ export const projects = [
     date: "2022",
     imgUrl: PanTiltScannerIcon,
     pageUrl: "panTiltScanner",
-    content: <>Pan Tilt Scanner</>,
+    content: PanTiltScannerData,
     tags: [TAGS.ROBOTICS, TAGS.COURSE_PROJECTS],
   },
   {
@@ -96,7 +99,7 @@ export const projects = [
     date: "2022",
     imgUrl: RushHourIcon,
     pageUrl: "rushHourGame",
-    content: <>Rush Hour Game Analysis</>,
+    content: RushHourData,
     tags: [TAGS.SOFTWARE, TAGS.COURSE_PROJECTS],
   },
   {

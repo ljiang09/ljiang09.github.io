@@ -13,6 +13,7 @@ const Skills = () => {
     "Golang",
     "C",
     "MATLAB",
+    "R",
     "C#",
     "C++ (Arduino)",
     "HTML/CSS",

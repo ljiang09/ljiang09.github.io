@@ -40,26 +40,28 @@ const ProjectPages = () => {
                 </Typography>
               </>
             )}
-            {data.repoLink && (
-              <a
-                href={data.repoLink}
-                target="_blank"
-                rel="noreferrer"
-                className={classes.repoButton}
-              >
-                <Button>View the GitHub Repo</Button>
-              </a>
-            )}
-            {data.additionalLink && (
-              <a
-                href={data.additionalLink}
-                target="_blank"
-                rel="noreferrer"
-                className={classes.repoButton}
-              >
-                <Button>Read More</Button>
-              </a>
-            )}
+            <div className={classes.buttons}>
+              {data.repoLink && (
+                <a
+                  href={data.repoLink}
+                  target="_blank"
+                  rel="noreferrer"
+                  className={classes.repoButton}
+                >
+                  <Button>View the GitHub Repo</Button>
+                </a>
+              )}
+              {data.additionalLink && (
+                <a
+                  href={data.additionalLink}
+                  target="_blank"
+                  rel="noreferrer"
+                  className={classes.repoButton}
+                >
+                  <Button>Read More</Button>
+                </a>
+              )}
+            </div>
             {data.goals && (
               <>
                 <Typography className={classes.header2}>Goals</Typography>
@@ -100,7 +102,7 @@ const ProjectPages = () => {
                     <Typography className={classes.header3}>
                       {deliverable.sectionHeader}
                     </Typography>
-                    {deliverable.sectionContent.map((content) => (
+                    {deliverable.sectionContent?.map((content) => (
                       <Typography className={classes.text}>
                         {content}
                       </Typography>

@@ -57,5 +57,5 @@ export const SebelaData = {
       ],
     },
   ],
-  type: "Software",
+  type: "iOS",
 };
