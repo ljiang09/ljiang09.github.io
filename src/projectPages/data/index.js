@@ -6,6 +6,8 @@ import { LineFollowerData } from "./LineFollowerData";
 import { MakeupAssistData } from "./MakeupAssistData";
 import { PanTiltScannerData } from "./PanTiltScannerData";
 import { RushHourData } from "./RushHourData";
+import { SteveRunData } from "./SteveRunData";
+import { TowLabData } from "./TowLabData";
 
 export {
   NetworkKeyloggerData,
@@ -16,4 +18,6 @@ export {
   MakeupAssistData,
   PanTiltScannerData,
   RushHourData,
+  SteveRunData,
+  TowLabData,
 };

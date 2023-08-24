@@ -14,11 +14,11 @@ const useStyles = makeStyles(() => ({
   },
   title: {
     color: theme.palette.primary.main,
-    fontSize: "80px",
+    fontSize: "80px !important",
   },
   subtitle: {
     color: theme.palette.text.primary,
-    fontSize: "24px",
+    fontSize: "24px !important",
   },
   contactButtons: {
     display: "flex",
@@ -28,10 +28,10 @@ const useStyles = makeStyles(() => ({
   contactButton: {
     width: "75px",
     height: "75px",
-    borderRadius: "10px",
-    background: theme.palette.primary.main,
+    borderRadius: "10px !important",
+    background: theme.palette.primary.main + " !important",
     "&:hover": {
-      backgroundColor: theme.palette.secondary.main,
+      backgroundColor: theme.palette.secondary.main + " !important",
     },
   },
   contactIcon: {

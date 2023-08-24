@@ -20,6 +20,8 @@ import {
   MakeupAssistData,
   PanTiltScannerData,
   RushHourData,
+  SteveRunData,
+  TowLabData,
 } from "../../projectPages/data/index.js";
 
 export const TAGS = {
@@ -107,7 +109,7 @@ export const projects = [
     date: "2022",
     imgUrl: SteveRunIcon,
     pageUrl: "steveRunGame",
-    content: <>Steve Run</>,
+    content: SteveRunData,
     tags: [TAGS.SOFTWARE, TAGS.COURSE_PROJECTS],
   },
   {
@@ -115,7 +117,7 @@ export const projects = [
     date: "2022",
     imgUrl: TowLabWaterTankIcon,
     pageUrl: "towLab",
-    content: <>Tow Lab</>,
+    content: TowLabData,
     tags: [TAGS.MECHANICAL],
   },
 ];

@@ -51,7 +51,7 @@ const useStyles = makeStyles(() => ({
     textDecoration: "none",
     background: theme.palette.primary.main,
     margin: "40px",
-    padding: "10px 20px",
+    padding: "5px 20px",
     borderRadius: "15px",
     boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)",
     "&:hover": {
