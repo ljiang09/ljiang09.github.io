@@ -10,6 +10,10 @@ import Skills from "./components/Skills/index.js";
 import Projects from "./components/Projects/index.js";
 
 import ProjectPages from "./projectPages/index.js";
+import {
+  ContactMe as ContactMePage,
+  AboutMe as AboutMePage,
+} from "./personalPages/index.js";
 
 function App() {
   const classes = useStyles();
@@ -37,6 +41,8 @@ function App() {
             }
           />
           <Route path="/subpages/:subpage" element={<ProjectPages />} />
+          <Route path="/aboutMe" element={<AboutMePage />} />
+          <Route path="/contactMe" element={<ContactMePage />} />
         </Routes>
       </ThemeProvider>
     </BrowserRouter>

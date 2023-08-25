@@ -16,12 +16,15 @@ const useStyles = makeStyles(() => ({
     padding: "10px 20px",
     margin: "10px 20px",
   },
+  buttons: {
+    display: "flex",
+  },
   projectsBtn: {
     fontSize: "24px",
     color: "white",
     textTransform: "none",
     padding: "10px 20px",
-    margin: "10px 20px",
+    margin: "10px",
   },
   icon: {
     marginLeft: "5px",

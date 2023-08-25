@@ -11,7 +11,6 @@ function loadGoogleFonts() {
   document.head.appendChild(link);
 }
 
-// Call the function before rendering your app
 loadGoogleFonts();
 
 ReactDOM.render(
@@ -20,3 +19,7 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
+
+// TODO:
+// add architecture blogs section
+// finish "contact/about me" section
