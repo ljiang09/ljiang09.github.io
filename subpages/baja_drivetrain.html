@@ -1,257 +1,397 @@
 <!-- holds the html content for the Baja Drivetrain subpage -->
 
 <html lang="en">
+  <!-- Metadata -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lily's Portfolio - Baja Drivetrain</title>
 
-<!-- Metadata -->
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lily's Portfolio - Baja Drivetrain</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="subpage.css" />
+  </head>
 
-  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
-  <link rel="stylesheet" href="subpage.css">
-</head>
-
-
-<body>
+  <body>
     <div class="header">
-        <!-- <a class="logoBackground" href="https://www.flaticon.com/free-icons/flowers" title="flowers icons"><img class="logo" src="images/lily.png" alt="Lily Flower Flat Icon by Freepik"></a> -->
+      <!-- <a class="logoBackground" href="https://www.flaticon.com/free-icons/flowers" title="flowers icons"><img class="logo" src="images/lily.png" alt="Lily Flower Flat Icon by Freepik"></a> -->
 
-        <button class="homeButton" onclick="window.location='../index.html';">
-            <p style="vertical-align: middle;">Lily Jiang</p>
-        </button>
+      <button class="homeButton" onclick="window.location='../index.html';">
+        <p style="vertical-align: middle">Lily Jiang</p>
+      </button>
     </div>
 
     <div class="page">
-        <h2 class="title">Baja Drivetrain</h2>
+      <h2 class="title">Baja Drivetrain</h2>
 
-        <p class="center subtitle">Sept 2021 - Present</p>
+      <p class="center subtitle">Sept 2021 - Present</p>
 
-        <br>
+      <br />
 
-        <h2>Skills Used</h2>
+      <h2>Skills Used</h2>
 
-        <div>
-            <div class="skill">MATLAB</div>
-            <div class="skill">Modeling</div>
-            <div class="skill">CAD (Solidworks)</div>
-            <div class="skill">FEA (Solidworks)</div>
+      <div>
+        <div class="skill">MATLAB</div>
+        <div class="skill">Modeling</div>
+        <div class="skill">CAD (Solidworks)</div>
+        <div class="skill">FEA (Solidworks)</div>
+      </div>
+
+      <br />
+
+      <h2>Overview</h2>
+      <p>
+        Baja SAE is an off-road vehicle racing competition. Each year, my
+        collegiate team (Olin Racing) designs, fabricates, and assembles the
+        car.
+      </p>
+
+      <br />
+
+      <h2>Contributions</h2>
+      <p>
+        - Prop shaft size/material calculations<a
+          href="#propshaft_sizing"
+          class="jumpTo"
+          >(Jump To)</a
+        >
+      </p>
+      <p>
+        - Prop shaft system design<a href="#propshaft_design" class="jumpTo"
+          >(Jump To)</a
+        >
+      </p>
+
+      <br />
+      <br />
+
+      <div class="jumpToSpacer" id="propshaft_sizing"></div>
+
+      <h2 class="title">Prop Shaft Sizing</h2>
+
+      <p class="center subtitle">2022</p>
+
+      <h2>Project Overview</h2>
+      <p>
+        To sustain 4-wheel-drive, a prop shaft is needed to connect the front
+        and rear differentials. This prop shaft undergoes great torsional stress
+        due to the constant accelerations from the engine, and thus must have
+        the proper specs.
+      </p>
+
+      <br />
+
+      <div class="center">
+        <a
+          class="repoButton"
+          href="https://github.com/ljiang09/Propshaft-Modeling"
+          target="_blank"
+        >
+          View the GitHub Repo
+        </a>
+      </div>
+
+      <h2>Goals</h2>
+      <div class="description">
+        - Find a prop shaft with a material and dimensions that ensures no more
+        than 10 lbs is added to the car
+        <br />
+        <br />
+        - Calculate that it can sustain torsional shear stresses supplied by the
+        gearbox
+        <br />
+        <br />
+        - Use FEA to ensure a safety factor of 2 after 1,000,000 rotational
+        accelerations
+      </div>
+
+      <br />
+      <br />
+
+      <h2>Assumptions</h2>
+      <div class="description">
+        - The prop shaft is a 36 inch long hollow cylinder
+        <br />
+        <br />
+        - The shaft must be made of metal (likely either steel or aluminum, for
+        welding)
+        <br />
+        <br />
+        - 333.1014 N*m of torque is supplied from the gearbox at 100% efficiency
+        (value calculated by my teammate)
+      </div>
+
+      <br />
+      <br />
+
+      <h2>Process</h2>
+      <div class="description">
+        1. Calculate and sweep the torsional shear stresses for possible
+        inner/outer diameters of the propshaft
+        <br />
+        <div style="padding-left: 2em; padding-top: 0.5em">
+          - The outer diameter ranged from 0.5 to 2 inches and incremented by
+          0.125 inches. <br />
+          <br />
+          - The inner diameter ranged from 0.25 inches to 0.125 inches less than
+          the outer diameter and incremented by 0.125 inches.
         </div>
+        <br />
+        2. Plot tensile strengths of various materials
+        <br />
+        <br />
+        3. Select a prop shaft that is at least halfway below the desired
+        material's tensile strength line (for a safety factor of 2)
+        <br />
+        <br />
+        4. Verify that the weight of the selected shaft isn’t over 10 lbs
+        <br />
+        <br />
+        5. Perform FEA on the chosen shaft size to check how much stress it
+        experiences after 1 million accelerations
+      </div>
 
-        <br>
+      <br />
+      <br />
 
-        <h2>Overview</h2>
-        <p>Baja SAE is an off-road vehicle racing competition. Each year, my collegiate team (Olin Racing) designs, fabricates, and assembles the car.</p>
+      <h2>Results</h2>
 
-        <br>
+      <img
+        src="images/BajaPropshaftResults.png"
+        alt="A MATLAB plot with results of the propshaft analysis"
+        class="projectImage3"
+      />
 
-        <h2>Contributions</h2>
-        <p>- Prop shaft size/material calculations<a href="#propshaft_sizing" class="jumpTo">(Jump To)</a></p>
-        <p>- Prop shaft system design<a href="#propshaft_design" class="jumpTo">(Jump To)</a></p>
+      <br />
+      <br />
 
-        <br> <br>
+      <p>
+        In the plot above, each possible outer diameter in the desired range
+        (0.5 - 2.0 inches) represents a separate line. These lines swept across
+        the possible inner diameters (starting from 0.25 inches). At each set of
+        inner/outer diameters, the torsional shear stress was calculated and
+        plotted.
+      </p>
 
-        <div class="jumpToSpacer" id="propshaft_sizing"></div>
+      <br />
 
-        <h2 class="title">Prop Shaft Sizing</h2>
+      <div class="italic center">
+        Torsional shear stress = (torque on shaft) * (outermost radius) / (polar
+        moment of inertia)
+      </div>
 
-        <p class="center subtitle">2022</p>
+      <!-- insert formula here -->
 
-        <h2>Project Overview</h2>
-        <p>To sustain 4-wheel-drive, a prop shaft is needed to connect the front and rear differentials. This prop shaft undergoes great torsional stress due to the constant accelerations from the engine, and thus must have the proper specs.</p>
+      <br />
 
-        <br>
+      <p>
+        The two red horizontal lines represent the tensile strengths of Steel
+        4130 and Aluminum, which were the two preferred materials for their
+        weight and weld-ability.
 
-        <div class="center">
-            <a class="repoButton" href="https://github.com/ljiang09/Propshaft-Modeling" target="_blank">
-                View the GitHub Repo
-            </a>
+        <br />
+        <br />
+
+        All of the plots below a red line represent dimensions that will not
+        fail if made with that material. Because the desired factor of safety is
+        2, whatever dimensions we choose should fall at least halfway below the
+        chosen material's tensile strength line.
+      </p>
+
+      <br />
+      <br />
+
+      <h2>Decision</h2>
+      <div class="description">
+        - Material: Steel 4130 (Chromoly)
+        <br />
+        <div style="padding-left: 2em; padding-top: 0.5em">
+          - Strong, and is suitable for welding if needed.
+          <br />
+          - Tensile strength: 460,000,000 N/m^2
         </div>
-
-        <h2>Goals</h2>
-        <div class="description">
-            - Find a prop shaft with a material and dimensions that ensures no more than 10 lbs is added to the car
-            <br> <br>
-            - Calculate that it can sustain torsional shear stresses supplied by the gearbox
-            <br> <br>
-            - Use FEA to ensure a safety factor of 2 after 1,000,000 rotational accelerations
+        <br />
+        - Size: 1 inch diameter with 0.5 inch through hole
+        <br />
+        <div style="padding-left: 2em; padding-top: 0.5em">
+          - Torsional shear stress: 110,427,000 N/m^2
         </div>
+        <br />
+        - Safety Factor: approximately 4
+        <br />
+        <br />
+        - Weight: 6.014 lbs
+      </div>
 
-        <br> <br>
+      <br />
+      <br />
 
-        <h2>Assumptions</h2>
-        <div class="description">
-            - The prop shaft is a 36 inch long hollow cylinder
-            <br> <br>
-            - The shaft must be made of metal (likely either steel or aluminum, for welding)
-            <br> <br>
-            - 333.1014 N*m of torque is supplied from the gearbox at 100% efficiency (value calculated by my teammate)
-        </div>
+      <h2>Finite Element Analysis</h2>
+      <p>
+        Problem: The torsional shear stress modeling focused on just one
+        instance of torque being applied. In reality, many torques will be
+        applied to the prop shaft over time. Fatigue analysis helped determine
+        if the selected propshaft would fail over many accelerations.
 
-        <br> <br>
+        <br />
+        <br />
 
-        <h2>Process</h2>
-        <div class="description">
-            1. Calculate and sweep the torsional shear stresses for possible inner/outer diameters of the propshaft
-            <br>
-            <div style="padding-left: 2em; padding-top: 0.5em;">- The outer diameter ranged from 0.5 to 2 inches and incremented by 0.125 inches.
-            <br> <br>
-            - The inner diameter ranged from 0.25 inches to 0.125 inches less than the outer diameter and incremented by 0.125 inches.</div>
-            <br>
-            2. Plot tensile strengths of various materials
-            <br> <br>
-            3. Select a prop shaft that is at least halfway below the desired material's tensile strength line (for a safety factor of 2)
-            <br> <br>
-            4. Verify that the weight of the selected shaft isn’t over 10 lbs
-            <br> <br>
-            5. Perform FEA on the chosen shaft size to check how much stress it experiences after 1 million accelerations
-        </div>
+        I used Solidworks to perform FEA. After generating a CAD model with the
+        desired dimensions and material, I created a dynamic event to simulate a
+        million rotational accelerations on one end of the shaft, while the end
+        of the shaft remained fixed. Since Solidworks didn't contain data for
+        Steel 4130, I made a simplified S/N curve based on existing data.
 
-        <br> <br>
+        <br />
+        <br />
 
-        <h2>Results</h2>
+        The analysis, which applied constant amplitude, cyclical forces, showed
+        that the prop shaft was still under minimal stress after 1 million
+        cycles. This verified that the chosen prop shaft size and material was a
+        safe selection.
+      </p>
 
-        <img src="images/BajaPropshaftResults.png" alt="A MATLAB plot with results of the propshaft analysis" class="projectImage3">
-        
-        <br> <br>
+      <br />
+      <br />
+      <br />
+      <br />
 
-        <p>In the plot above, each possible outer diameter in the desired range (0.5 - 2.0 inches) represents a separate line. These lines swept across the possible inner diameters (starting from 0.25 inches). At each set of inner/outer diameters, the torsional shear stress was calculated and plotted.</p>
+      <div class="jumpToSpacer" id="propshaft_design"></div>
 
-        <br>
+      <h2 class="title">Prop Shaft System Design</h2>
 
-        <div class="italic center">Torsional shear stress = (torque on shaft) * (outermost radius) / (polar moment of inertia)</div>
+      <p class="center subtitle">2022</p>
 
-        <!-- insert formula here -->
+      <h2>Project Overview</h2>
+      <p>
+        The propshaft's design was finalized to be split into 3 sections,
+        connected with two Universal Joints. Additionally, a cover was needed to
+        satisfy Baja SAE's safety rules, where all spinning parts must be
+        blocked from fingers being able to touch.
+      </p>
 
-        <br>
+      <br />
 
-        <p>The two red horizontal lines represent the tensile strengths of Steel 4130 and Aluminum, which were the two preferred materials for their weight and weld-ability.
+      <h2>Goals</h2>
+      <div class="description">
+        - Assemble the prop shaft and U-Joints/boots
+        <br />
+        <br />
+        - Fit the assembly into the CAD of the entire vehicle
+        <br />
+        <br />
+        - Design a cover for the prop shaft to fit around the existing car
+      </div>
 
-        <br> <br>
+      <br />
 
-        All of the plots below a red line represent dimensions that will not fail if made with that material. Because the desired factor of safety is 2, whatever dimensions we choose should fall at least halfway below the chosen material's tensile strength line.</p>
+      <h2>U-Joints</h2>
 
-        <br> <br>
+      <p>
+        The prop shaft was designed to be in 3 sections, connected by two
+        universal joints. This ensured that if the two differentials were not
+        mounted perfectly in line with each other, the prop shaft wouldn't
+        experience extreme shear stresses.
+      </p>
 
-        <h2>Decision</h2>
-        <div class="description">
-            - Material: Steel 4130 (Chromoly)
-            <br>
-            <div style="padding-left: 2em; padding-top: 0.5em;">- Strong, and is suitable for welding if needed.
-            <br>
-            - Tensile strength: 460,000,000 N/m^2</div>
-            <br>
-            - Size: 1 inch diameter with 0.5 inch through hole
-            <br>
-            <div style="padding-left: 2em; padding-top: 0.5em;">
-                - Torsional shear stress: 110,427,000 N/m^2
-            </div>
-            <br>
-            - Safety Factor: approximately 4
-            <br> <br>
-            - Weight: 6.014 lbs
-        </div>
+      <div class="center">
+        <img
+          src="images/UJoint.png"
+          alt="A CAD model of the U Joint"
+          class="projectImage2"
+        />
+      </div>
 
-        <br> <br>
+      <p>
+        The U-Joints were placed close to the rear differential, as opposed to
+        at 1/3 and 2/3 of the length of the shaft. This alleviated the
+        cantilever forces exerted by the heavy U-Joints. It also allowed the
+        prop shaft cover to be designed more efficiently.
+      </p>
 
-        <h2>Finite Element Analysis</h2>
-        <p>
-            Problem: The torsional shear stress modeling focused on just one instance of torque being applied. In reality, many torques will be applied to the prop shaft over time. Fatigue analysis helped determine if the selected propshaft would fail over many accelerations.
+      <div class="center">
+        <img
+          src="images/PropShaftAssembly.png"
+          alt="A CAD model of the Prop shaft system"
+          class="projectImage3 removeBg"
+          style="mix-blend-mode: multiply"
+        />
+      </div>
 
-            <br> <br>
+      <br />
+      <br />
 
-            I used Solidworks to perform FEA. After generating a CAD model with the desired dimensions and material, I created a dynamic event to simulate a million rotational accelerations on one end of the shaft, while the end of the shaft remained fixed. Since Solidworks didn't contain data for Steel 4130, I made a simplified S/N curve based on existing data.
+      <h2>Cover Design</h2>
 
-            <br> <br>
+      <p>
+        The cover was designed to be made out of sheet steel 4130, so it could
+        be welded together. Our manufacturing was limited to a sheet metal
+        brake, so all parts were designed to be bent only twice at 90 degrees.
+      </p>
 
-            The analysis, which applied constant amplitude, cyclical forces, showed that the prop shaft was still under minimal stress after 1 million cycles. This verified that the chosen prop shaft size and material was a safe selection.
-        </p>
+      <div class="center">
+        <img
+          src="images/PropShaftCover.png"
+          alt="A CAD model of the Prop shaft system, including a cover"
+          class="projectImage3 removeBg"
+          style="mix-blend-mode: multiply"
+        />
+      </div>
 
+      <p>
+        This CAD model is a very simple iteration of the prop shaft design; the
+        final design will also cover the bottom section and include another bend
+        to make room for the CVT cover on the car.
+      </p>
 
-        <br> <br> <br> <br>
+      <br />
+      <br />
+      <br />
+      <br />
 
+      <h2 style="text-align: center">View other projects</h2>
 
-        <div class="jumpToSpacer" id="propshaft_design"></div>
+      <div class="projects">
+        <a class="projectCard" href="https://supah32.github.io/pie-2022-03/">
+          <img
+            src="/images/AutonomousRobot.png"
+            alt="An image of an autonomous, omnidirectional robot"
+            class="projectImg"
+          />
+          <p class="projectText">Autonomous Robot</p>
+          <p class="projectDate">2022</p>
+        </a>
+        <a class="projectCard" href="./line_follower.html">
+          <img
+            src="/images/LineFollower.png"
+            alt="A Line Following robot"
+            class="projectImg"
+          />
+          <p class="projectText">Line Following Robot</p>
+          <p class="projectDate">2022</p>
+        </a>
+        <a class="projectCard" href="./pan_tilt_scanner.html">
+          <img
+            src="/images/3DScannerIcon.png"
+            alt="A CAD rendering of a Pan-Tilt Scanner"
+            class="projectImg"
+          />
+          <p class="projectText">3D Pan-Tilt Scanner</p>
+          <p class="projectDate">2022</p>
+        </a>
+      </div>
 
-        <h2 class="title">Prop Shaft System Design</h2>
-
-        <p class="center subtitle">2022</p>
-
-        <h2>Project Overview</h2>
-        <p>The propshaft's design was finalized to be split into 3 sections, connected with two Universal Joints. Additionally, a cover was needed to satisfy Baja SAE's safety rules, where all spinning parts must be blocked from fingers being able to touch.</p>
-
-        <br>
-
-        <h2>Goals</h2>
-        <div class="description">
-            - Assemble the prop shaft and U-Joints/boots
-            <br> <br>
-            - Fit the assembly into the CAD of the entire vehicle
-            <br> <br>
-            - Design a cover for the prop shaft to fit around the existing car
-        </div>
-
-        <br>
-
-        <h2>U-Joints</h2>
-
-        <p>The prop shaft was designed to be in 3 sections, connected by two universal joints. This ensured that if the two differentials were not mounted perfectly in line with each other, the prop shaft wouldn't experience extreme shear stresses.</p>
-
-        <div class="center">
-            <img src="images/UJoint.png" alt="A CAD model of the U Joint" class="projectImage2">
-        </div>
-
-        <p>The U-Joints were placed close to the rear differential, as opposed to at 1/3 and 2/3 of the length of the shaft. This alleviated the cantilever forces exerted by the heavy U-Joints. It also allowed the prop shaft cover to be designed more efficiently.</p>
-
-        <div class="center">
-            <img src="images/PropShaftAssembly.png" alt="A CAD model of the Prop shaft system" class="projectImage3 removeBg" style="mix-blend-mode: multiply;">
-        </div>
-
-        <br> <br>
-
-        <h2>Cover Design</h2>
-
-        <p>The cover was designed to be made out of sheet steel 4130, so it could be welded together. Our manufacturing was limited to a sheet metal brake, so all parts were designed to be bent only twice at 90 degrees.</p>
-
-        <div class="center">
-            <img src="images/PropShaftCover.png" alt="A CAD model of the Prop shaft system, including a cover" class="projectImage3 removeBg" style="mix-blend-mode: multiply;">
-        </div>
-
-        <p>This CAD model is a very simple iteration of the prop shaft design; the final design will also cover the bottom section and include another bend to make room for the CVT cover on the car.</p>
-
-
-
-
-        <br> <br> <br> <br>
-
-        <h2 style="text-align: center;">View other projects</h2>
-
-        <div class="projects">
-            <a class="projectCard" href="https://supah32.github.io/pie-2022-03/">
-                <img src="/images/AutonomousRobot.png" alt="An image of an autonomous, omnidirectional robot" class="projectImg">
-                <p class="projectText">Autonomous Robot</p>
-                <p class="projectDate">2022</p>
-            </a>
-            <a class="projectCard" href="./subpages/line_follower.html">
-                <img src="/images/LineFollower.png" alt="A Line Following robot" class="projectImg">
-                <p class="projectText">Line Following Robot</p>
-                <p class="projectDate">2022</p>
-            </a>
-            <a class="projectCard" href="./subpages/pan_tilt_scanner.html">
-                <img src="/images/3DScannerIcon.png" alt="A CAD rendering of a Pan-Tilt Scanner" class="projectImg">
-                <p class="projectText">3D Pan-Tilt Scanner</p>
-                <p class="projectDate">2022</p>
-            </a>
-        </div>
-
-
-
-        <br> <br> <br> <br> <br>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
 
-	<script src="subpage.js"></script>
-	<noscript>You need to enable JavaScript to view the full site.</noscript>
-</body>
-
+    <script src="subpage.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+  </body>
 </html>

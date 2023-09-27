@@ -1,119 +1,178 @@
 <!-- holds the html content for the pan tilt subpage -->
 
 <html lang="en">
+  <!-- Metadata -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lily's Portfolio - Pan-Tilt Scanner</title>
 
-<!-- Metadata -->
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lily's Portfolio - Pan-Tilt Scanner</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="subpage.css" />
+  </head>
 
-  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
-  <link rel="stylesheet" href="subpage.css">
-</head>
-
-
-<body>
+  <body>
     <div class="header">
-        <!-- <a class="logoBackground" href="https://www.flaticon.com/free-icons/flowers" title="flowers icons"><img class="logo" src="images/lily.png" alt="Lily Flower Flat Icon by Freepik"></a> -->
+      <!-- <a class="logoBackground" href="https://www.flaticon.com/free-icons/flowers" title="flowers icons"><img class="logo" src="images/lily.png" alt="Lily Flower Flat Icon by Freepik"></a> -->
 
-        <button class="homeButton" onclick="window.location='../index.html';">
-            <p style="vertical-align: middle;">Lily Jiang</p>
-        </button>
+      <button class="homeButton" onclick="window.location='../index.html';">
+        <p style="vertical-align: middle">Lily Jiang</p>
+      </button>
     </div>
 
     <div class="page">
-        <h2 class="title">Pan-Tilt 3D Scanner</h2>
+      <h2 class="title">Pan-Tilt 3D Scanner</h2>
 
-        <p class="center subtitle">Oct 2022</p>
+      <p class="center subtitle">Oct 2022</p>
 
-        <br>
+      <br />
 
-        <div class="center"><a class="repoButton" href="https://github.com/ljiang09/3D-Scanner" target="_blank">
-            View the GitHub Repo
-        </a></div>
+      <div class="center">
+        <a
+          class="repoButton"
+          href="https://github.com/ljiang09/3D-Scanner"
+          target="_blank"
+        >
+          View the GitHub Repo
+        </a>
+      </div>
 
-        <!-- <h2>Skills Used</h2> -->
+      <!-- <h2>Skills Used</h2> -->
 
-        <h2>Goal</h2>
-        <div class="description">
-            - Construct and program a 3D scanner with a pan/tilt mechanism
-            <br> <br>
-            - Scan an object of known, well-defined geometry with an IR distance sensor
-            <br> <br>
-            - Visualize the output from your scanner
+      <h2>Goal</h2>
+      <div class="description">
+        - Construct and program a 3D scanner with a pan/tilt mechanism
+        <br />
+        <br />
+        - Scan an object of known, well-defined geometry with an IR distance
+        sensor
+        <br />
+        <br />
+        - Visualize the output from your scanner
+      </div>
+
+      <br />
+      <br />
+
+      <div class="center">
+        <img
+          src="images/3DScannerDiagram.png"
+          alt="A labeled CAD model of the pan-tilt mechanism"
+          class="projectImage2"
+        />
+      </div>
+
+      <br />
+      <br />
+
+      <h2>Contributions</h2>
+      <div class="description">
+        - Programmed servo movement using Arduino
+        <br />
+        <br />
+        - Wired Arduino to servos and IR sensor
+        <br />
+        <br />
+        - Assisted in parsing and visualizing scanned data
+      </div>
+
+      <br />
+      <br />
+
+      <h2>Final Deliverable</h2>
+
+      <p>
+        The final design involved two servos, one for the scanner's horizontal
+        "pan" movement and one for vertical "tilt" movement. The combination of
+        these two servos, mounted in orthogonal directions and controlled by an
+        Arduino Uno, allowed the IR sensor to sweep a 2D space.
+      </p>
+
+      <p>
+        The Arduino was also used to recieve IR sensor data, which was passed to
+        a Python script via serial connection. Since we controlled the servo
+        rotations, we could also approximate the sensor's angle, which was
+        passed along to serial with each data point. Calibration data we took
+        allowed us to determine distances based on sensor data. From there we
+        filtered out far away objects to get measurements only for points
+        representing relevant geometry.
+      </p>
+
+      <p>
+        With the servo angles and measured distances, each filtered datapoint
+        could be converted into Cartesian coordinates. These were visualized on
+        a 3D graph using Python's matplotlib library.
+      </p>
+
+      <br />
+      <br />
+
+      <div class="center" style="margin-bottom: 0">
+        <div class="projectImageBox">
+          <img
+            src="images/2ServoSetup.jpg"
+            alt="The completed mechanism scanning a letter 'L'"
+            class="projectImage2"
+          />
         </div>
-
-        <br> <br>
-
-        <div class="center">
-            <img src="images/3DScannerDiagram.png" alt="A labeled CAD model of the pan-tilt mechanism" class="projectImage2">
+        <div class="projectImageBox">
+          <img
+            src="images/2ServoDataVisualization1.png"
+            alt="The scanned data visualized in a 3D space. The 'L' can be seen at the bottom of the plot."
+            class="projectImage2"
+          />
         </div>
+      </div>
 
-        <br> <br>
-
-        <h2>Contributions</h2>
-        <div class="description">
-            - Programmed servo movement using Arduino
-            <br> <br>
-            - Wired Arduino to servos and IR sensor
-            <br> <br>
-            - Assisted in parsing and visualizing scanned data
+      <div class="center">
+        <div class="caption2">
+          The completed mechanism scanning a cardboard cutout of the letter "L".
         </div>
-
-        <br> <br>
-
-        <h2>Final Deliverable</h2>
-
-        <p>The final design involved two servos, one for the scanner's horizontal "pan" movement and one for vertical "tilt" movement. The combination of these two servos, mounted in orthogonal directions and controlled by an Arduino Uno, allowed the IR sensor to sweep a 2D space.</p>
-
-        <p>The Arduino was also used to recieve IR sensor data, which was passed to a Python script via serial connection. Since we controlled the servo rotations, we could also approximate the sensor's angle, which was passed along to serial with each data point. Calibration data we took allowed us to determine distances based on sensor data. From there we filtered out far away objects to get measurements only for points representing relevant geometry.</p>
-
-        <p>With the servo angles and measured distances, each filtered datapoint could be converted into Cartesian coordinates. These were visualized on a 3D graph using Python's matplotlib library.</p>
-
-        <br> <br>
-
-        <div class="center" style="margin-bottom: 0;">
-            <div class="projectImageBox">
-                <img src="images/2ServoSetup.jpg" alt="The completed mechanism scanning a letter 'L'" class="projectImage2"> 
-            </div>
-            <div class="projectImageBox">
-                <img src="images/2ServoDataVisualization1.png" alt="The scanned data visualized in a 3D space. The 'L' can be seen at the bottom of the plot." class="projectImage2">
-            </div>
+        <div class="caption2">
+          The scanned data visualized in a 3D space. The 'L' can be seen at the
+          bottom of the plot.
         </div>
+      </div>
 
-        <div class="center">
-            <div class="caption2">The completed mechanism scanning a cardboard cutout of the letter "L".</div>
-            <div class="caption2">The scanned data visualized in a 3D space. The 'L' can be seen at the bottom of the plot.</div>
-        </div>
+      <br />
+      <br />
 
+      <h2 style="text-align: center">View other robotics projects</h2>
 
+      <div class="projects">
+        <a class="projectCard" href="https://supah32.github.io/pie-2022-03/">
+          <img
+            src="/images/AutonomousRobot.png"
+            alt="An image of an autonomous, omnidirectional robot"
+            class="projectImg"
+          />
+          <p class="projectText">Autonomous Robot</p>
+          <p class="projectDate">2022</p>
+        </a>
+        <a class="projectCard" href="./line_follower.html">
+          <img
+            src="/images/LineFollower.png"
+            alt="A side view image of the line following robot"
+            class="projectImg"
+          />
+          <p class="projectText">Line Following Robot</p>
+          <p class="projectDate">2022</p>
+        </a>
+        <div class="fillerProjectCard"></div>
+      </div>
 
-        <br> <br>
-
-        <h2 style="text-align: center;">View other robotics projects</h2>
-
-        <div class="projects">
-            <a class="projectCard" href="https://supah32.github.io/pie-2022-03/">
-                <img src="/images/AutonomousRobot.png" alt="An image of an autonomous, omnidirectional robot" class="projectImg">
-                <p class="projectText">Autonomous Robot</p>
-                <p class="projectDate">2022</p>
-            </a>
-            <a class="projectCard" href="./subpages/line_follower.html">
-                <img src="/images/LineFollower.png" alt="A side view image of the line following robot" class="projectImg">
-                <p class="projectText">Line Following Robot</p>
-                <p class="projectDate">2022</p>
-            </a>
-            <div class="fillerProjectCard"></div>
-        </div>
-
-
-        <br> <br> <br> <br> <br>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
 
-	<script src="subpage.js"></script>
-	<noscript>You need to enable JavaScript to view the full site.</noscript>
-</body>
-
+    <script src="subpage.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+  </body>
 </html>

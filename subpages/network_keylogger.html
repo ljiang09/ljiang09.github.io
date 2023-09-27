@@ -1,121 +1,135 @@
 <!-- holds the html content for the network keylogger project from Soft Sys (Spring 2023) subpage -->
 
 <html lang="en">
+  <!-- Metadata -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lily's Portfolio - Network Keylogger</title>
 
-<!-- Metadata -->
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lily's Portfolio - Network Keylogger</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="subpage.css" />
+  </head>
 
-  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
-  <link rel="stylesheet" href="subpage.css">
-</head>
-
-
-<body>
+  <body>
     <div class="header">
-        <!-- <a class="logoBackground" href="https://www.flaticon.com/free-icons/flowers" title="flowers icons"><img class="logo" src="images/lily.png" alt="Lily Flower Flat Icon by Freepik"></a> -->
+      <!-- <a class="logoBackground" href="https://www.flaticon.com/free-icons/flowers" title="flowers icons"><img class="logo" src="images/lily.png" alt="Lily Flower Flat Icon by Freepik"></a> -->
 
-        <button class="homeButton" onclick="window.location='../index.html';">
-            <p style="vertical-align: middle;">Lily Jiang</p>
-        </button>
+      <button class="homeButton" onclick="window.location='../index.html';">
+        <p style="vertical-align: middle">Lily Jiang</p>
+      </button>
     </div>
 
     <div class="page">
-        <h2 class="title">Network Keylogger</h2>
+      <h2 class="title">Network Keylogger</h2>
 
-        <p class="center subtitle">April - May 2023</p>
+      <p class="center subtitle">April - May 2023</p>
 
-        <br>
+      <br />
 
-        <h2>Skills Used</h2>
+      <h2>Skills Used</h2>
 
-        <div>
-            <div class="skill">C</div>
-            <div class="skill">libevdev library</div>
-            <div class="skill">Device I/O</div>
-            <div class="skill">Socket/Network programming</div>
-        </div>
+      <div>
+        <div class="skill">C</div>
+        <div class="skill">libevdev library</div>
+        <div class="skill">Device I/O</div>
+        <div class="skill">Socket/Network programming</div>
+      </div>
 
-        <br>
+      <br />
 
-        <h2>Project Overview</h2>
+      <h2>Project Overview</h2>
 
-        <p>
-            A keystroke logger for Linux devices. Created in C.
-        </p>
+      <p>A keystroke logger for Linux devices. Created in C.</p>
 
-        <br>
+      <br />
 
-        <div class="center">
-            <a class="repoButton" href="https://github.com/olincollege/network-keylogger" target="_blank">View the GitHub Repo</a>
-        </div>
+      <div class="center">
+        <a
+          class="repoButton"
+          href="https://github.com/olincollege/network-keylogger"
+          target="_blank"
+          >View the GitHub Repo</a
+        >
+      </div>
 
-        <br>
+      <br />
 
-        <h2>Goal</h2>
-        <div class="description">
-            - Create a C program that, upon being started, immediately backgrounds itself
-            to prevent being easily noticed, identified, and easily killed.
-            <br> <br>
-            - The program logs the user's keystroke information, and sends
-            batches of information periodically over a TCP socket to be stored
-            in a server.
-        </div>
+      <h2>Goal</h2>
+      <div class="description">
+        - Create a C program that, upon being started, immediately backgrounds
+        itself to prevent being easily noticed, identified, and easily killed.
+        <br />
+        <br />
+        - The program logs the user's keystroke information, and sends batches
+        of information periodically over a TCP socket to be stored in a server.
+      </div>
 
-        <br>
+      <br />
 
-        <h2>Contributions</h2>
-        <div class="description">
-            - In charge of keystroke logging
-            <br> <br>
-            - Gathered and parsed keystroke event data from the device using
-            the libevdev library
-            <br> <br>
-            - Created custom data structures to store keystroke information
-            <br> <br>
-            - Interfaced keystroke capabilities with client-side functionality
-        </div>
+      <h2>Contributions</h2>
+      <div class="description">
+        - In charge of keystroke logging
+        <br />
+        <br />
+        - Gathered and parsed keystroke event data from the device using the
+        libevdev library
+        <br />
+        <br />
+        - Created custom data structures to store keystroke information
+        <br />
+        <br />
+        - Interfaced keystroke capabilities with client-side functionality
+      </div>
 
-        <br>
+      <br />
 
-        <h2>Project Deliverable</h2>
+      <h2>Project Deliverable</h2>
 
-        <!-- <h3>Code Architecture</h3>
+      <!-- <h3>Code Architecture</h3>
 
         <p>We split our functionality into a Model, View, Controller architecture for cleanliness and easy navigation.</p>
 
         <img src="images/DesktopPetArchitecture.png" alt="A diagram representing the model, view, controller interactions" class="projectImage1 removeBg" style="mix-blend-mode: multiply;"> -->
 
-        <h3>Keylogging</h3>
-    
-        <p>
-            The libevdev library, with sudo permissions, provides the ability to
-            gather event info from all input sources on the device (USB ports,
-            built-in keyboard, laptop lid, etc).
-        </p>
+      <h3>Keylogging</h3>
 
-        <div class="description">
-            How the keylogging works:
-            <br> <br>
-            - Open the keyboard input event file (on my specific device, the
-            location is /dev/input/event3)
-            <br> <br>
-            - In an infinite while loop, continuously check the status of the keyboard
-            event with the `libevdev_next_event` function
-            <br> <br>
-            - Every time a key is pressed (or pressed and held), the key(s) are stored in an array
-            <br> <br>
-            - Every few seconds, the array of keys is packaged into a custom data
-            struct that also stores the time of packaging and the device's
-            user-assigned name.
-            <br> <br>
-            - After the key info is packaged, it is serialized and transported through the socket.
-        </div>
+      <p>
+        The libevdev library, with sudo permissions, provides the ability to
+        gather event info from all input sources on the device (USB ports,
+        built-in keyboard, laptop lid, etc).
+      </p>
 
-        <!-- <h3>Animations</h3>
+      <div class="description">
+        How the keylogging works:
+        <br />
+        <br />
+        - Open the keyboard input event file (on my specific device, the
+        location is /dev/input/event3)
+        <br />
+        <br />
+        - In an infinite while loop, continuously check the status of the
+        keyboard event with the `libevdev_next_event` function
+        <br />
+        <br />
+        - Every time a key is pressed (or pressed and held), the key(s) are
+        stored in an array
+        <br />
+        <br />
+        - Every few seconds, the array of keys is packaged into a custom data
+        struct that also stores the time of packaging and the device's
+        user-assigned name.
+        <br />
+        <br />
+        - After the key info is packaged, it is serialized and transported
+        through the socket.
+      </div>
+
+      <!-- <h3>Animations</h3>
 
         <p>
             While the sprite moved around, we wanted to have animations to match it walking in different directions. To accomplish
@@ -140,45 +154,65 @@
 
         <br> -->
 
-        <br> <br>
+      <br />
+      <br />
 
-        <h3>Points of Improvement</h3>
-    
-        <div class="description">
-            - Gathering input data from external keyboards. Connected to USB ports, and Bluetooth
-            <br> <br>
-            - Enabling the program to work on multiple device types (with different input event numberings)
-        </div>
+      <h3>Points of Improvement</h3>
 
+      <div class="description">
+        - Gathering input data from external keyboards. Connected to USB ports,
+        and Bluetooth
+        <br />
+        <br />
+        - Enabling the program to work on multiple device types (with different
+        input event numberings)
+      </div>
 
-        <br> <br> <br> <br>
+      <br />
+      <br />
+      <br />
+      <br />
 
-        <h2 style="text-align: center;">View other software projects</h2>
+      <h2 style="text-align: center">View other software projects</h2>
 
-        <div class="projects">
-            <a class="projectCard" href="./subpages/desktop_pet.html">
-                <img src="/images/DesktopPetIcon.png" alt="A preview of the desktop pet program" class="projectImg">
-                <p class="projectText">Desktop Pet</p>
-                <p class="projectDate">2023</p>
-            </a>
-            <a class="projectCard" href="./subpages/steve_run.html">
-                <img src="/images/SteveRunIcon.png" alt="Image of Steve Run gameplay" class="projectImg">
-                <p class="projectText">Steve Run</p>
-                <p class="projectDate">2022</p>
-            </a>
-            <a class="projectCard" href="./subpages/rush_hour.html">
-                <img src="/images/RushHour.png" alt="The Unity implementation of Rush Hour" class="projectImg">
-                <p class="projectText">Rush Hour</p>
-                <p class="projectDate">2022</p>
-            </a>
-        </div>
+      <div class="projects">
+        <a class="projectCard" href="./desktop_pet.html">
+          <img
+            src="/images/DesktopPetIcon.png"
+            alt="A preview of the desktop pet program"
+            class="projectImg"
+          />
+          <p class="projectText">Desktop Pet</p>
+          <p class="projectDate">2023</p>
+        </a>
+        <a class="projectCard" href="./steve_run.html">
+          <img
+            src="/images/SteveRunIcon.png"
+            alt="Image of Steve Run gameplay"
+            class="projectImg"
+          />
+          <p class="projectText">Steve Run</p>
+          <p class="projectDate">2022</p>
+        </a>
+        <a class="projectCard" href="./rush_hour.html">
+          <img
+            src="/images/RushHour.png"
+            alt="The Unity implementation of Rush Hour"
+            class="projectImg"
+          />
+          <p class="projectText">Rush Hour</p>
+          <p class="projectDate">2022</p>
+        </a>
+      </div>
 
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
 
-        <br> <br> <br> <br> <br>
-    </div>  
-
-	<script src="subpage.js"></script>
-	<noscript>You need to enable JavaScript to view the full site.</noscript>
-</body>
-
+    <script src="subpage.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+  </body>
 </html>
