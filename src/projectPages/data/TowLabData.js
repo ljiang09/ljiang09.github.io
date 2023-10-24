@@ -38,5 +38,5 @@ export const TowLabData = {
       ],
     },
   ],
-  type: "iOS",
+  type: "Mechanical",
 };
