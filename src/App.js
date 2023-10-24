@@ -13,6 +13,8 @@ import ProjectPages from "./projectPages/index.js";
 import {
   ContactMe as ContactMePage,
   AboutMe as AboutMePage,
+  ArtHomePage,
+  ArchitectureHomePage,
 } from "./personalPages/index.js";
 
 function App() {
@@ -43,6 +45,8 @@ function App() {
           <Route path="/subpages/:subpage" element={<ProjectPages />} />
           <Route path="/aboutMe" element={<AboutMePage />} />
           <Route path="/contactMe" element={<ContactMePage />} />
+          <Route path="/art" element={<ArtHomePage />} />
+          <Route path="/architecture" element={<ArchitectureHomePage />} />
         </Routes>
       </ThemeProvider>
     </BrowserRouter>

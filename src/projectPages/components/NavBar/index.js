@@ -35,8 +35,9 @@ const NavBar = () => {
   };
 
   const handleAboutMe = () => navigate("/aboutMe");
-
   const handleContactMe = () => navigate("/contactMe");
+  const handleArt = () => navigate("/art");
+  const handleArchitecture = () => navigate("/architecture");
 
   return (
     <div className={classes.root}>
@@ -81,6 +82,8 @@ const NavBar = () => {
       >
         <MenuItem onClick={handleAboutMe}>About Me</MenuItem>
         <MenuItem onClick={handleContactMe}>Contact Me</MenuItem>
+        <MenuItem onClick={handleArt}>Art</MenuItem>
+        <MenuItem onClick={handleArchitecture}>Architecture</MenuItem>
       </Menu>
     </div>
   );
