@@ -2,15 +2,20 @@ import NavBar from "../../components/NavBar";
 import { Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import theme from "../../theme.js";
+import HoverableArt from "./HoverableArt";
 import {
   BookstoreDrawing,
+  BookstoreUnfinished,
   BostonBuilding,
+  BostonBuildingUnfinished,
   JapaneseCastle,
   Kyoto,
+  KyotoUnfinished,
   NMNF,
   RamenShopColored,
   RamenShopUncolored,
   RedRoof,
+  RedRoofUnfinished,
 } from "./media/index.js";
 
 const useStyles = makeStyles(() => ({
@@ -37,7 +42,6 @@ const useStyles = makeStyles(() => ({
     width: "90vw",
     "& img": {
       border: "1px solid black",
-      boxShadow: "0px 0px 10px gray",
       height: "70vh",
     },
   },
@@ -52,15 +56,29 @@ const ArtHomePage = () => {
       <div className={classes.root}>
         <Typography className={classes.title}>Art</Typography>
         <div className={classes.images}>
-          <img src={BookstoreDrawing} alt="Bookstore Drawing" />
-          <img src={NMNF} alt="Six of Crows" />
-          {/* TODO: make uncolored appear on hover */}
-          <img src={RamenShopUncolored} alt="Ramen Shop Uncolored" />
-          <img src={RamenShopColored} alt="Ramen Shop Colored" />
-          <img src={BostonBuilding} alt="Boston Building" />
-          <img src={JapaneseCastle} alt="Japanese Castle" />
-          <img src={Kyoto} alt="Kyoto" />
-          <img src={RedRoof} alt="Red Roof" />
+          <HoverableArt
+            src={BookstoreDrawing}
+            hoverSrc={BookstoreUnfinished}
+            alt="Bookstore Drawing"
+          />
+          <HoverableArt src={NMNF} alt="No Mourners, No Funerals" />
+          <HoverableArt
+            src={RamenShopUncolored}
+            hoverSrc={RamenShopColored}
+            alt="Ramen Shop"
+          />
+          <HoverableArt
+            src={BostonBuilding}
+            hoverSrc={BostonBuildingUnfinished}
+            alt="Boston Building"
+          />
+          <HoverableArt src={JapaneseCastle} alt="Japanese Castle" />
+          <HoverableArt src={Kyoto} hoverSrc={KyotoUnfinished} alt="Kyoto" />
+          <HoverableArt
+            src={RedRoof}
+            hoverSrc={RedRoofUnfinished}
+            alt="Red Roof"
+          />
         </div>
       </div>
     </>
