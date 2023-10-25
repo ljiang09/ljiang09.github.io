@@ -19,7 +19,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
-
-// TODO:
-// add architecture blogs section
-// finish "contact/about me" section

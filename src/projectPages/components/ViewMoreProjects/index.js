@@ -59,9 +59,11 @@ const ViewMoreProjects = ({ type }) => {
 
   return (
     <div className={classes.root}>
-      <Typography className={classes.header}>
-        View Other {type} Projects
-      </Typography>
+      {displayedProjects.length !== 0 && (
+        <Typography className={classes.header}>
+          View Other {type} Projects
+        </Typography>
+      )}
 
       <Grid container className={classes.projects}>
         {displayedProjects.map((project) => (
@@ -83,7 +85,7 @@ const ViewMoreProjects = ({ type }) => {
                 </Button>
               </NavLink>
             ) : (
-              <a href={project.pageUrl}>
+              <a href={project.pageUrl} target="_blank" rel="noreferrer">
                 <Button className={classes.link}>
                   <div>
                     <div className={classes.projectImage}>

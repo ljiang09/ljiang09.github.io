@@ -1,0 +1,4 @@
+- figure out how to force starting at top of each page
+- add architecture blogs home page
+- add art to portfolio
+- finish "contact/about me" section
