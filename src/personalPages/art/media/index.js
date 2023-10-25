@@ -25,3 +25,6 @@ export {
   RedRoof,
   RedRoofUnfinished,
 };
+
+// TODO: make sure paper colors are whitened
+// TODO: make sure hovered images are same size as original images
