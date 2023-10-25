@@ -1,4 +1,5 @@
-import NavBar from "../projectPages/components/NavBar";
+import NavBar from "../components/NavBar";
+import { Typography } from "@material-ui/core";
 
 const AboutMe = () => {
   return (

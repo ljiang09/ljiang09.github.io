@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { Typography, Button } from "@material-ui/core";
 
 import { projects } from "../components/Projects/projects_data";
-import NavBar from "./components/NavBar";
+import NavBar from "../components/NavBar";
 import Skills from "./components/SkillsSection";
 import ViewMoreProjects from "./components/ViewMoreProjects";
 import useStyles from "./styles";

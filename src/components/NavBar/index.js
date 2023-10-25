@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button, Menu, MenuItem } from "@material-ui/core";
 import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 import { useNavigate } from "react-router-dom";
-import { projects } from "../../../components/Projects/projects_data.js";
+import { projects } from "../Projects/projects_data.js";
 
 import useStyles from "./styles.js";
 
@@ -49,7 +49,6 @@ const NavBar = () => {
           Projects
           <KeyboardArrowDownIcon className={classes.icon} />
         </Button>
-        {personalInfoReady && (
           <Button onClick={handlePersonalOpen} className={classes.projectsBtn}>
             More
             <KeyboardArrowDownIcon className={classes.icon} />

@@ -1,4 +1,4 @@
-import NavBar from "../projectPages/components/NavBar";
+import NavBar from "../components/NavBar";
 import { Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import theme from "../theme.js";
