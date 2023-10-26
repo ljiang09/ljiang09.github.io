@@ -34,6 +34,11 @@ const NavBar = () => {
     }
   };
 
+  const handleResume = () =>
+    window.open(
+      "https://drive.google.com/file/d/1orw7glJ5BwBvYZ005Y0DPEHXG1dIem8t/view?usp=sharing",
+      "_blank"
+    );
   const handleAboutMe = () => navigate("/aboutMe");
   const handleContactMe = () => navigate("/contactMe");
   const handleArt = () => navigate("/art");
@@ -79,6 +84,7 @@ const NavBar = () => {
         getContentAnchorEl={null}
         className={classes.menu}
       >
+        <MenuItem onClick={handleResume}>Resume</MenuItem>
         <MenuItem onClick={handleAboutMe}>About Me</MenuItem>
         <MenuItem onClick={handleContactMe}>Contact Me</MenuItem>
         <MenuItem onClick={handleArt}>Art</MenuItem>
