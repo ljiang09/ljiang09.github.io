@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8a685450.css",
+    "main.js": "/static/js/main.02bec07b.js",
+    "static/media/NMNF.jpg": "/static/media/NMNF.46e2bed1cbe224da1028.jpg",
+    "static/media/AutonomousRobot.png": "/static/media/AutonomousRobot.47de955454b680503529.png",
+    "static/media/Kyoto.jpg": "/static/media/Kyoto.9aabaf8d04502afbbf08.jpg",
+    "static/media/KyotoUnfinished.jpg": "/static/media/KyotoUnfinished.d32332aa89e799ebdea9.jpg",
+    "static/media/RedRoofUnfinished.jpg": "/static/media/RedRoofUnfinished.be3144b5105d0894f88c.jpg",
+    "static/media/RedRoof.jpg": "/static/media/RedRoof.8372cca76f6d73bf3e31.jpg",
+    "static/media/Bookstore.jpg": "/static/media/Bookstore.bc80c6e269caa5ed240c.jpg",
+    "static/media/BookstoreUnfinished.jpg": "/static/media/BookstoreUnfinished.03bdfb9d23e1069f1ca9.jpg",
+    "static/media/JapaneseCastle.jpg": "/static/media/JapaneseCastle.9c863e7f71287b736c76.jpg",
+    "static/media/LineFollower.png": "/static/media/LineFollower.368910cc9c865b2477f2.png",
+    "static/media/SteveRunIcon.png": "/static/media/SteveRunIcon.e2defa36ccd4e5a91d89.png",
+    "static/media/RamenShopColored.jpg": "/static/media/RamenShopColored.c905979f158517f5297c.jpg",
+    "static/media/RamenShopUncolored.jpg": "/static/media/RamenShopUncolored.1708339739ccf501dc33.jpg",
+    "static/media/BostonBuilding.jpg": "/static/media/BostonBuilding.e2603283364e00d33c39.jpg",
+    "static/media/BostonBuildingUnfinished.jpg": "/static/media/BostonBuildingUnfinished.b119ba8d49a69667f121.jpg",
+    "static/media/MakeupGuideIcon.png": "/static/media/MakeupGuideIcon.1b0c596538fbb5c5cb02.png",
+    "static/media/Keylogger.png": "/static/media/Keylogger.0017193d8fc08ad98613.png",
+    "static/media/TowLabWaterTank.png": "/static/media/TowLabWaterTank.528790e192f49967513f.png",
+    "static/media/3DScannerIcon.png": "/static/media/3DScannerIcon.adda54b948606d08b2fd.png",
+    "static/media/BajaUJoint.png": "/static/media/BajaUJoint.8e3a8a3398276834f46a.png",
+    "static/media/SebelaIcon.png": "/static/media/SebelaIcon.4fc2d50a41d892c1dc72.png",
+    "static/media/RushHour.png": "/static/media/RushHour.1847baf96cac1f89dc73.png",
+    "static/media/DesktopPetIcon.png": "/static/media/DesktopPetIcon.d62534e91b8df1f8db69.png",
+    "static/media/pendleton_hall.md": "/static/media/pendleton_hall.110cbb157484beba869f.md",
+    "index.html": "/index.html",
+    "main.8a685450.css.map": "/static/css/main.8a685450.css.map",
+    "main.02bec07b.js.map": "/static/js/main.02bec07b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a685450.css",
+    "static/js/main.02bec07b.js"
+  ]
+}
