@@ -54,6 +54,7 @@ const NavBar = () => {
           Projects
           <KeyboardArrowDownIcon className={classes.icon} />
         </Button>
+        {personalInfoReady && (
           <Button onClick={handlePersonalOpen} className={classes.projectsBtn}>
             More
             <KeyboardArrowDownIcon className={classes.icon} />
