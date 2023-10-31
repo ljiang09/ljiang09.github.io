@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import theme from "./theme.js";
 
+import NavBar from "./components/NavBar/index.js";
 import useStyles from "./styles.js";
 import Intro from "./components/Intro";
 import AboutMe from "./components/AboutMe";
@@ -28,18 +29,23 @@ function App() {
             exact
             path=""
             element={
-              <div className={classes.root}>
-                <Intro />
-                <AboutMe />
-                <div className={classes.skillsBackground}>
-                  <Skills
-                    style={{
-                      margin: "auto",
-                    }}
-                  />
+              <>
+                <div className={classes.navBar}>
+                  <NavBar />
                 </div>
-                <Projects />
-              </div>
+                <div className={classes.root}>
+                  <Intro />
+                  <AboutMe />
+                  <div className={classes.skillsBackground}>
+                    <Skills
+                      style={{
+                        margin: "auto",
+                      }}
+                    />
+                  </div>
+                  <Projects />
+                </div>
+              </>
             }
           />
           <Route path="/subpages/:subpage" element={<ProjectPages />} />
