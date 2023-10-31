@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8a685450.css",
-    "main.js": "/static/js/main.b2553efa.js",
+    "main.js": "/static/js/main.dfe37b3f.js",
     "static/media/NMNF.jpg": "/static/media/NMNF.46e2bed1cbe224da1028.jpg",
     "static/media/AutonomousRobot.png": "/static/media/AutonomousRobot.47de955454b680503529.png",
     "static/media/Kyoto.jpg": "/static/media/Kyoto.9aabaf8d04502afbbf08.jpg",
@@ -27,10 +27,10 @@
     "static/media/DesktopPetIcon.png": "/static/media/DesktopPetIcon.d62534e91b8df1f8db69.png",
     "index.html": "/index.html",
     "main.8a685450.css.map": "/static/css/main.8a685450.css.map",
-    "main.b2553efa.js.map": "/static/js/main.b2553efa.js.map"
+    "main.dfe37b3f.js.map": "/static/js/main.dfe37b3f.js.map"
   },
   "entrypoints": [
     "static/css/main.8a685450.css",
-    "static/js/main.b2553efa.js"
+    "static/js/main.dfe37b3f.js"
   ]
 }
