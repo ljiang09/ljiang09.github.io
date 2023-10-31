@@ -7,12 +7,11 @@ const AboutMe = () => {
   return (
     <div className={classes.root}>
       <Typography className={classes.text}>
-        I'm a sophomore at Olin College, studying Engineering with Computing and
+        I'm a junior at Olin College, studying Engineering with Computing and
         graduating in May 2025. I have a passion for front-end development, and
         pride myself in the precision and care I take while creating designs and
         user experiences.
       </Typography>
-      {/* TODO: embed buttons for "Sebela" and "Kuva Systems" */}
       <Typography className={classes.text}>
         I first found my love for front-end development as a cofounder of
         Sebela, where I created mobile apps with Swift and Unity. More recently,

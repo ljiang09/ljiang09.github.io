@@ -38,8 +38,9 @@ const useStyles = makeStyles(() => ({
   },
   projects: {
     width: "80vw !important",
+    margin: "0 auto",
     display: "flex",
-    justifyContent: "start",
+    justifyContent: "center",
     gap: "50px",
     marginTop: "50px",
     // TODO: change this into a responsive sizing. breakpoints
