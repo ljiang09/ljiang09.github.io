@@ -7,6 +7,7 @@ const Skills = () => {
 
   const languages = [
     "ReactJS",
+    "JavaScript",
     "Python",
     "Java",
     "Swift/SwiftUI",
@@ -20,16 +21,19 @@ const Skills = () => {
   ];
 
   const technologies = [
+    "Git/GitHub",
     "Redux",
     "Linux",
-    "Git/GitHub",
-    "Terraform",
+    "Unity",
+    // "Terraform",
     "MATLAB",
-    "CLI",
+    // "Command Line",
+    "Azure",
     "XCode",
-    "Latex",
+    // "Latex",
     "Firebase",
     "Arduino",
+    "Raspberry Pi",
   ];
 
   return (
