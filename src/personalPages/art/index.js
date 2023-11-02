@@ -16,6 +16,7 @@ import {
   RamenShopUncolored,
   RedRoof,
   RedRoofUnfinished,
+  TalaveraShopUncolored,
 } from "./media/index.js";
 
 const useStyles = makeStyles(() => ({
@@ -78,6 +79,10 @@ const ArtHomePage = () => {
             src={RedRoof}
             hoverSrc={RedRoofUnfinished}
             alt="Red Roof"
+          />
+          <HoverableArt
+            src={TalaveraShopUncolored}
+            alt="Talavera Shop Uncolored"
           />
         </div>
       </div>
