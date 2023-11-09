@@ -6,7 +6,7 @@ const useStyles = makeStyles(() => ({
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
-    height: "100px",
+    height: "80px",
     background: theme.palette.primary.main,
   },
   homeBtn: {

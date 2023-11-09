@@ -6,7 +6,9 @@ import { projects } from "../Projects/projects_data.js";
 
 import useStyles from "./styles.js";
 
-const personalInfoReady = false;
+const aboutMeReady = false;
+const contactMeReady = false;
+const architectureReady = false;
 
 const NavBar = () => {
   const navigate = useNavigate();
@@ -54,12 +56,10 @@ const NavBar = () => {
           Projects
           <KeyboardArrowDownIcon className={classes.icon} />
         </Button>
-        {personalInfoReady && (
-          <Button onClick={handlePersonalOpen} className={classes.projectsBtn}>
-            More
-            <KeyboardArrowDownIcon className={classes.icon} />
-          </Button>
-        )}
+        <Button onClick={handlePersonalOpen} className={classes.projectsBtn}>
+          More
+          <KeyboardArrowDownIcon className={classes.icon} />
+        </Button>
       </div>
       <Menu
         anchorEl={anchorElProjects}
@@ -86,10 +86,14 @@ const NavBar = () => {
         className={classes.menu}
       >
         <MenuItem onClick={handleResume}>Resume</MenuItem>
-        <MenuItem onClick={handleAboutMe}>About Me</MenuItem>
-        <MenuItem onClick={handleContactMe}>Contact Me</MenuItem>
+        {aboutMeReady && <MenuItem onClick={handleAboutMe}>About Me</MenuItem>}
+        {contactMeReady && (
+          <MenuItem onClick={handleContactMe}>Contact Me</MenuItem>
+        )}
         <MenuItem onClick={handleArt}>Art</MenuItem>
-        <MenuItem onClick={handleArchitecture}>Architecture</MenuItem>
+        {architectureReady && (
+          <MenuItem onClick={handleArchitecture}>Architecture</MenuItem>
+        )}
       </Menu>
     </div>
   );
