@@ -10,6 +10,10 @@ const useStyles = makeStyles(() => ({
     padding: 0,
     transition: "all 0.25s ease",
   },
+  crossFade: {
+    padding: 0,
+    lineHeight: 0,
+  },
 }));
 
 const HoverableArt = ({ src, hoverSrc = null, alt }) => {
@@ -22,7 +26,12 @@ const HoverableArt = ({ src, hoverSrc = null, alt }) => {
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
-      <CrossfadeImage src={hovered && hoverSrc ? hoverSrc : src} />
+      {/* <CrossfadeImage
+        duration={200}
+        src={hovered && hoverSrc ? hoverSrc : src}
+        alt={alt}
+      /> */}
+      <img src={hovered && hoverSrc ? hoverSrc : src} alt={alt} />
     </Button>
   );
 };
