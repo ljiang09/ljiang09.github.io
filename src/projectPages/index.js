@@ -111,6 +111,14 @@ const ProjectPages = () => {
                 ))}
               </>
             )}
+            {data.notes && (
+              <>
+                <Typography className={classes.header2}>Notes</Typography>
+                {data.notes.map((note) => (
+                  <Typography className={classes.text}>{note}</Typography>
+                ))}
+              </>
+            )}
 
             <ViewMoreProjects type={data.type} />
           </div>

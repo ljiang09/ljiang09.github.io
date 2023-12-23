@@ -1,3 +1,5 @@
+import { RPSClassifierData } from "./RPSClassifierData";
+import { GameSetupRecData } from "./GameSetupRecData";
 import { NetworkKeyloggerData } from "./NetworkKeyloggerData";
 import { DesktopPetData } from "./DesktopPetData";
 import { SebelaData } from "./SebelaData";
@@ -10,6 +12,8 @@ import { SteveRunData } from "./SteveRunData";
 import { TowLabData } from "./TowLabData";
 
 export {
+  RPSClassifierData,
+  GameSetupRecData,
   NetworkKeyloggerData,
   DesktopPetData,
   SebelaData,

@@ -29,7 +29,7 @@ const useStyles = makeStyles(() => ({
   },
   header2: {
     fontSize: "30px",
-    marginTop: "40px",
+    marginTop: "60px",
     fontWeight: "bold",
   },
   header3: {

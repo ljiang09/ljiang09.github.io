@@ -1,10 +1,12 @@
 import {
+  ArmEMG,
   AutonomousRobotIcon,
   // BajaUJointIcon,
   DesktopPetIcon,
   KeyloggerIcon,
   LineFollowerIcon,
   MakeupGuideIcon,
+  Mouse,
   PanTiltScannerIcon,
   RushHourIcon,
   SebelaIcon,
@@ -12,6 +14,8 @@ import {
   TowLabWaterTankIcon,
 } from "../../media/projectIcons/index.js";
 import {
+  RPSClassifierData,
+  GameSetupRecData,
   NetworkKeyloggerData,
   DesktopPetData,
   SebelaData,
@@ -33,6 +37,22 @@ export const TAGS = {
 };
 
 export const projects = [
+  {
+    name: "RPS Classifier",
+    date: "2023",
+    imgUrl: ArmEMG,
+    pageUrl: "rockPaperScissors",
+    content: RPSClassifierData,
+    tags: [TAGS.SOFTWARE, TAGS.COURSE_PROJECTS],
+  },
+  {
+    name: "Game Setup Rec Tool",
+    date: "2023",
+    imgUrl: Mouse,
+    pageUrl: "gameSetup",
+    content: GameSetupRecData,
+    tags: [TAGS.SOFTWARE, TAGS.COURSE_PROJECTS],
+  },
   {
     name: "Network Keylogger",
     date: "2023",
