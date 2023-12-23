@@ -5,12 +5,11 @@ const useStyles = makeStyles(() => ({
   root: {
     display: "flex",
     flexDirection: "column",
-    alignItems: "center",
+    alignItems: "start",
     gap: "20px",
-    paddingTop: "60px",
+    padding: "60px 15vw 100px",
     margin: 0,
     background: theme.palette.background.tan,
-    paddingBottom: "100px",
   },
   title: {
     fontSize: "40px",
@@ -19,13 +18,6 @@ const useStyles = makeStyles(() => ({
   date: {
     fontSize: "30px",
     fontWeight: "bold",
-  },
-  content: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "start",
-    width: "70vw",
-    margin: "auto",
   },
   header2: {
     fontSize: "30px",
@@ -63,6 +55,9 @@ const useStyles = makeStyles(() => ({
       fontSize: "20px",
       color: "white",
     },
+  },
+  section: {
+    gap: "0px",
   },
   bulletPoint: {
     display: "flex",
