@@ -43,7 +43,7 @@ const useStyles = makeStyles(() => ({
   repoButton: {
     textDecoration: "none",
     background: theme.palette.primary.main,
-    margin: "40px",
+    margin: "10px 40px",
     padding: "5px 20px",
     borderRadius: "15px",
     boxShadow: "0 0 4px rgba(0, 0, 0, 0.5)",

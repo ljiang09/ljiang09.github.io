@@ -40,6 +40,7 @@ const ProjectPages = () => {
               </Typography>
             </div>
           )}
+
           <div className={classes.buttons}>
             {data.repoLink && (
               <a
