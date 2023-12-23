@@ -30,6 +30,7 @@ const useStyles = makeStyles(() => ({
   header2: {
     fontSize: "30px",
     marginTop: "60px",
+    marginBottom: "10px",
     fontWeight: "bold",
   },
   header3: {
@@ -39,7 +40,7 @@ const useStyles = makeStyles(() => ({
   },
   text: {
     fontSize: "20px",
-    marginTop: "10px",
+    marginBottom: "10px",
   },
   buttons: {
     display: "flex",
@@ -53,7 +54,7 @@ const useStyles = makeStyles(() => ({
     margin: "40px",
     padding: "5px 20px",
     borderRadius: "15px",
-    boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)",
+    boxShadow: "0 0 4px rgba(0, 0, 0, 0.5)",
     "&:hover": {
       background: theme.palette.secondary.main,
     },
@@ -61,6 +62,15 @@ const useStyles = makeStyles(() => ({
       textTransform: "none",
       fontSize: "20px",
       color: "white",
+    },
+  },
+  bulletPoint: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "start",
+    gap: "10px",
+    "& svg": {
+      marginTop: "3px",
     },
   },
 }));

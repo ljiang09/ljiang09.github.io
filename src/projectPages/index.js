@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { Typography, Button } from "@material-ui/core";
+import { KeyboardArrowRight as Bullet } from "@mui/icons-material";
 
 import { projects } from "../components/Projects/projects_data";
 import NavBar from "../components/NavBar";
@@ -66,7 +67,10 @@ const ProjectPages = () => {
               <>
                 <Typography className={classes.header2}>Goals</Typography>
                 {data.goals.map((goal) => (
-                  <Typography className={classes.text}>{goal}</Typography>
+                  <div className={classes.bulletPoint}>
+                    <Bullet />
+                    <Typography className={classes.text}>{goal}</Typography>
+                  </div>
                 ))}
               </>
             )}
@@ -76,7 +80,10 @@ const ProjectPages = () => {
                   Notable Features
                 </Typography>
                 {data.notableFeatures.map((feature) => (
-                  <Typography className={classes.text}>{feature}</Typography>
+                  <div className={classes.bulletPoint}>
+                    <Bullet />
+                    <Typography className={classes.text}>{feature}</Typography>
+                  </div>
                 ))}
               </>
             )}
@@ -86,9 +93,12 @@ const ProjectPages = () => {
                   Contributions
                 </Typography>
                 {data.contributions.map((contribution) => (
-                  <Typography className={classes.text}>
-                    {contribution}
-                  </Typography>
+                  <div className={classes.bulletPoint}>
+                    <Bullet />
+                    <Typography className={classes.text}>
+                      {contribution}
+                    </Typography>
+                  </div>
                 ))}
               </>
             )}
@@ -115,7 +125,10 @@ const ProjectPages = () => {
               <>
                 <Typography className={classes.header2}>Notes</Typography>
                 {data.notes.map((note) => (
-                  <Typography className={classes.text}>{note}</Typography>
+                  <div className={classes.bulletPoint}>
+                    <Bullet />
+                    <Typography className={classes.text}>{note}</Typography>
+                  </div>
                 ))}
               </>
             )}
