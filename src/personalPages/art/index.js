@@ -1,3 +1,4 @@
+import { useState } from "react";
 import NavBar from "../../components/NavBar";
 import { Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
@@ -30,7 +31,8 @@ const useStyles = makeStyles(() => ({
     margin: 0,
     background: theme.palette.background.tan,
     paddingBottom: "100px",
-    minHeight: "100vh",
+    height: "calc(100vh - 240px)",
+    overflow: "scroll",
   },
   title: {
     fontSize: "40px",
@@ -47,10 +49,27 @@ const useStyles = makeStyles(() => ({
       height: "70vh",
     },
   },
+  loading: {
+    position: "absolute",
+    top: "80px",
+    left: "0",
+    width: "100%",
+    height: "calc(100vh - 80px)",
+    background: theme.palette.background.tan,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  },
 }));
 
 const ArtHomePage = () => {
+  const [loading, setLoading] = useState(true);
+
   const classes = useStyles();
+
+  setTimeout(() => {
+    setLoading(false);
+  }, "1000");
 
   window.scrollTo(0, 0);
 
@@ -64,32 +83,52 @@ const ArtHomePage = () => {
             src={BookstoreDrawing}
             hoverSrc={BookstoreUnfinished}
             alt="Bookstore Drawing"
+            // onLoad={() => setLoading(loading + 1)}
           />
-          <HoverableArt src={NMNF} alt="No Mourners, No Funerals" />
+          <HoverableArt
+            src={NMNF}
+            alt="No Mourners, No Funerals"
+            onLoad={() => setLoading(loading + 1)}
+          />
           <HoverableArt
             src={RamenShopColored}
             hoverSrc={RamenShopUncolored}
             alt="Ramen Shop"
+            onLoad={() => setLoading(loading + 1)}
           />
           <HoverableArt
             src={BostonBuilding}
             hoverSrc={BostonBuildingUnfinished}
             alt="Boston Building"
+            onLoad={() => setLoading(loading + 1)}
           />
-          <HoverableArt src={JapaneseCastle} alt="Japanese Castle" />
-          <HoverableArt src={Kyoto} hoverSrc={KyotoUnfinished} alt="Kyoto" />
+          <HoverableArt
+            src={JapaneseCastle}
+            alt="Japanese Castle"
+            onLoad={() => setLoading(loading + 1)}
+          />
+          <HoverableArt
+            src={Kyoto}
+            hoverSrc={KyotoUnfinished}
+            alt="Kyoto"
+            onLoad={() => setLoading(loading + 1)}
+          />
           <HoverableArt
             src={RedRoof}
             hoverSrc={RedRoofUnfinished}
             alt="Red Roof"
+            onLoad={() => setLoading(loading + 1)}
           />
           <HoverableArt
             src={TalaveraShopColored}
             hoverSrc={TalaveraShopUncolored}
             alt="Talavera Shop"
+            onLoad={() => setLoading(loading + 1)}
           />
         </div>
       </div>
+
+      {loading && <div className={classes.loading}>Loading...</div>}
     </>
   );
 };
