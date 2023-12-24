@@ -16,6 +16,7 @@ import {
   RamenShopUncolored,
   RedRoof,
   RedRoofUnfinished,
+  TalaveraShopColored,
   TalaveraShopUncolored,
 } from "./media/index.js";
 
@@ -66,8 +67,8 @@ const ArtHomePage = () => {
           />
           <HoverableArt src={NMNF} alt="No Mourners, No Funerals" />
           <HoverableArt
-            src={RamenShopUncolored}
-            hoverSrc={RamenShopColored}
+            src={RamenShopColored}
+            hoverSrc={RamenShopUncolored}
             alt="Ramen Shop"
           />
           <HoverableArt
@@ -83,8 +84,9 @@ const ArtHomePage = () => {
             alt="Red Roof"
           />
           <HoverableArt
-            src={TalaveraShopUncolored}
-            alt="Talavera Shop Uncolored"
+            src={TalaveraShopColored}
+            hoverSrc={TalaveraShopUncolored}
+            alt="Talavera Shop"
           />
         </div>
       </div>

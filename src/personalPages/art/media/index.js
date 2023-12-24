@@ -10,6 +10,7 @@ import RamenShopColored from "./RamenShopColored.jpg";
 import RamenShopUncolored from "./RamenShopUncolored.jpg";
 import RedRoof from "./RedRoof.jpg";
 import RedRoofUnfinished from "./RedRoofUnfinished.jpg";
+import TalaveraShopColored from "./TalaveraShopColored.jpg";
 import TalaveraShopUncolored from "./TalaveraShopUncolored.jpg";
 
 export {
@@ -25,6 +26,7 @@ export {
   RamenShopUncolored,
   RedRoof,
   RedRoofUnfinished,
+  TalaveraShopColored,
   TalaveraShopUncolored,
 };
 
