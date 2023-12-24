@@ -16,7 +16,7 @@ const ViewMoreProjects = ({ type }) => {
     if (projects.includes(subpage)) {
       updatedProjects = projects.filter((project) => project !== subpage);
       if (substitution) updatedProjects.push(substitution);
-    }
+    } else updatedProjects = projects;
 
     updatedProjects = updatedProjects.map((project) =>
       project_data.find((projectObj) => projectObj.pageUrl === project)
@@ -30,8 +30,8 @@ const ViewMoreProjects = ({ type }) => {
   switch (type) {
     case TAGS.SOFTWARE:
       displayedProjects = getProjects(
-        ["desktopPet", "keylogger", "sebelaApp"],
-        "makeupGuideApp"
+        ["rockPaperScissors", "keylogger", "sebelaApp"],
+        "desktopPet"
       );
       break;
     case TAGS.IOS:

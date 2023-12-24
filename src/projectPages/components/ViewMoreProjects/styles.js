@@ -43,9 +43,9 @@ const useStyles = makeStyles(() => ({
     },
   },
   projectImage: {
-    width: "275px",
-    height: "275px",
-    margin: "25px",
+    width: "200px",
+    height: "200px",
+    margin: "20px",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
@@ -57,11 +57,11 @@ const useStyles = makeStyles(() => ({
     },
   },
   projectName: {
-    fontSize: "30px",
+    fontSize: "24px",
     textTransform: "none",
   },
   projectDate: {
-    fontSize: "20px",
+    fontSize: "16px",
     textTransform: "none",
     marginBottom: "25px",
   },
