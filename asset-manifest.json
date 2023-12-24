@@ -1,22 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.8a685450.css",
-    "main.js": "/static/js/main.f0e35c41.js",
+    "main.js": "/static/js/main.47648c49.js",
     "static/media/NMNF.jpg": "/static/media/NMNF.46e2bed1cbe224da1028.jpg",
     "static/media/AutonomousRobot.png": "/static/media/AutonomousRobot.47de955454b680503529.png",
-    "static/media/Kyoto.jpg": "/static/media/Kyoto.9aabaf8d04502afbbf08.jpg",
-    "static/media/KyotoUnfinished.jpg": "/static/media/KyotoUnfinished.d32332aa89e799ebdea9.jpg",
-    "static/media/RedRoofUnfinished.jpg": "/static/media/RedRoofUnfinished.be3144b5105d0894f88c.jpg",
-    "static/media/RedRoof.jpg": "/static/media/RedRoof.8372cca76f6d73bf3e31.jpg",
-    "static/media/Bookstore.jpg": "/static/media/Bookstore.bc80c6e269caa5ed240c.jpg",
-    "static/media/BookstoreUnfinished.jpg": "/static/media/BookstoreUnfinished.03bdfb9d23e1069f1ca9.jpg",
+    "static/media/TalaveraShopUncolored.jpg": "/static/media/TalaveraShopUncolored.76a074729f15a7aee938.jpg",
     "static/media/JapaneseCastle.jpg": "/static/media/JapaneseCastle.9c863e7f71287b736c76.jpg",
     "static/media/LineFollower.png": "/static/media/LineFollower.368910cc9c865b2477f2.png",
+    "static/media/Kyoto.jpg": "/static/media/Kyoto.9bbe12c3cff6de819185.jpg",
+    "static/media/KyotoUnfinished.jpg": "/static/media/KyotoUnfinished.e36ded42970fb7ab38ea.jpg",
+    "static/media/RedRoof.jpg": "/static/media/RedRoof.8c8b782da0d10d9c2bea.jpg",
+    "static/media/RamenShopColored.jpg": "/static/media/RamenShopColored.90a37a05c62d80806737.jpg",
     "static/media/SteveRunIcon.png": "/static/media/SteveRunIcon.e2defa36ccd4e5a91d89.png",
-    "static/media/RamenShopColored.jpg": "/static/media/RamenShopColored.c905979f158517f5297c.jpg",
-    "static/media/RamenShopUncolored.jpg": "/static/media/RamenShopUncolored.1708339739ccf501dc33.jpg",
-    "static/media/BostonBuilding.jpg": "/static/media/BostonBuilding.e2603283364e00d33c39.jpg",
-    "static/media/BostonBuildingUnfinished.jpg": "/static/media/BostonBuildingUnfinished.b119ba8d49a69667f121.jpg",
+    "static/media/Bookstore.jpg": "/static/media/Bookstore.b9313d58cadbd35dd746.jpg",
+    "static/media/RamenShopUncolored.jpg": "/static/media/RamenShopUncolored.6739f438d8985537202d.jpg",
+    "static/media/RedRoofUnfinished.jpg": "/static/media/RedRoofUnfinished.bdbb942701dc13d3e249.jpg",
+    "static/media/BostonBuilding.jpg": "/static/media/BostonBuilding.bb3a1c66edf3fad3c154.jpg",
+    "static/media/BookstoreUnfinished.jpg": "/static/media/BookstoreUnfinished.fcebed50d249b71940cc.jpg",
+    "static/media/BostonBuildingUnfinished.jpg": "/static/media/BostonBuildingUnfinished.b2f5307fb1cc1062f501.jpg",
+    "static/media/Mouse.jpg": "/static/media/Mouse.f6da4b5969a69e7ecb80.jpg",
+    "static/media/ArmEMG.jpg": "/static/media/ArmEMG.54d87ac7c1dfae7b961c.jpg",
     "static/media/MakeupGuideIcon.png": "/static/media/MakeupGuideIcon.1b0c596538fbb5c5cb02.png",
     "static/media/Keylogger.png": "/static/media/Keylogger.0017193d8fc08ad98613.png",
     "static/media/TowLabWaterTank.png": "/static/media/TowLabWaterTank.528790e192f49967513f.png",
@@ -27,10 +30,10 @@
     "static/media/DesktopPetIcon.png": "/static/media/DesktopPetIcon.d62534e91b8df1f8db69.png",
     "index.html": "/index.html",
     "main.8a685450.css.map": "/static/css/main.8a685450.css.map",
-    "main.f0e35c41.js.map": "/static/js/main.f0e35c41.js.map"
+    "main.47648c49.js.map": "/static/js/main.47648c49.js.map"
   },
   "entrypoints": [
     "static/css/main.8a685450.css",
-    "static/js/main.f0e35c41.js"
+    "static/js/main.47648c49.js"
   ]
 }
