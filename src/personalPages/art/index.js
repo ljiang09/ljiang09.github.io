@@ -62,6 +62,47 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
+const artData = [
+  {
+    src: BookstoreDrawing,
+    hoverSrc: BookstoreUnfinished,
+    alt: "Bookstore Drawing",
+  },
+  {
+    src: NMNF,
+    alt: "No Mourners, No Funerals",
+  },
+  {
+    src: RamenShopColored,
+    hoverSrc: RamenShopUncolored,
+    alt: "Ramen Shop",
+  },
+  {
+    src: BostonBuilding,
+    hoverSrc: BostonBuildingUnfinished,
+    alt: "Boston Building",
+  },
+  {
+    src: JapaneseCastle,
+    alt: "Japanese Castle",
+  },
+  {
+    src: Kyoto,
+    hoverSrc: KyotoUnfinished,
+    alt: "Kyoto",
+  },
+  {
+    src: RedRoof,
+    hoverSrc: RedRoofUnfinished,
+    alt: "Red Roof",
+  },
+  {
+    src: TalaveraShopColored,
+    hoverSrc: TalaveraShopUncolored,
+    alt: "Talavera Shop",
+  },
+];
+
 const ArtHomePage = () => {
   const [loading, setLoading] = useState(true);
 
@@ -79,52 +120,14 @@ const ArtHomePage = () => {
       <div className={classes.root}>
         <Typography className={classes.title}>Art</Typography>
         <div className={classes.images}>
-          <HoverableArt
-            src={BookstoreDrawing}
-            hoverSrc={BookstoreUnfinished}
-            alt="Bookstore Drawing"
-            // onLoad={() => setLoading(loading + 1)}
-          />
-          <HoverableArt
-            src={NMNF}
-            alt="No Mourners, No Funerals"
-            onLoad={() => setLoading(loading + 1)}
-          />
-          <HoverableArt
-            src={RamenShopColored}
-            hoverSrc={RamenShopUncolored}
-            alt="Ramen Shop"
-            onLoad={() => setLoading(loading + 1)}
-          />
-          <HoverableArt
-            src={BostonBuilding}
-            hoverSrc={BostonBuildingUnfinished}
-            alt="Boston Building"
-            onLoad={() => setLoading(loading + 1)}
-          />
-          <HoverableArt
-            src={JapaneseCastle}
-            alt="Japanese Castle"
-            onLoad={() => setLoading(loading + 1)}
-          />
-          <HoverableArt
-            src={Kyoto}
-            hoverSrc={KyotoUnfinished}
-            alt="Kyoto"
-            onLoad={() => setLoading(loading + 1)}
-          />
-          <HoverableArt
-            src={RedRoof}
-            hoverSrc={RedRoofUnfinished}
-            alt="Red Roof"
-            onLoad={() => setLoading(loading + 1)}
-          />
-          <HoverableArt
-            src={TalaveraShopColored}
-            hoverSrc={TalaveraShopUncolored}
-            alt="Talavera Shop"
-            onLoad={() => setLoading(loading + 1)}
-          />
+          {artData.map((art) => (
+            <HoverableArt
+              src={art.src}
+              hoverSrc={art.hoverSrc}
+              alt={art.alt}
+              key={art.alt}
+            />
+          ))}
         </div>
       </div>
 
