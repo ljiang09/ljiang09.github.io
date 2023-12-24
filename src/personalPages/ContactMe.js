@@ -24,6 +24,8 @@ const useStyles = makeStyles(() => ({
 const ContactMe = () => {
   const classes = useStyles();
 
+  window.scrollTo(0, 0);
+
   return (
     <div>
       <NavBar />

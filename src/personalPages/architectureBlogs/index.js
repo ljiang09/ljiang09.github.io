@@ -24,6 +24,8 @@ const useStyles = makeStyles(() => ({
 const ArchitectureHomePage = () => {
   const classes = useStyles();
 
+  window.scrollTo(0, 0);
+
   return (
     <>
       <NavBar />

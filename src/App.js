@@ -20,6 +20,7 @@ import {
 
 function App() {
   const classes = useStyles();
+  window.scrollTo(0, 0);
 
   return (
     <BrowserRouter>
