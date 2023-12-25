@@ -1,10 +1,13 @@
 import { useState, useEffect } from "react";
-import { Typography, Fade } from "@material-ui/core";
-import Table from "@mui/material/Table";
-import TableBody from "@mui/material/TableBody";
-import TableCell from "@mui/material/TableCell";
-import TableHead from "@mui/material/TableHead";
-import TableRow from "@mui/material/TableRow";
+import {
+  Typography,
+  Fade,
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableRow,
+} from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 import theme from "../../../theme.js";
