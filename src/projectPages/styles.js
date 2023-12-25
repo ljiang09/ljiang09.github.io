@@ -10,6 +10,7 @@ const useStyles = makeStyles(() => ({
     padding: "60px 15vw 100px",
     margin: 0,
     background: theme.palette.background.tan,
+    minHeight: "100vh",
   },
   title: {
     fontSize: "40px",
