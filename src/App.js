@@ -27,7 +27,6 @@ function App() {
       <ThemeProvider theme={theme}>
         <Routes>
           <Route
-            exact
             path=""
             element={
               <>
@@ -53,7 +52,7 @@ function App() {
           <Route path="/aboutMe" element={<AboutMePage />} />
           <Route path="/contactMe" element={<ContactMePage />} />
           <Route path="/art" element={<ArtHomePage />} />
-          <Route path="/architecture" element={<ArchitectureHomePage />} />
+          <Route path="/architecture/*" element={<ArchitectureHomePage />} />
         </Routes>
       </ThemeProvider>
     </BrowserRouter>

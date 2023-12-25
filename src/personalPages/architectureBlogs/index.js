@@ -1,7 +1,10 @@
 import NavBar from "../../components/NavBar";
-import { Typography } from "@material-ui/core";
+import { Typography, Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import { Routes, Route, NavLink } from "react-router-dom";
+
 import theme from "../../theme.js";
+import PendletonHall from "./PendletonHall";
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -30,7 +33,24 @@ const ArchitectureHomePage = () => {
     <>
       <NavBar />
       <div className={classes.root}>
-        <Typography className={classes.title}>Architecture</Typography>
+        <Routes>
+          <Route
+            path=""
+            element={
+              <>
+                <Typography className={classes.title}>Architecture</Typography>
+
+                <NavLink to={`/architecture/pendletonHall`}>
+                  <Button>Pendleton Hall</Button>
+                </NavLink>
+                <NavLink to={`/architecture/ORU`}>
+                  <Button>Oral Roberts University</Button>
+                </NavLink>
+              </>
+            }
+          />
+          <Route path="pendletonHall" element={<PendletonHall />} />
+        </Routes>
       </div>
     </>
   );
