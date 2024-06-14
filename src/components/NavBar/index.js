@@ -8,7 +8,7 @@ import useStyles from "./styles.js";
 
 const aboutMeReady = false;
 const contactMeReady = false;
-const architectureReady = false;
+const architectureReady = true;
 
 const NavBar = () => {
   const navigate = useNavigate();
@@ -38,7 +38,7 @@ const NavBar = () => {
 
   const handleResume = () =>
     window.open(
-      "https://drive.google.com/file/d/1orw7glJ5BwBvYZ005Y0DPEHXG1dIem8t/view?usp=sharing",
+      "https://drive.google.com/file/d/1VH2YgtDRbfhgmcfKP7fnktB9tFexkvSw/view?usp=sharing",
       "_blank"
     );
   const handleAboutMe = () => navigate("/aboutMe");

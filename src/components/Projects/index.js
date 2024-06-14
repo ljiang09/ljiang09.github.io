@@ -1,7 +1,8 @@
 import { useState } from "react";
-import useStyles from "./styles.js";
 import { Typography, Tabs, Tab, Grid, Button } from "@material-ui/core";
 import { NavLink } from "react-router-dom";
+
+import useStyles from "./styles.js";
 import { TAGS, projects } from "./projects_data.js";
 
 const tabOrder = [

@@ -1,14 +1,20 @@
 import NavBar from "../../components/NavBar";
-import { Typography, Button } from "@material-ui/core";
+import { Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import { Routes, Route, NavLink } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import theme from "../../theme.js";
 import PendletonHall from "./PendletonHall";
+import ORU from "./ORU";
 import GrundtvigsKirke from "./GrundtvigsKirke";
 
 import Pendleton_front from "./PendletonHall/images/Pendleton_front.JPG";
+import ORU_LRC from "./ORU/images/LRC.jpg";
 import GrundtvigsChandelier from "./GrundtvigsKirke/images/fig6.jpg";
+
+import ArchitectureBlogButton from "./architecture-blog-button";
+
+const ORU_PAGE_FINISHED = false;
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -25,6 +31,10 @@ const useStyles = makeStyles(() => ({
   title: {
     fontSize: "40px",
     fontWeight: "bold",
+  },
+  content: {
+    display: "flex",
+    flexDirection: "row",
   },
   button: {
     display: "flex",
@@ -71,24 +81,35 @@ const ArchitectureHomePage = () => {
               <>
                 <Typography className={classes.title}>Architecture</Typography>
 
-                <NavLink
-                  to={`/architecture/pendletonHall`}
-                  className={classes.button}
-                >
-                  <img src={Pendleton_front} alt="Pendleton Hall" />
-                  <Typography>Pendleton Hall</Typography>
-                </NavLink>
-                <NavLink
-                  to={`/architecture/grundtvigsKirke`}
-                  className={classes.button}
-                >
-                  <img src={GrundtvigsChandelier} alt="Grundtvig's Church" />
-                  <Typography>Grundtvig's Church</Typography>
-                </NavLink>
+                <div className={classes.content}>
+                  <ArchitectureBlogButton
+                    title="Pendleton Hall"
+                    src={Pendleton_front}
+                    alt="Pendleton Hall"
+                    to={`/architecture/pendletonHall`}
+                  />
+
+                  {ORU_PAGE_FINISHED && (
+                    <ArchitectureBlogButton
+                      title="Oral Roberts University"
+                      src={ORU_LRC}
+                      alt="ORU's LRC"
+                      to={`/architecture/ORU`}
+                    />
+                  )}
+
+                  <ArchitectureBlogButton
+                    title="Grundtvig's Church"
+                    src={GrundtvigsChandelier}
+                    alt="Grundtvig's Church"
+                    to={`/architecture/grundtvigsKirke`}
+                  />
+                </div>
               </>
             }
           />
           <Route path="pendletonHall" element={<PendletonHall />} />
+          {ORU_PAGE_FINISHED && <Route path="ORU" element={<ORU />} />}
           <Route path="grundtvigsKirke" element={<GrundtvigsKirke />} />
         </Routes>
       </div>

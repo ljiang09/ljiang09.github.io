@@ -93,7 +93,11 @@ const PendletonHall = () => {
           This results in a gentle, diffused illumination that complements the
           angular, vertical form of the church to dramatize the space.
         </Typography>
-        <img src={fig1} alt="three images of various windows in the church" />
+        <img
+          src={fig1}
+          alt="three images of various windows in the church"
+          width="800px"
+        />
         <Typography className={classes.caption}>
           Fig. 1: Tapered windows throughout the church. (Image by the author)
         </Typography>
