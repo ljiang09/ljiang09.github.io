@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8a685450.css",
-    "main.js": "/static/js/main.d63930ba.js",
+    "main.js": "/static/js/main.3e97d8b3.js",
     "static/media/Pendleton_front_2.JPG": "/static/media/Pendleton_front_2.cf1f39d1a30d5c421ec3.JPG",
     "static/media/NMNF.jpg": "/static/media/NMNF.46e2bed1cbe224da1028.jpg",
     "static/media/AutonomousRobot.png": "/static/media/AutonomousRobot.47de955454b680503529.png",
@@ -18,14 +18,21 @@
     "static/media/KyotoUnfinished.jpg": "/static/media/KyotoUnfinished.e36ded42970fb7ab38ea.jpg",
     "static/media/Pendleton_far.JPG": "/static/media/Pendleton_far.0b33f0e4bf53a6515e08.JPG",
     "static/media/Pendleton_blackboard.jpg": "/static/media/Pendleton_blackboard.ce7d20284004673ae868.jpg",
+    "static/media/fig6.jpg": "/static/media/fig6.c06f1a6ca63304b935bc.jpg",
     "static/media/RedRoof.jpg": "/static/media/RedRoof.8c8b782da0d10d9c2bea.jpg",
     "static/media/RamenShopColored.jpg": "/static/media/RamenShopColored.90a37a05c62d80806737.jpg",
     "static/media/SteveRunIcon.png": "/static/media/SteveRunIcon.e2defa36ccd4e5a91d89.png",
     "static/media/Bookstore.jpg": "/static/media/Bookstore.b9313d58cadbd35dd746.jpg",
     "static/media/RamenShopUncolored.jpg": "/static/media/RamenShopUncolored.6739f438d8985537202d.jpg",
+    "static/media/fig5.jpg": "/static/media/fig5.015e9ee9b52b6c934629.jpg",
     "static/media/RedRoofUnfinished.jpg": "/static/media/RedRoofUnfinished.bdbb942701dc13d3e249.jpg",
+    "static/media/fig1.jpg": "/static/media/fig1.65a5cd6dc2e1a5a0dd03.jpg",
     "static/media/BostonBuilding.jpg": "/static/media/BostonBuilding.bb3a1c66edf3fad3c154.jpg",
+    "static/media/fig2.jpg": "/static/media/fig2.6d523e95a3bca2c672e1.jpg",
+    "static/media/LRC.jpg": "/static/media/LRC.134e53548413fc56cd43.jpg",
+    "static/media/fig4.jpg": "/static/media/fig4.a9d6a0257a48ebf2bbb6.jpg",
     "static/media/BookstoreUnfinished.jpg": "/static/media/BookstoreUnfinished.fcebed50d249b71940cc.jpg",
+    "static/media/fig3.jpg": "/static/media/fig3.0e177557d5604d93e358.jpg",
     "static/media/BostonBuildingUnfinished.jpg": "/static/media/BostonBuildingUnfinished.b2f5307fb1cc1062f501.jpg",
     "static/media/Mouse.jpg": "/static/media/Mouse.f6da4b5969a69e7ecb80.jpg",
     "static/media/Green.jpeg": "/static/media/Green.52742a7330d10033b47e.jpeg",
@@ -40,10 +47,10 @@
     "static/media/DesktopPetIcon.png": "/static/media/DesktopPetIcon.d62534e91b8df1f8db69.png",
     "index.html": "/index.html",
     "main.8a685450.css.map": "/static/css/main.8a685450.css.map",
-    "main.d63930ba.js.map": "/static/js/main.d63930ba.js.map"
+    "main.3e97d8b3.js.map": "/static/js/main.3e97d8b3.js.map"
   },
   "entrypoints": [
     "static/css/main.8a685450.css",
-    "static/js/main.d63930ba.js"
+    "static/js/main.3e97d8b3.js"
   ]
 }
