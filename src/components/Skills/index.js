@@ -6,10 +6,12 @@ const Skills = () => {
   const classes = useStyles();
 
   const languages = [
-    "ReactJS",
+    "React",
     "JavaScript",
     "Python",
     "Java",
+    "HTML/CSS",
+    "Angular",
     "Swift/SwiftUI",
     "Golang",
     "C",
@@ -17,11 +19,11 @@ const Skills = () => {
     "R",
     "C#",
     "C++ (Arduino)",
-    "HTML/CSS",
   ];
 
   const technologies = [
     "Git/GitHub",
+    "Flask",
     "Redux",
     "Linux",
     "Unity",
@@ -29,8 +31,8 @@ const Skills = () => {
     "MATLAB",
     // "Command Line",
     "Azure",
+    "AWS",
     "XCode",
-    // "Latex",
     "Firebase",
     "Arduino",
     "Raspberry Pi",

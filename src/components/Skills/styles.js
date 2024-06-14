@@ -8,7 +8,7 @@ const useStyles = makeStyles(() => ({
     justifyContent: "space-around",
     alignItems: "center",
     gap: "50px",
-    width: "85%",
+    width: "75%",
     padding: "50px 25px",
     margin: "auto",
     background: "white",
@@ -18,7 +18,7 @@ const useStyles = makeStyles(() => ({
   iconBlock: {
     display: "flex",
     justifyContent: "center",
-    width: "25%",
+    width: "20%",
   },
   terminalIcon: {
     color: theme.palette.primary.main,
@@ -29,7 +29,7 @@ const useStyles = makeStyles(() => ({
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "start",
-    width: "75%",
+    width: "80%",
     gap: "16px",
   },
   header: {
