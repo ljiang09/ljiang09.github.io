@@ -38,7 +38,7 @@ const NavBar = () => {
 
   const handleResume = () =>
     window.open(
-      "https://drive.google.com/file/d/1VH2YgtDRbfhgmcfKP7fnktB9tFexkvSw/view?usp=sharing",
+      "https://drive.google.com/file/d/1Yeb-wO3IudZkxtp1qCgodczbHDWRWSky/view?usp=sharing",
       "_blank"
     );
   const handleAboutMe = () => navigate("/aboutMe");
